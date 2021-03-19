@@ -6,16 +6,23 @@ import Exp from './exp/exp';
 import Showreel from './showreel/showreel';
 import  Footer from '../Footer/Footer';
 import Partner from './partner/partner';
-import Featured from './featured/Featured'
+import Featured from './featured/Featured';
+import Vedio from './vedio/Vedio';
+import Team from './Team/Team';
+import Testimonials from './testimonials/Testimonials'
 function Landing() {
     return (
         <div>
           <HeroSection/>
           <About/>
           <Production/>
-        
+         
           <Exp/>
+         
           <Showreel/>
+          <Vedio/>
+        <Team/>
+        <Testimonials/>
           <Featured/>
           <Partner/>
           <Footer/>
