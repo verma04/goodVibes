@@ -25,7 +25,7 @@ function HeroSection() {
   width='100%'
   height='100%'
 />
-</div>
+  </div>
 
         {/* <Image
             className="myImage"

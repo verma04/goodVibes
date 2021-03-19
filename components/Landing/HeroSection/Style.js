@@ -15,17 +15,21 @@ justify-content:center;
       display:flex;
        justify-content:center;
        width:100%;
-       height: 55rem;
+       height: 100vh;
       
        .player-wrapper {
   position: relative;
   padding-top: 56.25% ;
   width:100%;
+   
 
   .react-player {
   position: absolute;
   top: 0;
   left: 0;
+}
+.react-player > div {
+  position: absolute; // Scaling will occur since parent is relative now
 }
 }
 
