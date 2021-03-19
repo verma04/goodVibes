@@ -13,6 +13,7 @@ function showreel() {
          <div className="ved" >
   
   <div className="top" >
+  <li>Casting</li>
       <li>Digital Films</li>
       <li>Corporate Videos</li>
       <li>Documentaries</li>

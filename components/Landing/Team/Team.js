@@ -13,7 +13,7 @@ function Team() {
 
              <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616143872/goodVibes/nccoxgnjwymeclvvcoln.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616152475/goodVibes/qviehmkmvnkvi0mh6dli.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
