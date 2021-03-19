@@ -37,14 +37,14 @@ justify-content:center;
     .text {
         position:absolute;
         width:90%;
-        bottom:30%;
+        bottom:35%;
   
         display:flex;
         justify-content:start;
         .data {
             width:50%;
             font-size:4rem;
-            
+              line-height:1.2;
             color:white;
             font-weight:700;
         }

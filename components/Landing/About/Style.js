@@ -13,7 +13,7 @@ justify-content:center;
   margin-top:5rem;
   position: absolute;
   background-color:white;
-  bottom:-6%;
+  bottom:0;
 @media (min-width: 1025px) {
   
     
