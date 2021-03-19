@@ -27,6 +27,7 @@ justify-content:space-around;
   h2 {
       text-align:center;
       font-weight:600;
+      font-family: Mono_bold;
   }
   p {
     text-align:center;

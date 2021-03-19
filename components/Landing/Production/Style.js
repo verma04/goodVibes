@@ -56,6 +56,7 @@ flex-wrap: wrap;
     flex-direction:column;
     justify-content:space-around;
        h2 {
+        font-family: Mono_bold;
            font-weight:900;
              font-size:1rem;
        }
@@ -66,6 +67,10 @@ flex-wrap: wrap;
 
 }
 
+    }
+
+    button {
+      margin-top:3rem;
     }
 
   

@@ -39,6 +39,7 @@ justify-content:space-between;
      font-size:1.4rem;
   font-weight:800;
   width:70%;
+  font-family: Mono_bold;
    }
    .mid {
     font-size:1.3rem;
@@ -56,6 +57,7 @@ justify-content:space-between;
               #bold{
                   font-size:2rem;
                    font-weight:800;
+                   font-family: Mono_bold;
               }
           }
    }

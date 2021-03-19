@@ -46,7 +46,8 @@ justify-content:center;
             font-size:4rem;
               line-height:1.2;
             color:white;
-            font-weight:700;
+           
+            font-family: Mono_bold;
         }
     }
   

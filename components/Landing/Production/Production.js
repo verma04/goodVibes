@@ -130,6 +130,10 @@ function Production() {
 
             </div>
             
+
+            <div className="button" >
+                <button>Let’s Collaborate</button>
+            </div>
         </Section>
     )
 }

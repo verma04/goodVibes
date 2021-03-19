@@ -51,6 +51,7 @@ justify-content:space-between;
      font-size:1.4rem;
   font-weight:800;
   width:70%;
+  font-family: Mono_bold;
    }
    .mid {
     font-size:1.3rem;

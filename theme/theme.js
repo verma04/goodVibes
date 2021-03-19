@@ -35,10 +35,10 @@ div {
 }
 
 button {
-  border:none;
-  padding:0.2rem;
-  background-color: #0085C5;
-  color:white;
+
+
+
+
 }
 /* Track */
  
@@ -74,7 +74,7 @@ button {
     font-weight:1000;
     font-size: 1.65rem;
     line-height: var(--line-height-lg);
-  font-family: Montserrat ;
+  font-family: Mono_bold ;
   color: #2f3435; 
   word-spacing:0.2rem;
   }
@@ -82,7 +82,7 @@ button {
     font-size: 1.4rem;
     line-height: var(--line-height-lg);
     color: ${props => props.theme.colors.grey};
-  font-family: Montserrat ;
+    font-family: Mono_bold;
   color: #2f3435; 
   word-spacing:0.2rem;
   }
@@ -91,7 +91,7 @@ button {
     font-size: 1.2rem;
     line-height: var(--line-height-lg);
     color: ${props => props.theme.colors.grey};
-    font-family: Montserrat ;
+    font-family: Mono_bold;
     color: #2f3435; 
     word-spacing:0.2rem;
     /* family=FiesoleTextW00-Italic */
@@ -152,9 +152,16 @@ code {
         background-color:LightGray;
     }
   button {
-border-radius:5px;
-font-family: Montserrat ;
+padding-left:2rem;
+padding-right:2rem;
+padding-top:0.5rem;
+padding-bottom:0.5rem;
+background-color:white;
+border: 2px solid;
+font-size:1.3rem;
+font-family: Mono_bold ;
 transition: transform .8s;
+
 
   }
   input {
@@ -193,7 +200,7 @@ transition: transform .8s;
   font-family: Montserrat ;
 } 
 button {
-  font-family: Montserrat ;
+  font-family: Mono_bold ;
 }
 li {
   cursor: pointer;
