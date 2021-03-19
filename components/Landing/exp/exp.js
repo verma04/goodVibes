@@ -1,6 +1,7 @@
 import React from 'react'
 import  {Section } from './Style'
 import Image from 'next/image';
+import CountUp from 'react-countup';
 function exp() {
     return (
         <Section>
