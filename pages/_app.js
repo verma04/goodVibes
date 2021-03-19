@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
   return (
 <div>
 <Head>
-<link rel="shortcut icon" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613625729/wgroxxv7wubf94wyfbke.png" />
+<link rel="shortcut icon" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css   "/> 
       <meta
         name="viewport"
