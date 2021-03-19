@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { Section } from './Style';
 import Navbar from '../../Navbar/Navbar'
-import ReactPlayer from 'react-player/lazy'
+import ReactPlayer from 'react-player'
 function HeroSection() {
     const [play, setPlay] = useState(false);
   const   handleOnReady = () => setTimeout(() => setPlay(true) , 100);
@@ -13,8 +13,10 @@ function HeroSection() {
         <div className="flex" >
            
            <Navbar/>
+           <div className='player-wrapper'>
            <ReactPlayer
            volume={0} 
+           className='react-player'
            onReady={handleOnReady}
             playing={play}
   url={"https://res.cloudinary.com/dzcmadjl1/video/upload/v1616146044/goodVibes/yn2rb5elma5bfoi6ogz7.mp4"}
@@ -23,6 +25,7 @@ function HeroSection() {
   width='100%'
   height='100%'
 />
+</div>
 
         {/* <Image
             className="myImage"

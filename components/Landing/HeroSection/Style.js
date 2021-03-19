@@ -15,7 +15,21 @@ justify-content:center;
       display:flex;
        justify-content:center;
        width:100%;
-       height: 52rem;
+       height: 55rem;
+      
+       .player-wrapper {
+  position: relative;
+  padding-top: 56.25% ;
+  width:100%;
+
+  .react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+}
+
+
     .text {
         position:absolute;
         width:90%;
