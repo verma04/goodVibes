@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { Section } from './Style';
 import Navbar from '../../Navbar/Navbar'
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
+import About  from '../About/About'
 function HeroSection() {
     const [play, setPlay] = useState(false);
   const   handleOnReady = () => setTimeout(() => setPlay(true) , 100);
@@ -52,7 +53,7 @@ function HeroSection() {
               </div>
                </div>  
 
-
+  <About/>
         </div>
         </Section>
     )

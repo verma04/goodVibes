@@ -7,10 +7,13 @@ display:flex;
 justify-content:center;
  align-items:center;
   flex-direction:column;
-  height:10rem;
+  height:12rem;
+  padding-top:2rem;
   width:100%;
   margin-top:5rem;
-  
+  position: absolute;
+  background-color:white;
+  bottom:-6%;
 @media (min-width: 1025px) {
   
     

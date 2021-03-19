@@ -20,6 +20,9 @@ justify-content:center;
   flex-direction:column; 
   width:30%;
   height:15%;
+  h3 {
+    font-weight:1000;
+  }
  
     }
     .data {

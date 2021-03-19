@@ -37,7 +37,7 @@ justify-content:center;
     .text {
         position:absolute;
         width:90%;
-        bottom:10%;
+        bottom:30%;
   
         display:flex;
         justify-content:start;
