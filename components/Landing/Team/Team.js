@@ -18,6 +18,10 @@ function Team() {
            layout="fill"
            objectFit="cover"
            />   
+             <div className="btn" >
+               <li>View Team</li>
+               <li id='bt' >passion drives us</li>
+           </div>
              </div>
              <div className="right" >
     

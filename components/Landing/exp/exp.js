@@ -14,6 +14,11 @@ function exp() {
            layout="fill"
            objectFit="cover"
            />   
+
+           <div className="btn" >
+               <li>15 years</li>
+               <li id="bt" >creativity for you</li>
+           </div>
              </div>
              <div className="right" >
     
