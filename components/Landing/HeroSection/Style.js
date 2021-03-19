@@ -15,7 +15,7 @@ justify-content:center;
       display:flex;
        justify-content:center;
        width:100%;
-       height:45rem;
+       height: 52rem;
     .text {
         position:absolute;
         width:90%;
