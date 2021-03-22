@@ -29,7 +29,7 @@ function Team() {
     We’re an experienced and very creative production agency
     </div>
     <div className="mid" >
-    Build on a culture of contribution and inclusion is a lot of persent cross-pollination, nor closing these latest prospects is like putting socks on an octopus, yet circle back. We need to make the new version clean and sexy critical mass.
+    The strength of a company lies in its people. Meet the team responsible for the growth of Good Vibes.
     </div>
    
              </div>
