@@ -36,21 +36,23 @@ align-items:center;
 flex-wrap: wrap;
 .pro {
 
-    height:45%;
+    height:80%;
     width:30%;
     
     display:flex;
     justify-content:space-around;
   align-items:center;
+  flex-direction:column;
+ 
     .logo {
-    width:30%;
-    height:80%;
+    width:100%;
+    height:40%;
     
     position: relative;
     }
     .set {
-    width:60%;
-    height:80%;
+    width:90%;
+    height:50%;
     
     display:flex;
     flex-direction:column;
