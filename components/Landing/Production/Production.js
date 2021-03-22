@@ -16,7 +16,8 @@ function Production() {
 
   <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616415131/xsbg2fjpftkwrkjqkqgn.png'
+            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616415131/gjmfqrjfsa32whhp5uvu.png'
+
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -34,7 +35,8 @@ function Production() {
 
   <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616415130/kgnuto8zfc4dwthgyfso.png'
+            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616415131/xsbg2fjpftkwrkjqkqgn.png'
+
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -54,7 +56,7 @@ function Production() {
 
   <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616415131/gjmfqrjfsa32whhp5uvu.png'
+            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616415130/kgnuto8zfc4dwthgyfso.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
