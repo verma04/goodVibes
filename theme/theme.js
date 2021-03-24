@@ -99,6 +99,7 @@ button {
   p {
     font-family: Montserrat ;
     word-spacing:0.2rem;
+    line-height: 1.2;
     color: ${props => props.theme.colors.grey};
   }
   h4 {
@@ -121,7 +122,7 @@ button {
   }
   p {
     font-size:1.2rem;
-line-height:1.1;
+line-height:1.2;
   
     font-family: Montserrat ;
     word-spacing:0.2rem;
