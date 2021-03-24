@@ -131,6 +131,10 @@ for the long run.</p>
                     </div>
                     
             </div>
+
+            <div className="button" >
+                <button>View More</button>
+            </div>
         </Section>
     )
 }
