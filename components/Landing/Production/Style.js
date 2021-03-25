@@ -7,13 +7,14 @@ display:flex;
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  height:30rem;
+  height:37rem;
   width:100%;
-  margin-top:5%;
- 
+  
+
 @media (min-width: 1025px) {
   
     .head {
+      padding-top:5rem;
         display:flex;
 justify-content:center;
  align-items:center;
@@ -26,7 +27,7 @@ justify-content:center;
  
     }
     .data {
-        width:100%;
+        width:95%;
      
         height:85%;
         
@@ -35,34 +36,34 @@ justify-content:space-evenly;
 align-items:center;
 flex-wrap: wrap;
 .pro {
-    height:45%;
+    height:80%;
     width:30%;
     
     display:flex;
     justify-content:space-around;
   align-items:center;
+  flex-direction:column;
+ 
     .logo {
-    width:30%;
-    height:80%;
+    width:100%;
+    height:40%;
     
     position: relative;
     }
     .set {
-    width:60%;
-    height:80%;
+    width:90%;
+    height:50%;
     
     display:flex;
     flex-direction:column;
     justify-content:space-around;
        h2 {
         font-family: Mono_bold;
-       
+           font-weight:900;
              font-size:1rem;
              text-transform:uppercase;
        }
         p {
-
-          line-height: 1.2;
         }
     }
 }

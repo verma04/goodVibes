@@ -32,11 +32,11 @@ justify-content:center;
            opacity: 0.95;
            
            display:flex;
-           justify-content:space-evenly;
+           justify-content:space-around;
            flex-direction:column;
             align-items:center;
             .top {
-                margin-top:5%;
+                margin-top:15%;
                 width:60%;
                 font-size:2.2rem;
                 color:white;
@@ -55,13 +55,14 @@ justify-content:center;
                 align-items:center;
                 background-color:white;
                 width: 40%;
-                margin-bottom:5%;
+                margin-bottom:15%;
     height: 8%;
     span {
-        font-size:0.9rem;
+        font-size:1rem;
     }
     i {
         color: #D0345A;
+        font-size:1.4rem;
     }
             }
 

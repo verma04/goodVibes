@@ -7,6 +7,7 @@ display:flex;
 justify-content:center;
  align-items:center;
   flex-direction:column;
+  margin-bottom:3rem;
 @media (min-width: 1025px) {
  
     
@@ -16,7 +17,7 @@ justify-content:center;
        justify-content:center;
        width:100%;
        height: 100vh;
-      
+       
        .player-wrapper {
   position: relative;
   padding-top: 56.25% ;

@@ -79,12 +79,13 @@ button {
   word-spacing:0.2rem;
   }
   h2 {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     line-height: var(--line-height-lg);
     color: ${props => props.theme.colors.grey};
     font-family: Mono_bold;
   color: #2f3435; 
   word-spacing:0.2rem;
+  line-height:1.2;
   }
   h3 {
     font-weight:1000;
