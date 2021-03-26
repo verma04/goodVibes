@@ -68,7 +68,7 @@ function showreel() {
                  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/qglfcdcpvwushkk2dj2e.png"
                  alt="Picture of the author"
                  layout="fill"
-                 objectFit="cover"
+                 objectFit="contain"
                  /> 
       
             </div>
@@ -110,7 +110,7 @@ function showreel() {
                  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/dyul9di8gcqq4wizwbu5.png"
                  alt="Picture of the author"
                  layout="fill"
-                 objectFit="cover"
+                 objectFit="contain"
                  /> 
       
             </div>
@@ -130,19 +130,20 @@ function showreel() {
         <div className="left" >
         <Image
                   className="myImage"
-                 src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/dyul9di8gcqq4wizwbu5.png"
+                 src="http://thegoodvibes.co.in/website/wp-content/uploads/2018/07/shubhamnew.jpg"
                  alt="Picture of the author"
                  layout="fill"
-                 objectFit="cover"
+                 objectFit="contain"
                  /> 
       
             </div>
            <div className="right" >
       
                <div className="right-1" >
-                   <span>Associate Creative Director</span>
-                   <h2>Sonakshi Khanna</h2>
-                   <p>A keen observer with a great work experience in various media fields and companies.</p>
+                   <span>
+Co-founder and Casting director</span>
+                   <h2>Shubam Mhatur</h2>
+                   <p>A work maniac with more than 5 years of experience in casting – TV & Ads.</p>
                    </div>
        
       </div>      
@@ -176,7 +177,7 @@ function showreel() {
                  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/gs2fvccsmetpwl12maa6.png"
                  alt="Picture of the author"
                  layout="fill"
-                 objectFit="cover"
+                 objectFit="contain"
                  /> 
       
             </div>
