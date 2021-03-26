@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Section } from './Style';
 import Navbar from '../../Navbar/Navbar'
 import ReactPlayer from 'react-player';
-import About  from '../About/About'
+
 function HeroSection() {
     const [play, setPlay] = useState(false);
   const   handleOnReady = () => setTimeout(() => setPlay(true) , 100);
@@ -15,18 +15,14 @@ function HeroSection() {
            
            <Navbar/>
            <div className='player-wrapper'>
-           <ReactPlayer
-           volume={0} 
-           className='react-player'
-           onReady={handleOnReady}
-            playing={play}
-  url={"https://res.cloudinary.com/dzcmadjl1/video/upload/v1616146044/goodVibes/yn2rb5elma5bfoi6ogz7.mp4"}
-  playing={true}
-  loop={true} 
-  width='100%'
-  height='100%'
-/>
-<About/>
+    
+   <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616753399/dzfbjzk3aoy9nmxkxohh.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           />   
   </div>
 
         {/* <Image
@@ -39,7 +35,7 @@ function HeroSection() {
 
            <div className="text" >
               <div className="data" >
-              Creative process assures desired result
+               Work
               </div>
                </div>         
                <div className="social" >

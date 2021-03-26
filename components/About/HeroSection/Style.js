@@ -16,26 +16,9 @@ justify-content:center;
       display:flex;
        justify-content:center;
        width:100%;
-       height: 100vh;
+    height:30rem;
        
-       .player-wrapper {
-  position: relative;
-  padding-top: 56.25% ;
-  width:100%;
-   
 
-  .react-player {
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-}
-.react-player > div {
-  background: transparent;
-    box-shadow: 0 0 20px 4px rgb(0 0 0 / 40%);
-  position: absolute; // Scaling will occur since parent is relative now
-}
-}
 
 
     .text {

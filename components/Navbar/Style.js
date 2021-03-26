@@ -39,10 +39,21 @@ top:0;
     justify-content:space-between;
     align-items:center;
     .nav-item {
-    color:white;
+      height:50%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      cursor: pointer;
+    a {
+      color:white;
     font-weight:600;
     font-size:1.2rem;
     font-family: Mono_bold;
+     cursor: pointer;
+    }
+    }
+    #active {
+      border-bottom: 4px solid red;
     }
     i  {
         color:white;

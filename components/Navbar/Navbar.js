@@ -1,8 +1,9 @@
 import React from 'react'
 import { Nav } from './Style'
 import Image from 'next/image';
-
+import { useRouter } from 'next/router'
 function Navbar() {
+    const router = useRouter()
     return (
         <Nav>
            <div className='flex' >
@@ -21,12 +22,24 @@ function Navbar() {
 
                 <div className='right' >
 
-                    <div className="nav-item" >Home</div>
-                    <div className="nav-item" >Service</div>
-                    <div className="nav-item" >About </div>
+                    <div onClick={()=> router.push('/') } className="nav-item" >
+                        <a> Home</a>
+                        
+                       </div>
+                    <div className="nav-item" >
+                        <a> Service</a>
+                       </div>
+                    <div   onClick={()=> router.push('/about') } id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
+                        <a> About</a>
+                        </div>
 
-                    <div className="nav-item" >Work</div>
-                    <div className="nav-item" >Contact Us</div>
+                    <div onClick={()=> router.push('/work') } id={router.pathname == "/work" ? "active" : ""} className="nav-item" >
+                        
+                        <a>Work</a>
+                    </div>
+                    <div className="nav-item" >
+                        <a>Contact Us</a>
+                        </div>
                     <i className="fas fa-search"></i>
                 </div>
 
