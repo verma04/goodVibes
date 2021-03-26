@@ -93,8 +93,8 @@ function showreel() {
   url={`https://www.youtube.com/watch?v=${number.link}`}
   playing={true}
   loop={true} 
-  width='100%'
-  height='100%'
+  width='150%'
+  height='150%'
 />
     
 <i onClick={()  => setvisible(false)} class="fas fa-times"></i>

@@ -66,7 +66,7 @@ function Production() {
   <div className="set" >
   
 
-      <h2>Creatives:</h2>
+      <h2>Creatives</h2>
       <p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post production to the final delivery of the product.</p>
   </div>
 

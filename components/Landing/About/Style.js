@@ -24,13 +24,16 @@ justify-content:space-around;
  align-items:center;
   flex-direction:column;
   height:100%;
-  h2 {
+  h3 {
       text-align:center;
       font-weight:600;
       font-family: Mono_bold;
+      padding-top: 10rem;
+    padding-bottom:2rem;
   }
   p {
     text-align:center;
+    padding-bottom:8rem;
   }
 
      

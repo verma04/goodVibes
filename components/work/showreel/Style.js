@@ -110,8 +110,8 @@ background: rgba(0, 0, 0, 0.95); /* Black w/ opacity */
   margin-top:10rem;
   padding: 20px;
   border: 1px solid #888;
-  width: 50%;
-  height:50%;
+  width: 70%;
+  height:70%;
   border-radius:10px;
   min-height:10rem;
     display:flex;

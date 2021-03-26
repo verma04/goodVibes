@@ -129,7 +129,35 @@ for the long run.</p>
            objectFit="contain"
            /> 
                     </div>
-                    
+                    <div className="partner" >
+                    <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616136989/goodVibes/n1wqbbusl2f2agj22dnj.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="contain"
+           /> 
+                    </div>
+
+                 
+                    <div className="partner" >
+                    <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616136989/goodVibes/xogxq0wdpojdy9b4vpol.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="contain"
+           /> 
+            </div>
+            <div className="partner" >
+                    <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616136989/goodVibes/xogxq0wdpojdy9b4vpol.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="contain"
+           /> 
+           </div>
             </div>
 
             <div className="button" >

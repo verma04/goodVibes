@@ -19,7 +19,7 @@ justify-content:space-around;
 justify-content:center;
  align-items:center;
   flex-direction:column; 
-  width:30%;
+ 
   height:15%;
   h3 {
     font-weight:1000;
@@ -61,9 +61,11 @@ flex-wrap: wrap;
         font-family: Mono_bold;
            font-weight:900;
              font-size:1rem;
+             text-align:center;
              text-transform:uppercase;
        }
         p {
+          text-align:center;
         }
     }
 }

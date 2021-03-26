@@ -99,7 +99,7 @@ button {
   }
   p {
     font-family: Montserrat ;
-    word-spacing:0.2rem;
+    word-spacing:0.3rem;
     line-height: 1.2;
     color: ${props => props.theme.colors.grey};
   }
