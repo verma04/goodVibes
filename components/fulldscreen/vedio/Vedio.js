@@ -25,8 +25,10 @@ Brand Reel
                We work hard to achieve best awards exposing new the ways to evolve our design language, digital literacy. Prethink talk to the slides, regroup your plate, so pivot. 
                </div>
                <div className="bottom" >
+                   <button>
                <i class="fab fa-youtube-square"></i>
                <span>Watch Our Video</span>
+               </button>
                </div>
                 
            </div>

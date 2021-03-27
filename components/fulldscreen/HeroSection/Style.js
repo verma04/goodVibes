@@ -7,16 +7,17 @@ display:flex;
 justify-content:center;
  align-items:center;
   flex-direction:column;
+  margin-bottom:3rem;
 @media (min-width: 1025px) {
  
     
-  .flex {
+  .flex-1 {
     position: relative;
       display:flex;
        justify-content:center;
        width:100%;
        height: 100vh;
-      
+       
        .player-wrapper {
   position: relative;
   padding-top: 56.25% ;
@@ -40,7 +41,7 @@ justify-content:center;
     .text {
         position:absolute;
         width:90%;
-        bottom:35%;
+        bottom:50%;
   
         display:flex;
         justify-content:start;

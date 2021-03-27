@@ -6,7 +6,7 @@ function Featured() {
     return (
         <Section>
            <div className="head" >
-               <h2>The Featured Case Studies</h2>
+               <h2>The Featured Articles</h2>
            </div>
            <div className="data" >
            <div className="img">

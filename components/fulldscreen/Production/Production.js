@@ -6,7 +6,7 @@ function Production() {
         <Section>
 
             <div className="head" >
-                <h3>Our Production</h3>
+               
                 <h2>Services We Provide</h2>
 
             </div>
@@ -35,7 +35,7 @@ function Production() {
 
   <Image
             className="myImage"
-            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616415131/xsbg2fjpftkwrkjqkqgn.png'
+            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616836730/xkauvcsafrzuaxuyfz3v.png'
 
            alt="Picture of the author"
            layout="fill"
@@ -56,7 +56,7 @@ function Production() {
 
   <Image
             className="myImage"
-            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616415130/kgnuto8zfc4dwthgyfso.png'
+            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616836729/rou5jxpelc1fnuem0nci.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -66,7 +66,7 @@ function Production() {
   <div className="set" >
   
 
-      <h2>Creatives:</h2>
+      <h2>Creatives</h2>
       <p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post production to the final delivery of the product.</p>
   </div>
 

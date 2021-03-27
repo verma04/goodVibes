@@ -9,10 +9,9 @@ function HeroSection() {
     const [play, setPlay] = useState(false);
   const   handleOnReady = () => setTimeout(() => setPlay(true) , 100);
     return (
-      <>
         <Section>
   
-        <div className="flex" >
+        <div className="flex-1" >
            
            <Navbar/>
            <div className='player-wrapper'>
@@ -58,9 +57,6 @@ function HeroSection() {
  
         </div>
         </Section>
-
-
-</>
     )
 }
 

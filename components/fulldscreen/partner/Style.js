@@ -7,7 +7,7 @@ display:flex;
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  height:34rem;
+  height:50rem;
   width:100%;
   margin-top:7rem;
  
@@ -19,7 +19,7 @@ justify-content:space-between;
  align-items:center;
 
  
-  width:70%;
+  width:80%;
   height:15%;
   .left {
       width:30%;
@@ -40,7 +40,7 @@ justify-content:space-between;
     }
     .data {
         margin-top:3rem;
-        width:70%;
+        width:90%;
      
         height:85%;
         
@@ -49,13 +49,17 @@ justify-content:space-around;
 align-items:center;
 flex-wrap: wrap;
 .partner {
-    width:20%;
+    width:22%;
     
-    height:20%;
+    height:15%;
     position: relative;
 }
   
 
+    }
+
+    .button {
+        margin-top:5rem;
     }
 
   
