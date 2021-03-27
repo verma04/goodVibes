@@ -9,6 +9,7 @@ const data = [
         _id:"1",
  titile:"dssd",
 link:'cNoFX4mWCgA',
+title:`Kellogg's REALCHEF - The Hunt Begins!`
 
 
     },
@@ -16,27 +17,32 @@ link:'cNoFX4mWCgA',
         _id:"2",
         titile:"dssd",
        link:"MIX2893GWDw",
+       title:`Hyundai | Save My Game | Home Dugout | Delhi | Dial **football `
     },
     {
         _id:"3",
         titile:"dssd",
        link:"W9Nh-WxW3A0",
+       title:`Ford Ecosport 2017 Unboxing`
     },
 
     {
         _id:"4",
         titile:"dssd",
        link:"pPWyijx4Z_A",
+       title:`Nissan Vs Dabbawala`
     },
     {
         _id:"5",
         titile:"dssd",
        link:"kUU55unfvyQ",
+       title:`Red FM India`
     },
     {
         _id:"6",
         titile:"dssd",
        link:"cNoFX4mWCgA",
+       title:`Hyundai | Save My Game | Home Dugout | Guwahati`
     },
 
     
@@ -87,6 +93,9 @@ function showreel() {
            layout="fill"
            objectFit="cover"
            /> 
+  <div className="title" >
+           <h4>{number.title}</h4>
+           </div>
            </div>  
     <div className="img" >
         <img onClick={() => toggleMenu(number._id) }  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616750466/auegoewnepob301zsbj8.svg" ></img>

@@ -80,6 +80,21 @@ justify-content:space-between;
     z-index: 100;
     background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
 }
+.title {
+  position:absolute;
+  width:100%;
+  height:22%;
+  display:flex;
+  justify-content:center;
+  bottom:0;
+  z-index:999;
+  h4 {
+    width:90%;
+    z-index:999;
+    line-height:1.2;
+    color:white;
+  }
+}
           .img {
             position:absolute;
             display:flex;
@@ -90,7 +105,7 @@ justify-content:space-between;
    
             img {
               width:20%;
-              z-index:1000;
+              z-index:200;
             }
 
 
@@ -100,7 +115,7 @@ justify-content:space-between;
   display:block;
   position: absolute;
   width:100%;
-  z-index:1000;
+  z-index:990;
 bottom:0%;
   content: '';
   border-bottom: solid 8px #D0345A;  
@@ -114,7 +129,7 @@ bottom:0%;
           .modal {
  /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 5; /* Sit on top */
+  z-index: 1000; /* Sit on top */
   padding-top: 2%; /* Location of the box */
   left: 0;
   top: 0;
@@ -128,7 +143,7 @@ background: rgba(0, 0, 0, 0.95); /* Black w/ opacity */
   margin: auto;
   margin-top:5rem;
   padding: 20px;
-  
+  z-index:1000;
   width: 70%;
 height:70%;
   border-radius:10px;
