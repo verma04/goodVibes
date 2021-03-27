@@ -130,7 +130,7 @@ function showreel() {
         <div className="left" >
         <Image
                   className="myImage"
-                 src="http://thegoodvibes.co.in/website/wp-content/uploads/2018/07/shubhamnew.jpg"
+                 src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/gs2fvccsmetpwl12maa6.png"
                  alt="Picture of the author"
                  layout="fill"
                  objectFit="contain"
