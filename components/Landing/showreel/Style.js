@@ -39,7 +39,8 @@ justify-content:center;
 justify-content:space-between;
  align-items:center;
  #active {
-
+   color:#D0345A;
+   font-weight:900;
  }
  li {
      list-style:none;

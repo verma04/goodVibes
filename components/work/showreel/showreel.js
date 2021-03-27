@@ -61,7 +61,7 @@ function showreel() {
   
   <div className="top" >
   
-      <li>Digital Films</li>
+      <li id="active" >Digital Films</li>
       <li>Corporate Videos</li>
       <li>Documentaries</li>
       <li>Event Videos</li>
