@@ -38,6 +38,9 @@ justify-content:center;
       display:flex;
 justify-content:space-between;
  align-items:center;
+ #active {
+
+ }
  li {
      list-style:none;
       font-weight:700;
@@ -62,10 +65,21 @@ justify-content:space-between;
           display:flex;
           justify-content:center;
           align-items:center;
+    
           .cover {
             width:99.5%;
             height:99.5%;
+            position: relative;
           }
+          .cover:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+}
           .img {
             position:absolute;
             display:flex;
@@ -76,6 +90,7 @@ justify-content:space-between;
    
             img {
               width:20%;
+              z-index:1000;
             }
 
 
@@ -85,7 +100,7 @@ justify-content:space-between;
   display:block;
   position: absolute;
   width:100%;
-
+  z-index:1000;
 bottom:0%;
   content: '';
   border-bottom: solid 8px #D0345A;  

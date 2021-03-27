@@ -65,7 +65,7 @@ function showreel() {
   
   <div className="top" >
   
-      <li>Digital Films</li>
+      <li id="active" >Digital Films</li>
       <li>Corporate Videos</li>
       <li>Documentaries</li>
       <li>Event Videos</li>
@@ -78,7 +78,16 @@ function showreel() {
   <div className="list" >
     {data.map((number) => 
         <div  key={number._id} className="data" >
-     <img  className="cover"  src={`https://img.youtube.com/vi/${number.link}/0.jpg`} ></img>
+       <div className="cover" >
+     <Image
+            className="myImage"
+            src={`https://img.youtube.com/vi/${number.link}/maxresdefault.jpg`}
+
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           /> 
+           </div>  
     <div className="img" >
         <img onClick={() => toggleMenu(number._id) }  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616750466/auegoewnepob301zsbj8.svg" ></img>
          </div>
