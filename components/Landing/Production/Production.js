@@ -6,7 +6,7 @@ function Production() {
         <Section>
 
             <div className="head" >
-                <h3>Our Production</h3>
+               
                 <h2>Services We Provide</h2>
 
             </div>
