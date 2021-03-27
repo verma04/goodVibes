@@ -14,7 +14,7 @@ justify-content:space-around;
 @media (min-width: 1025px) {
   
     .head {
-      padding-top:4rem;
+      padding-top:6rem;
         display:flex;
 justify-content:center;
  align-items:center;
