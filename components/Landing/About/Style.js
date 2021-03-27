@@ -7,14 +7,15 @@ display:flex;
 justify-content:center;
  align-items:center;
   flex-direction:column;
-  height:25rem;
+  height:20rem;
   padding-top:2rem;
  
   width:100%;
-  margin-top:7rem;
+ 
+  
   position: absolute;
   background-color:white;
-  bottom:-17%;
+  bottom:-5%;
   background: #FBFBFB;
 @media (min-width: 1025px) {
   
@@ -31,12 +32,12 @@ justify-content:space-around;
       font-weight:600;
       font-size:1.8rem;
       font-family: Mono_bold;
-      padding-top: 6.5rem;
+      padding-top: 5rem;
     padding-bottom:2rem;
   }
   p {
     text-align:center;
-    padding-bottom:8rem;
+  
  
     word-spacing:0.4rem;
   }

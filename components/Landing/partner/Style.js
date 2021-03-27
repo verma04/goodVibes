@@ -49,9 +49,9 @@ justify-content:space-around;
 align-items:center;
 flex-wrap: wrap;
 .partner {
-    width:25%;
+    width:22%;
     
-    height:23%;
+    height:15%;
     position: relative;
 }
   

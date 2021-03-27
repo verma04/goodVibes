@@ -17,6 +17,8 @@ justify-content:center;
        justify-content:center;
        width:100%;
     height:30rem;
+
+  
        
 
 
