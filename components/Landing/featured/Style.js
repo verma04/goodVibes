@@ -7,7 +7,7 @@ display:flex;
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  height:30rem;
+  height:40rem;
   width:100%;
   margin-top:5rem;
  
@@ -19,22 +19,22 @@ justify-content:center;
  align-items:center;
   flex-direction:column; 
   width:30%;
-  height:15%;
+  height:20%;
   h2 {
        font-weight:900;
   }
  
     }
     .data {
-        width:95%;
+        width:100%;
      
-        height:85%;
+        height:80%;
           display:flex;
            justify-content:center;
            align-items:center;
            flex-wrap: wrap;
          .img{
-           width:30%;
+           width:33.3%;
            height:50%;
             position:relative;
             transition: transform .8s;

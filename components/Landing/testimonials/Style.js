@@ -24,13 +24,16 @@ h2 {
     font-weight: 900;
 }
  
+ p {
+     font-size:1.5rem;
+ }
   
  
     }
     .grid {
       width:80%;
       
-      height:85%;
+      height:80%;
       display:flex;
 justify-content:space-between;
  align-items:center;
@@ -54,15 +57,13 @@ position: relative;
              width:90%;
              font-size:0.9rem;
             color: #1C1C1C 70%;
+             height:30%;
 
               text-align:center;
 
          }
          i {
-             font-size:1.5rem;
-            color: #1C1C1C 70%;
-
-             padding-bottom:1rem;
+            
          }
 
          .profile {
@@ -77,6 +78,8 @@ position: relative;
     width: 5rem;
    }
    h5 {
+    font-family: Mono_bold;
+       margin-top:0.5rem;
        font-weight:900;
    }
          }
@@ -108,12 +111,14 @@ position: relative;
              font-size:0.9rem;
               color:white;
               text-align:center;
+              margin-top:0.5rem
 
          }
          i {
              font-size:1.5rem;
              color:white;
              padding-bottom:1rem;
+             
          }
 
          .profile {
@@ -128,7 +133,9 @@ img {
  width: 5rem;
 }
 h5 {
-    font-weight:900;
+    font-family: Mono_bold;
+       margin-top:0.5rem;
+       font-weight:900;
 }
       }
 

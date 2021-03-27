@@ -7,7 +7,7 @@ display:flex;
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  height:30rem;
+  height:40rem;
   width:100%;
   margin-top:7rem;
  
@@ -29,7 +29,7 @@ h2 {
     .grid {
       width:100%;
       
-      height:85%;
+      height:75%;
       display:flex;
 justify-content:space-between;
  align-items:center;

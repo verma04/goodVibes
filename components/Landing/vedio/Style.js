@@ -54,7 +54,7 @@ justify-content:center;
                 justify-content:flex-right;
                 align-items:center;
             
-                width: 50%;
+                width: 55%;
                 margin-bottom:10%;
     height: 8%;
     button {
