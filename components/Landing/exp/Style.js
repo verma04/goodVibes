@@ -26,7 +26,7 @@ justify-content:space-between;
           width:55%;
           height:100%;
           background: transparent;
-    box-shadow: 0 0 20px 4px rgb(0 0 0 / 40%);
+ 
           position: relative;
           .btn {
             position: absolute;
@@ -52,7 +52,7 @@ justify-content:space-between;
              }
           }
           .btn:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+ 
   transform: scale(1.1); 
  
 }
@@ -65,7 +65,7 @@ justify-content:space-between;
         align-items:center;
           height:60%;
    .top {
-     font-size:1.4rem;
+     font-size:1.8rem;
   font-weight:800;
   width:70%;
   font-family: Mono_bold;
@@ -78,7 +78,7 @@ justify-content:space-between;
    .bottom {
     display:flex;
           justify-content:space-around;
-          width:70%;
+          width:72%;
           align-items:center;
           ul {
              

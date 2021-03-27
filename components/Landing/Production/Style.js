@@ -58,16 +58,17 @@ flex-wrap: wrap;
     
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
+    justify-content:space-between;
        h2 {
         font-family: Mono_bold;
            font-weight:900;
-             font-size:1rem;
+             font-size:1.3rem;
              text-align:center;
              text-transform:uppercase;
        }
         p {
           text-align:center;
+        
         }
     }
 }

@@ -122,7 +122,7 @@ button {
     word-spacing:0.2rem;
   }
   p {
-    font-size:1.2rem;
+    font-size:1.1rem;
 line-height:1.2;
   
     font-family: Montserrat ;
@@ -142,7 +142,7 @@ line-height:1.2;
     color: #2f3435; 
   }
   button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+ 
   transform: scale(1.1); 
  
 }

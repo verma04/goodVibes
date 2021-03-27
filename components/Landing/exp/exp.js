@@ -27,7 +27,7 @@ function exp() {
     We’re an experienced and very creative branding agency
     </div>
     <div className="mid" >
-    Build on a culture of contribution and inclusion is a lot of persent cross-pollination, nor closing these latest prospects.
+    <p>Build on a culture of contribution and inclusion is a lot of persent cross-pollination, nor closing these latest prospects.</p>
     </div>
     <div className="bottom" >
        <ul>

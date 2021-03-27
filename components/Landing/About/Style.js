@@ -37,7 +37,7 @@ justify-content:space-around;
   p {
     text-align:center;
     padding-bottom:8rem;
-    font-size:1.4rem;
+ 
     word-spacing:0.4rem;
   }
 
