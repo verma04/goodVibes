@@ -16,7 +16,7 @@ justify-content:center;
     
   .head {
       display:flex;
-      height:5%;
+      height:7%;
       justify-content:space-between;
       h2 {
           font-weight:800;
@@ -49,14 +49,14 @@ justify-content:space-between;
     width:100%;
       height:90%;
       background: transparent;
-    box-shadow: 0 0 20px 4px rgb(0 0 0 / 40%);
+  
       display:flex;
       justify-content:center;
       align-items:center;
       flex-wrap:wrap;
       
       .data {
-          width:33%;
+          width:33.3%;
           height:50%;
           position: relative;
           display:flex;
@@ -110,13 +110,12 @@ bottom:0%;
 background: rgba(0, 0, 0, 0.95); /* Black w/ opacity */
   .modal-content {
     position: relative;
- 
   margin: auto;
-  margin-top:10rem;
+  margin-top:5rem;
   padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
-  height:50%;
+  
+  width: 70%;
+height:70%;
   border-radius:10px;
   min-height:10rem;
     display:flex;

@@ -7,7 +7,7 @@ display:flex;
 justify-content:center;
  align-items:center;
   flex-direction:column;
-  height:30rem;
+  height:40rem;
   width:100%;
   margin-top:5rem;
   
@@ -23,12 +23,12 @@ justify-content:center;
     box-shadow: 0 0 20px 4px rgb(0 0 0 / 40%);
        .circle{
            position: absolute;
-           width:28rem;
-           height:28rem;
+           width:42rem;
+           height:42rem;
            border-radius:50%;
            background: #D0345A;
            left:13%;
-           bottom:-15%;
+           bottom:-10%;
            opacity: 0.95;
            
            display:flex;
@@ -36,34 +36,51 @@ justify-content:center;
            flex-direction:column;
             align-items:center;
             .top {
-                margin-top:15%;
-                width:60%;
-                font-size:2.2rem;
+                margin-top:22%;
+                width:55%;
+                font-size:4rem;
                 color:white;
                 font-weight:1000;
             }
             .mid {
-                width:60%;
+                width:55%;
                 color:white;
-                font-size:0.9rem;
+                font-size:1.2rem;
                  line-height: 1.3;
                 
             }
             .bottom {
                 display:flex;
-                justify-content:space-around;
+                justify-content:flex-right;
                 align-items:center;
-                background-color:white;
-                width: 40%;
-                margin-bottom:15%;
+            
+                width: 50%;
+                margin-bottom:10%;
     height: 8%;
-    span {
+    button {
+        width:70%;
+        display:flex;
+        justify-content:center;
+           justify-content:space-between;
+         text-align:left;
+         border: 1px solid white;
+        span {
         font-size:1rem;
+        font-weight:900;
+
+    
+    
+
     }
     i {
+   
         color: #D0345A;
         font-size:1.4rem;
+        
     }
+
+    }
+   
             }
 
        }
@@ -71,8 +88,8 @@ justify-content:center;
            
         position: absolute;
     left: 20%;
-    width: 6rem;
-    top: 18%;
+    width: 9rem;
+    top: 5%;
        
        }
    }

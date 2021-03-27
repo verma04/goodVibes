@@ -9,7 +9,9 @@ justify-content:space-around;
   flex-direction:column;
   height:37rem;
   width:100%;
+  margin-top:7%;
   
+  z-index:1000;
 
 @media (min-width: 1025px) {
   
