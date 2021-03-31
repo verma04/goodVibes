@@ -46,6 +46,13 @@ justify-content:space-between;
      list-style:none;
       font-weight:700;
  }
+
+ li:hover {
+
+   color:#D0345A;
+   font-weight:900;
+ 
+ }
   
 
   }
