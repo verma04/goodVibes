@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import Image from 'next/image';
 import { Section } from './Style';
 import Navbar from '../../Navbar/Navbar'
 import ReactPlayer from 'react-player';
 import About  from '../About/About'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 function HeroSection() {
+  useEffect(() => {
+ 
+    AOS.init({
+      duration : 5000
+    });
+  }, []);
     const [play, setPlay] = useState(false);
   const   handleOnReady = () => setTimeout(() => setPlay(true) , 100);
     return (
@@ -37,8 +45,8 @@ function HeroSection() {
            objectFit="cover"
            />     */}
 
-           <div className="text" >
-              <div className="data" >
+           <div aos-duration="10000" data-aos="fade-right" className="text" >
+              <div  className="data" >
               Creative process assures desired result
               </div>
                </div>         

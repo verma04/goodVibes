@@ -193,6 +193,20 @@ transition: transform .8s;
   i {
    
   }
+  .react-multi-carousel-dot button {
+
+    display: none;
+ 
+}
+.react-multiple-carousel__arrow::before {
+  
+    font-size: 2.5rem;
+}
+.react-multiple-carousel__arrow {
+ 
+    background: transparent;
+   
+}
   @media only screen and (max-width: 767px) {
     body {
       overflow-x: hidden;

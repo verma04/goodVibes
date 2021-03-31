@@ -16,7 +16,7 @@ for the long run.</p>
         </div>
             </div>
             
-            <div className="data" >
+            <div data-aos="fade-down" className="data" >
                 <div className="partner" >
                 <Image
             className="myImage"
@@ -169,8 +169,8 @@ for the long run.</p>
            </div>
             </div>
 
-            <div className="button" >
-                <button>View More</button>
+            <div data-aos="zoom-out" className="button" >
+                <button  >View More</button>
             </div>
         </Section>
     )

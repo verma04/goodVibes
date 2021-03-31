@@ -3,6 +3,8 @@ import { Section } from './Style'
 import Image from 'next/image';
 import ReactPlayer from 'react-player';
 import { useEffect  , useState  } from 'react';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 const data = [
      
     {
@@ -45,6 +47,12 @@ link:'cNoFX4mWCgA',
 ]
 
 function showreel() {
+    useEffect(() => {
+ 
+        AOS.init({
+          duration : 5000
+        });
+      }, []);
      
     const [  visible , setvisible] = useState(false);
     const toggleMenu = id => {
@@ -57,9 +65,9 @@ function showreel() {
         <Section>
        
 
-         <div className="ved" >
+         <div   className="ved" >
   
-  <div className="top" >
+  <div  data-aos="fade-zoom-in" className="top" >
   
       <li id="active" >Digital Films</li>
       <li>Corporate Videos</li>

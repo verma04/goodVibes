@@ -1,7 +1,8 @@
 import '../styles/globals.css'
 import React, {  useEffect , useState } from 'react';
 import { ThemeProvider } from "styled-components";
-
+import AOS from 'aos';
+import "aos/dist/aos.css";
  import  {useDarkMode} from '../theme/useDarkMode'
  import GlobalFonts from '../theme/theme';
  import { lightTheme, darkTheme } from "../theme/themeMode";
@@ -14,7 +15,11 @@ import Navbar from '../components/Navbar/Navbar'
 Router.events.on('routeChangeComplete', () => NProgress.done());
  Router.events.on('routeChangeError', () => NProgress.done());
 function MyApp({ Component, pageProps }) {
-  
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
 
   const [theme, themeToggler] = useDarkMode();
 

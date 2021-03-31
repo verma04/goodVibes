@@ -8,7 +8,7 @@ function Featured() {
            <div className="head" >
                <h2>The Featured Articles</h2>
            </div>
-           <div className="data" >
+           <div data-aos="fade-down" className="data" >
            <div className="img">
            <Image
             className="myImage"
@@ -19,7 +19,7 @@ function Featured() {
            /> 
            </div>
 
-           <div className="img">
+           <div  className="img">
            <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616581753/b33yk7mo162fytnrpmnd.png'

@@ -6,7 +6,7 @@ function Vedio() {
     return (
         <Section>
       
-      <div className="flex" >
+      <div  data-aos="fade-down" className="flex" >
       
       <Image
             className="myImage"

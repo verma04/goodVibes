@@ -11,7 +11,7 @@ function Production() {
 
             </div>
             <div className="data" >
-            <div className="pro" >
+            <div data-aos="fade-left" className="pro" >
   <div className="logo" >
 
   <Image
@@ -30,7 +30,7 @@ function Production() {
   </div>
 
                 </div>
-                <div className="pro" >
+                <div data-aos="fade-left" className="pro" >
   <div className="logo" >
 
   <Image
@@ -43,7 +43,7 @@ function Production() {
            />   
   </div>
 
-  <div className="set" >
+  <div  className="set" >
       <h2>Casting</h2>
       <p>We have a pool of fresh talent and provide casting services for Reality shows, Fiction TV Shows, Print Ads, Digital Films, Corporate Videos, Web shows & documentaries.</p>
   </div>
@@ -51,7 +51,7 @@ function Production() {
                 </div>
              
                
-                <div className="pro" >
+                <div data-aos="fade-left" className="pro" >
   <div className="logo" >
 
   <Image
@@ -79,8 +79,8 @@ function Production() {
             </div>
             
 
-            <div className="button" >
-                <button>Let’s Collaborate</button>
+            <div data-aos="zoom-out" className="button" >
+                <button  >Let’s Collaborate</button>
             </div>
         </Section>
     )
