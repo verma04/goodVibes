@@ -15,9 +15,9 @@ div {
 }
 
   body {
-    color: #2f3435; 
+    
   font-family: Montserrat ;
-
+   background: ${({ theme }) => theme.background};
       overflow-x: hidden;
        
       ::-webkit-scrollbar {
@@ -44,12 +44,12 @@ button {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: ${props => props.theme.colors.brown}; 
+  
   border-radius: 5px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: ${props => props.theme.colors.darkBrown};
+
 }
       
   }
@@ -58,7 +58,8 @@ button {
     li {
       
     cursor: pointer;
-    color: ${props => props.theme.colors.text1};
+  
+    color: ${({ theme }) => theme.text1};
   }
   }
   img {
@@ -72,28 +73,38 @@ button {
  
   h1 {
     font-weight:1000;
+   color: ${({ theme }) => theme.text};
     font-size: 1.65rem;
     line-height: var(--line-height-lg);
   font-family: Mono_bold ;
-  color: #2f3435; 
+  
   word-spacing:0.2rem;
   }
   h2 {
     font-size: 2.2rem;
     line-height: var(--line-height-lg);
-    color: ${props => props.theme.colors.grey};
+    color: ${({ theme }) => theme.text};
     font-family: Mono_bold;
-  color: #2f3435; 
+  
   word-spacing:0.2rem;
   line-height:1.2;
+  }
+  .top {
+    color: ${({ theme }) => theme.text};
+  }
+  .mid {
+    color: ${({ theme }) => theme.para};
+  }
+  li {
+    color: ${({ theme }) => theme.text};
   }
   h3 {
     font-weight:1000;
     font-size: 1.2rem;
     line-height: var(--line-height-lg);
-    color: ${props => props.theme.colors.grey};
+    color: ${({ theme }) => theme.text};
     font-family: Mono_bold;
-    color: #2f3435; 
+    
     word-spacing:0.2rem;
     /* family=FiesoleTextW00-Italic */
   }
@@ -101,37 +112,42 @@ button {
     font-family: Montserrat ;
     word-spacing:0.3rem;
     line-height: 1.2;
-    color: ${props => props.theme.colors.grey};
+    
   }
   h4 {
     font-size: 1rem;
     line-height: var(--line-height-md);
-    color: #2f3435; 
+    
     word-spacing:0.2rem;
+    color: ${({ theme }) => theme.text};
   }
   h5 {
     font-size: 0.75;
     line-height: var(--line-height-md);
-    color: #2f3435; 
+    
     word-spacing:0.2rem;
+    color: ${({ theme }) => theme.text};
   }
   h6 {
     font-size: 0.6rem;
     line-height: var(--line-height-md);
-    color: #2f3435; 
+    
     word-spacing:0.2rem;
+    color: ${({ theme }) => theme.text};
   }
   p {
     font-size:1.1rem;
 line-height:1.2;
-  
+
+color: ${({ theme }) => theme.para};
+
     font-family: Montserrat ;
     word-spacing:0.2rem;
-    color: #2f3435; 
+
   }
   select {
   font-family: Montserrat ;
-  color: #2f3435; 
+  
   }
   
   .date {
@@ -139,7 +155,7 @@ line-height:1.2;
   }
   .card {
     border-radius:10px;
-    color: #2f3435; 
+    
   }
   button:hover {
  
@@ -175,7 +191,7 @@ transition: transform .8s;
   font-family: Montserrat ;
   }
   i {
-    color: ${props => props.theme.colors.darkBrown};
+   
   }
   @media only screen and (max-width: 767px) {
     body {
@@ -190,7 +206,7 @@ transition: transform .8s;
       font-size: 1.75rem;
     }
     h2 {
-      color: ${props => props.theme.colors.grey};
+      
     }
     h3 {
       font-size: 1.25rem;
@@ -198,7 +214,7 @@ transition: transform .8s;
   }
   a { 
     text-decoration: none; 
-    color: ${props => props.theme.colors.darkBrown};
+    
   font-family: Montserrat ;
 } 
 button {

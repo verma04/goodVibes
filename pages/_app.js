@@ -1,11 +1,11 @@
 import '../styles/globals.css'
-import React, { Fragment, useEffect } from 'react';
+import React, {  useEffect , useState } from 'react';
 import { ThemeProvider } from "styled-components";
- import theme from '../theme/colors';
 
+ import  {useDarkMode} from '../theme/useDarkMode'
  import GlobalFonts from '../theme/theme';
-
-
+ import { lightTheme, darkTheme } from "../theme/themeMode";
+import Navbar from '../components/Navbar/Navbar'
  import 'nprogress/nprogress.css';
  import NProgress from 'nprogress';
  import Head from 'next/head';
@@ -15,14 +15,13 @@ Router.events.on('routeChangeComplete', () => NProgress.done());
  Router.events.on('routeChangeError', () => NProgress.done());
 function MyApp({ Component, pageProps }) {
   
-  
-  
 
-     
+  const [theme, themeToggler] = useDarkMode();
 
-    
+  const themeMode = theme === 'light' ? lightTheme : darkTheme;
   
   return (
+    
 <div>
 <Head>
 <link rel="shortcut icon" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png" />
@@ -37,10 +36,11 @@ function MyApp({ Component, pageProps }) {
     </Head>
 
  
-  <ThemeProvider theme={theme}>
-    
+  <ThemeProvider theme={themeMode}>
+  
     <GlobalFonts/>
- <Component {...pageProps} />
+    <Navbar   toggleTheme={themeToggler} theme={theme}  />
+ <Component {...pageProps}  />
   </ThemeProvider>
   
   </div>

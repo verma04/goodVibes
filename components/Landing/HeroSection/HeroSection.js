@@ -13,7 +13,7 @@ function HeroSection() {
   
         <div className="flex-1" >
            
-           <Navbar/>
+       
            <div className='player-wrapper'>
            <ReactPlayer
            volume={0} 
