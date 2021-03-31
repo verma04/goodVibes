@@ -15,11 +15,11 @@ div {
 }
 
   body {
-    
+    transition: all 01s linear;
   font-family: Montserrat ;
    background: ${({ theme }) => theme.background};
       overflow-x: hidden;
-       
+  
       ::-webkit-scrollbar {
   width: 10px;
   #nprogress .bar {
