@@ -20,7 +20,7 @@ for the long run.</p>
                 <div className="partner" >
                 <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616842916/h0xqkl4p8qw6ezk95a3e.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617258182/goodVibes/cdif7wlzmrobkaavli1k.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -30,7 +30,7 @@ for the long run.</p>
                 <div className="partner" >
                 <Image
             className="myImage"
-           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616842916/h0xqkl4p8qw6ezk95a3e.png"
+           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617258182/goodVibes/siwqhulqjshkj9uw1091.jpg"
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -40,7 +40,7 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616842916/h0xqkl4p8qw6ezk95a3e.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617258182/goodVibes/wsyijcfuowu06czre4wx.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -49,7 +49,7 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616842916/h0xqkl4p8qw6ezk95a3e.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617258182/goodVibes/vdf16gtfuuqgx6rluugr.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -58,7 +58,7 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616842916/h0xqkl4p8qw6ezk95a3e.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617258182/goodVibes/gsakjmhuvuet1ldzv3zw.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
