@@ -71,7 +71,12 @@ transitionTime={1000}
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617172522/icuoz5qgnilfbyqkrsll.jpg" ></img>
          
             </div>
+            <div   className='name' >
+  
 
+  <h2> Dennis Nagpal</h2>
+  <span>Executive Producer & Founder</span>
+    </div>
 
           
 
@@ -84,7 +89,12 @@ transitionTime={1000}
          
             </div>
 
+            <div   className='name' >
+  
 
+  <h2> Dennis Nagpal</h2>
+  <span>Executive Producer & Founder</span>
+    </div>
           
 
             
@@ -97,7 +107,12 @@ transitionTime={1000}
             </div>
 
 
-          
+            <div   className='name' >
+  
+
+  <h2> Dennis Nagpal</h2>
+  <span>Executive Producer & Founder</span>
+    </div>
 
             
   </div>
@@ -108,7 +123,12 @@ transitionTime={1000}
          
             </div>
 
+            <div   className='name' >
+  
 
+  <h2> Dennis Nagpal</h2>
+  <span>Executive Producer & Founder</span>
+    </div>
           
 
             
@@ -120,7 +140,12 @@ transitionTime={1000}
          
             </div>
 
+            <div   className='name' >
+  
 
+  <h2> Dennis Nagpal</h2>
+  <span>Executive Producer & Founder</span>
+    </div>
           
 
             
@@ -131,7 +156,12 @@ transitionTime={1000}
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261875/goodVibes/gw5muoodu2grvv79xtcl.jpg" ></img>
          
             </div>
+            <div   className='name' >
+  
 
+  <h2> Dennis Nagpal</h2>
+  <span>Executive Producer & Founder</span>
+    </div>
 
           
 
@@ -139,10 +169,17 @@ transitionTime={1000}
   </div>
 
   <div  className="set">
-  <div className='wrapper'>
+  <div style={{position:"relative"}} className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617172522/icuoz5qgnilfbyqkrsll.jpg" ></img>
          
+   <div   className='name' >
+  
+
+     <h2> Dennis Nagpal</h2>
+     <span>Executive Producer & Founder</span>
+       </div>
+
             </div>
 
 
@@ -166,6 +203,17 @@ transitionTime={1000}
           background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
       
        }
+       .name {
+        position: absolute;
+        bottom: 10%;
+        z-index:999;
+        width:95%;
+        left:8%;
+       
+       }
+       h2 {
+        font-size:1.3rem;
+      }
       `}</style>
           
    </div>
