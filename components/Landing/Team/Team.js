@@ -46,7 +46,7 @@ function Team() {
 
         <Carousel
 transitionTime={1000}
-autoPlay={true}
+
              swipeable={false}
              draggable={false}
              showDots={true}
@@ -154,7 +154,19 @@ autoPlay={true}
  
 </Carousel>
 
+<style jsx>{`
        
+        .set:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          height: 100%;
+          width: 100%;
+          z-index: 100;
+          background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+      
+       }
+      `}</style>
           
    </div>
    )
