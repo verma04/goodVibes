@@ -5,7 +5,7 @@ export const lightTheme=   {
 
       darkblue:"#053a73",
       yellow: "rgb(250,234,84)",
-     background:"#F2F2F2",
+     background:"white",
      mainBack:"rgb( 249, 248, 246)",
       blue:"#0085C5",
       grey:	"#2B3339",
