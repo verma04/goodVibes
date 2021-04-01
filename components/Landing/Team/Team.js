@@ -80,7 +80,7 @@ function Team() {
   <div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617172522/icuoz5qgnilfbyqkrsll.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261874/goodVibes/dfnxtr808ghwwa5kbz1x.jpg" ></img>
          
             </div>
 
@@ -92,7 +92,7 @@ function Team() {
   <div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617172522/icuoz5qgnilfbyqkrsll.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261874/goodVibes/lhifx4kaocsqzm5lhnfz.jpg" ></img>
          
             </div>
 
@@ -104,7 +104,7 @@ function Team() {
   <div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617172522/icuoz5qgnilfbyqkrsll.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261874/goodVibes/pz1euouykowdjozxkmsh.jpg" ></img>
          
             </div>
 
@@ -116,7 +116,7 @@ function Team() {
   <div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617172522/icuoz5qgnilfbyqkrsll.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261874/goodVibes/ur1nzhmfmrcn7awpnci9.jpg" ></img>
          
             </div>
 
@@ -128,7 +128,7 @@ function Team() {
   <div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617172522/icuoz5qgnilfbyqkrsll.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261875/goodVibes/gw5muoodu2grvv79xtcl.jpg" ></img>
          
             </div>
 
