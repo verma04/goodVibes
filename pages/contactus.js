@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Landing from '@/components/About/About'
+import Landing from '@/components/contactus/contact'
 
 export default function Home() {
   return (

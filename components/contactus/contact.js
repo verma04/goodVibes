@@ -1,7 +1,7 @@
 import React from 'react';
 
 import HeroSection from './HeroSection/HeroSection';
-
+import About from './About/About'
 import Footer from '../Footer/Footer'
 
 function work() {
@@ -9,7 +9,7 @@ function work() {
         <div>
             <HeroSection/>
        
-
+<About/>
             <Footer/>
         </div>
     )

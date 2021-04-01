@@ -1,8 +1,8 @@
 export const lightTheme=   {
-   
+     textBlac:'#FBFBFB',
         text:"#1C1C1C",
         para: "#40434E",
-
+        test:'black',
       darkblue:"#053a73",
       yellow: "rgb(250,234,84)",
      background:"white",
@@ -21,10 +21,11 @@ export const lightTheme=   {
   };
 
   export const darkTheme=   {
-   
+     test:'white',
      text:"white",
      para:"white",
       darkblue:"#053a73",
+      textBlac:'#161b22',
       yellow: "rgb(250,234,84)",
      background:"#161b22",
      mainBack:"rgb( 249, 248, 246)",

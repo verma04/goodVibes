@@ -13,12 +13,12 @@ function HeroSection() {
   
         <div className="flex-1" >
            
-           <Navbar/>
+    
            <div className='player-wrapper'>
     
    <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616753399/dzfbjzk3aoy9nmxkxohh.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617269295/goodVibes/cqlaszusmfonczwqegpb.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
