@@ -58,11 +58,11 @@ function showreel() {
   
 
 
-  <div className="list" >
+  <div data-aos="fade-left" className="list" >
     
 
-        <div  className="data" >
-        <div className="left" >
+        <div   className="data" >
+        <div  className="left" >
         <Image
                   className="myImage"
                  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/qglfcdcpvwushkk2dj2e.png"
@@ -72,7 +72,7 @@ function showreel() {
                  /> 
       
             </div>
-           <div className="right" >
+           <div  className="right" >
       
                <div className="right-1" >
                    <span>Executive Producer & Founder</span>
@@ -90,11 +90,11 @@ function showreel() {
   </div>
 
 
-  <div className="list" >
+  <div data-aos="fade-left" className="list" >
     
 
-        <div   className="data" >
-        <div className="right" >
+        <div data-aos="fade-right"  className="data" >
+        <div  className="right" >
       
       <div className="right-1" >
           <span>Associate Creative Director'</span>
@@ -123,7 +123,7 @@ function showreel() {
    
   </div>
 
-  <div className="list" >
+  <div data-aos="fade-left" className="list" >
     
 
         <div  className="data" >
@@ -156,7 +156,7 @@ Co-founder and Casting director</span>
   </div>
 
 
-  <div className="list" >
+  <div data-aos="fade-left" className="list" >
     
 
         <div   className="data" >

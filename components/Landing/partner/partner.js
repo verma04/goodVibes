@@ -23,7 +23,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617258182/goodVibes/cdif7wlzmrobkaavli1k.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                 </div>
 
@@ -33,7 +33,7 @@ for the long run.</p>
            src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261029/goodVibes/nuk2asvouywfxqx20bch.jpg"
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
 
@@ -43,7 +43,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617258182/goodVibes/wsyijcfuowu06czre4wx.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
                     <div className="partner" >
@@ -52,7 +52,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617258182/goodVibes/vdf16gtfuuqgx6rluugr.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
                     <div className="partner" >
@@ -61,7 +61,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617258182/goodVibes/gsakjmhuvuet1ldzv3zw.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
                     <div className="partner" >
@@ -70,7 +70,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260065/goodVibes/c4zf5d3iwqpvq3onabw8.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
 
@@ -80,7 +80,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260065/goodVibes/t0ox75fhbsd8azupxczm.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
                     <div className="partner" >
@@ -89,7 +89,7 @@ for the long run.</p>
            src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260065/goodVibes/u4nf7lxjtxa6k4qzavfl.jpg"
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
                     <div className="partner" >
@@ -98,7 +98,7 @@ for the long run.</p>
            src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260065/goodVibes/jqrck9fw3nfuywrjr1qy.jpg"
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
 
@@ -108,7 +108,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/nqpnclcb1oegcde8smgl.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
                     <div className="partner" >
@@ -117,7 +117,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/z76zdjc339jdxxy4yzsj.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            />   
                     </div>
                     <div className="partner" >
@@ -126,7 +126,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/yasjm3xwg1fz88j3i6d4.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
                     
@@ -136,7 +136,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/mubea31erup0ytistwdw.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
                     </div>
                     <div className="partner" >
@@ -145,7 +145,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/nwo0bam38fg0ou20npqg.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
            </div>
                  
@@ -155,7 +155,7 @@ for the long run.</p>
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/kaphn9ty9skwtg3c3yht.jpg'
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
             </div>
             <div className="partner" >
@@ -164,7 +164,7 @@ for the long run.</p>
            src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260083/goodVibes/tctkkrjbaucuy5cuqwp1.jpg"
            alt="Picture of the author"
            layout="fill"
-           objectFit="contain"
+           objectFit="cover"
            /> 
            </div>
             </div>

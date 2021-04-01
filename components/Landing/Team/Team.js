@@ -45,8 +45,8 @@ function Team() {
 
 
         <Carousel
-
-
+transitionTime={1000}
+autoPlay={true}
              swipeable={false}
              draggable={false}
              showDots={true}
@@ -56,8 +56,8 @@ function Team() {
             
              autoPlaySpeed={1000}
              keyBoardControl={true}
-             customTransition="all .5"
-             transitionDuration={500}
+             customTransition="all 0.5"
+             transitionDuration={1000}
              containerClass="carousel-container"
              removeArrowOnDeviceType={["tablet", "mobile"]}
             

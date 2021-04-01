@@ -18,7 +18,7 @@ function HeroSection() {
     
    <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754306/ye7pgmy5ysmo6ktffbi3.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616753399/dzfbjzk3aoy9nmxkxohh.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -33,8 +33,8 @@ function HeroSection() {
            objectFit="cover"
            />     */}
 
-           <div data-aos="fade-right" className="text" >
-              <div  className="data" >
+           <div className="text" >
+              <div className="data" >
                Work
               </div>
                </div>         

@@ -145,6 +145,9 @@ color: ${({ theme }) => theme.para};
     word-spacing:0.2rem;
 
   }
+  span {
+    color: ${({ theme }) => theme.para};
+  }
   select {
   font-family: Montserrat ;
   

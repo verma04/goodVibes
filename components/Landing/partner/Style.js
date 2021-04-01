@@ -7,7 +7,7 @@ display:flex;
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  height:70rem;
+  height:80rem;
   width:100%;
   margin-top:7rem;
  
@@ -40,7 +40,7 @@ justify-content:space-between;
     }
     .data {
         margin-top:3rem;
-        width:90%;
+        width:80%;
      
         height:90%;
         
@@ -50,8 +50,8 @@ align-items:center;
 flex-wrap: wrap;
 .partner {
     width:24%;
-    
-    height:10rem;
+
+    height: 14.8rem;
     position: relative;
     img {
         border: 1px solid red;
