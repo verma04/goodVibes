@@ -7,7 +7,7 @@ display:flex;
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  height:50rem;
+  height:70rem;
   width:100%;
   margin-top:7rem;
  
@@ -20,7 +20,7 @@ justify-content:space-between;
 
  
   width:80%;
-  height:15%;
+  height:10%;
   .left {
       width:30%;
       p {
@@ -42,17 +42,20 @@ justify-content:space-between;
         margin-top:3rem;
         width:90%;
      
-        height:85%;
+        height:90%;
         
         display:flex;
 justify-content:space-around;
 align-items:center;
 flex-wrap: wrap;
 .partner {
-    width:22%;
+    width:24%;
     
-    height:15%;
+    height:10rem;
     position: relative;
+    img {
+        border: 1px solid red;
+    }
 }
   
 
