@@ -63,23 +63,42 @@ function showreel() {
 
         <div   className="data" >
         <div  className="left" >
-        <Image
-                  className="myImage"
-                 src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/qglfcdcpvwushkk2dj2e.png"
-                 alt="Picture of the author"
-                 layout="fill"
-                 objectFit="contain"
-                 /> 
+
+            <div className="top" >
+    <span>— Our Bio</span>
+
+    <h2>WE ARE A CREATIVE VIDEO PRODUCTION COMPANY</h2>
+
+            </div>
+            <div className="bottom" >
+   <div className="list" >
+   <h3>WHO WE ARE</h3>
+
+   <p>
+Video production work with producing video content. It is the analogical of film making, but the images are digitally recorded instead of film stock. There are three levels of video production: production, pre-production and post-production.
+
+
+</p>
+
+   </div>
+   <div className="list" >
+       <h3>WHO WE WORK</h3>
+       <p>Video production work with producing video content. It is the analogical of film making, but the images are digitally recorded instead of film stock. There are three levels of video production.</p>
+   </div>
+
+            </div>
       
             </div>
            <div  className="right" >
-      
-               <div className="right-1" >
-                   <span>Executive Producer & Founder</span>
-                   <h2>"Dennis Nagpal"</h2>
-                   <p>Executive Producer & Founder</p>
-                   </div>
-       
+           <Image
+                        className="myImage"
+                        src={`https://res.cloudinary.com/dzcmadjl1/image/upload/v1617356888/m3miomaffoepe77q88dl.png`}
+            
+                       alt="Picture of the author"
+                       layout="fill"
+                       objectFit="cover"
+                       /> 
+              
       </div>      
         </div>
     
@@ -89,114 +108,10 @@ function showreel() {
    
   </div>
 
-
-  <div data-aos="fade-left" className="list" >
-    
-
-        <div data-aos="fade-right"  className="data" >
-        <div  className="right" >
-      
-      <div className="right-1" >
-          <span>Associate Creative Director'</span>
-          <h2>Sonakshi Khanna</h2>
-          <p>A keen observer with a great work experience in various media fields and companies.</p>
-          </div>
-
-</div>      
-
-        <div className="left" >
-        <Image
-                  className="myImage"
-                 src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/dyul9di8gcqq4wizwbu5.png"
-                 alt="Picture of the author"
-                 layout="fill"
-                 objectFit="contain"
-                 /> 
-      
-            </div>
-        
-        </div>
-    
-
-   
-         
-   
-  </div>
-
-  <div data-aos="fade-left" className="list" >
-    
-
-        <div  className="data" >
-        <div className="left" >
-        <Image
-                  className="myImage"
-                 src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/gs2fvccsmetpwl12maa6.png"
-                 alt="Picture of the author"
-                 layout="fill"
-                 objectFit="contain"
-                 /> 
-      
-            </div>
-           <div className="right" >
-      
-               <div className="right-1" >
-                   <span>
-Co-founder and Casting director</span>
-                   <h2>Shubam Mhatur</h2>
-                   <p>A work maniac with more than 5 years of experience in casting – TV & Ads.</p>
-                   </div>
-       
-      </div>      
-        </div>
-    
-
-   
-         
-   
-  </div>
-
-
-  <div data-aos="fade-left" className="list" >
-    
-
-        <div   className="data" >
-    
-           <div className="right" >
-      
-               <div className="right-1" >
-                   <span>Executive Producer & Founder</span>
-                   <h2>Dennis Nagpal</h2>
-                   <p>A perfectionist with 9 Years of experience in the TV & Digital Media Industry.</p>
-                   </div>
-       
-      </div>      
-       
-      <div className="left" >
-        <Image
-                  className="myImage"
-                 src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754768/gs2fvccsmetpwl12maa6.png"
-                 alt="Picture of the author"
-                 layout="fill"
-                 objectFit="contain"
-                 /> 
-      
-            </div>
-        
-        
-        </div>
-    
-
-   
-         
-   
-  </div>
 
          </div>
 
-         <div className="btn" >
-             
-             <button> Load More</button>
-              </div>
+       
         </Section>
     )
 }

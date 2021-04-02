@@ -28,8 +28,8 @@ function Navbar({toggleTheme , theme}) {
                         <a  > Home</a>
                         
                        </div>
-                    <div className="nav-item" >
-                        <a> Service</a>
+                    <div  className="nav-item" >
+                        <a href="#service" > Service</a>
                        </div>
                     <div   onClick={()=> router.push('/about') } id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
                         <a> About</a>

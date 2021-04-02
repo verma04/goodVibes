@@ -13,12 +13,12 @@ function HeroSection() {
   
         <div className="flex-1" >
            
-           <Navbar/>
+
            <div className='player-wrapper'>
     
    <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616754306/ye7pgmy5ysmo6ktffbi3.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617356519/ps9q6k8kwcwqb9n8phbg.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -35,7 +35,7 @@ function HeroSection() {
 
            <div data-aos="fade-right" className="text" >
               <div  className="data" >
-              CONTACT US
+              ABOUT US
               </div>
                </div>         
                <div className="social" >

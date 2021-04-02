@@ -130,15 +130,7 @@ for the long run.</p>
            /> 
                     </div>
                     
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/mubea31erup0ytistwdw.jpg'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
+                   
                     <div className="partner" >
                     <Image
             className="myImage"
@@ -158,6 +150,15 @@ for the long run.</p>
            objectFit="cover"
            /> 
             </div>
+            <div className="partner" >
+                    <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/mubea31erup0ytistwdw.jpg'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           /> 
+                    </div>
             <div className="partner" >
                     <Image
             className="myImage"
