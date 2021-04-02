@@ -20,15 +20,9 @@ Message Us.
             
             </div>
             <div className="right" >
-            <Image
-                        className="myImage"
-                        src={`https://res.cloudinary.com/dzcmadjl1/image/upload/v1617358561/zpq732n61wel53j1riat.png`}
-            
-                       alt="Picture of the author"
-                       layout="fill"
-                       objectFit="cover"
-                       /> 
-              
+        
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14020.454306882682!2d77.2567685!3d28.5363057!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7ff0589cbf426bd3!2sGood%20Vibes%20Entertainment!5e0!3m2!1sen!2sin!4v1617363843528!5m2!1sen!2sin"   allowfullscreen="" loading="lazy"></iframe>
     
 
             </div>

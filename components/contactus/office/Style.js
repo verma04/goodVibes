@@ -29,7 +29,7 @@ justify-content:center;
 
     .list {
       width:33%;
-      height:70%;
+      height:80%;
 
 display:flex;
 justify-content:center;
@@ -41,8 +41,9 @@ ul {
     justify-content:flex-start;
     
     text-align:left;
-    line-height:1.4rem;
+    line-height:1.4;
     align-items:center;
+    margin-top:0.5rem;
     img {
       width:1rem;
       height:1rem;

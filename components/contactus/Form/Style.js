@@ -33,6 +33,10 @@ justify-content:center;
       width:40%;
       height:100%;
       position: relative;
+      iframe {
+        width:100%;
+        height:100%;
+      }
     }
     .left {
       width:60%;
