@@ -17,43 +17,37 @@ const data = [
     {
         _id:"1",
  titile:"dssd",
-link:'cNoFX4mWCgA',
-title:`Kellogg's REALCHEF - The Hunt Begins!`
+link:'3fqFnfNoAKY',
+title:`Delhi Rules - Pitch Promo`
 
 
     },
     {
         _id:"2",
         titile:"dssd",
-       link:"MIX2893GWDw",
-       title:`Hyundai | Save My Game | Home Dugout | Delhi | Dial **football `
+       link:"nW04LI4Jj6E",
+       title:`GPL Promo - Episode 9`
     },
     {
         _id:"3",
         titile:"dssd",
-       link:"W9Nh-WxW3A0",
-       title:`Ford Ecosport 2017 Unboxing`
+       link:"CQH4-rit3ng",
+       title:`GPL Promo - Episode 10`
     },
 
     {
         _id:"4",
         titile:"dssd",
-       link:"pPWyijx4Z_A",
-       title:`Nissan Vs Dabbawala`
+       link:"3nq3iJyoYJM",
+       title:`Naam Hai Ziddi EP01`
     },
     {
         _id:"5",
         titile:"dssd",
-       link:"kUU55unfvyQ",
-       title:`Red FM India`
+       link:"LBv4Ie3intk",
+       title:`ZIDD WARS Ep 01`
     },
-    {
-        _id:"6",
-        titile:"dssd",
-       link:"cNoFX4mWCgA",
-       title:`Hyundai | Save My Game | Home Dugout | Guwahati`
-    },
-
+   
     
 
 

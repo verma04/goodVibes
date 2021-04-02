@@ -17,31 +17,46 @@ const data = [
     {
         _id:"1",
  titile:"dssd",
-link:'Jl-q41-Yac0',
-title:`vivo Retail Network | Love India, Love vivo`
+link:'iH28tgQn5bQ',
+title:`Alexa in Hindi, a year long journey: “Alexa, हमारी दोस्ती पर poem सुनाओ".`
 
 
     },
     {
         _id:"2",
         titile:"dssd",
-       link:"x363W5TwlKw",
-       title:`VBA Family | Love India, Love vivo`
+       link:"ZpdLgcwdex4",
+       title:`Of stories, poetry and tiny tales: For Rafaa Dalvi, small is big`
     },
-    {
-        _id:"3",
-        titile:"dssd",
-       link:"4zhE-SYpEw8",
-       title:`OP Jindal GUniversity - Student Film`
-    },
+  
 
     {
-        _id:"4",
-      
-       link:"RR9X0wpalk",
-       tiile:"Hyundai AV",
+        _id:"2",
+        titile:"dssd",
+       link:"D_UWMJ48_88",
+       title:`How Anubhav Agrawal became #1 bestselling author on Kindle`
     },
-   
+  
+    {
+        _id:"2",
+        titile:"dssd",
+       link:"kP-JfEufypQ",
+       title:`From a routine job to full-time writing: The journey of KDP author MV Kasi`
+    },
+  
+    {
+        _id:"2",
+        titile:"dssd",
+       link:"aV7O7q8Qp5w",
+       title:`NEW YEAR KA SECRET GIFT | Happy New Year 2021 | Moral Story for kids | Aayu and Pihu Show`
+    },
+    {
+        _id:"2",
+        titile:"dssd",
+       link:"CP5K66K5ZRQ",
+       title:`How 'online' emerged as a lifeline of sorts in 2020`
+    },
+  
 
     
 

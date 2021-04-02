@@ -30,6 +30,7 @@ justify-content:center;
      
         height:80%;
           display:flex;
+          position:relative;
            justify-content:center;
            align-items:center;
            flex-wrap: wrap;
@@ -39,11 +40,23 @@ justify-content:center;
             position:relative;
             transition: transform .8s;
          }
+         
          .img:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   transform: scale(1.1); 
  z-index:1;
 }
+
+.img:before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          height: 100%;
+          width: 100%;
+          z-index: 100;
+          background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+      
+       }
     }
 
   

@@ -17,42 +17,18 @@ const data = [
     {
         _id:"1",
  titile:"dssd",
-link:'cNoFX4mWCgA',
-title:`Kellogg's REALCHEF - The Hunt Begins!`
+link:'2g9oUXWoeaw',
+title:`Love School - Season 02 - Episode 1`
 
 
     },
     {
         _id:"2",
         titile:"dssd",
-       link:"MIX2893GWDw",
-       title:`Hyundai | Save My Game | Home Dugout | Delhi | Dial **football `
+       link:"8OH63JIBoWw",
+       title:`Arre Ho Ja Re-Gender | First Look | An Arre Original Social Experiment`
     },
-    {
-        _id:"3",
-        titile:"dssd",
-       link:"W9Nh-WxW3A0",
-       title:`Ford Ecosport 2017 Unboxing`
-    },
-
-    {
-        _id:"4",
-        titile:"dssd",
-       link:"pPWyijx4Z_A",
-       title:`Nissan Vs Dabbawala`
-    },
-    {
-        _id:"5",
-        titile:"dssd",
-       link:"kUU55unfvyQ",
-       title:`Red FM India`
-    },
-    {
-        _id:"6",
-        titile:"dssd",
-       link:"cNoFX4mWCgA",
-       title:`Hyundai | Save My Game | Home Dugout | Guwahati`
-    },
+  
 
     
 

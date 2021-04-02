@@ -21,6 +21,7 @@ justify-content:space-between;
  
 h2 {
     font-weight: 900;
+    font-size:2.2rem;
 }
  
   

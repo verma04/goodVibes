@@ -11,48 +11,96 @@ import Shows from './Shows'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import Documentaries from './Documentaries'
+import Animation from './Animation';
 
 const data = [
      
     {
         _id:"1",
  titile:"dssd",
-link:'cNoFX4mWCgA',
-title:`Kellogg's REALCHEF - The Hunt Begins!`
+link:'bHjKxgjvuR4',
+title:`Ek neeli si roshni, se kar li jo dosti | #AlexaTurns3 `
 
 
     },
     {
         _id:"2",
         titile:"dssd",
-       link:"MIX2893GWDw",
-       title:`Hyundai | Save My Game | Home Dugout | Delhi | Dial **football `
+       link:"5TvG2RmUD7k",
+       title:`CelebrationTohBantaHai ft. #ShankarMahadevan || Rajkummar Rao & Patralekhaa `
     },
     {
         _id:"3",
         titile:"dssd",
-       link:"W9Nh-WxW3A0",
-       title:`Ford Ecosport 2017 Unboxing`
+       link:"rrgYJ_M2GTM",
+       title:`International Women’s Day | #ChallengeChampionChange`
     },
 
     {
         _id:"4",
         titile:"dssd",
-       link:"pPWyijx4Z_A",
-       title:`Nissan Vs Dabbawala`
+       link:"u_HIXDYRE94",
+       title:`Challenge the norm | #ChallengeChampionChange`
     },
     {
         _id:"5",
         titile:"dssd",
-       link:"kUU55unfvyQ",
-       title:`Red FM India`
+       link:"XEa0hGPxNGo",
+       title:`Champion a cause | #ChallengeChampionChange`
     },
     {
         _id:"6",
         titile:"dssd",
-       link:"cNoFX4mWCgA",
-       title:`Hyundai | Save My Game | Home Dugout | Guwahati`
+       link:"KBvi5tONxTI",
+       title:`Change the narrative | #ChallengeChampionChange`
     },
+
+    
+    
+  //   {
+  //     _id:"6",
+  //     titile:"dssd",
+  //    link:"7E9pj86uIik",
+  //    title:`BMW 360 Financial Services`
+  // },
+
+//   {
+//     _id:"6",
+//     titile:"dss",
+//    link:"EFaC7XVPYDQ",
+//    title:`The story of sibling love`
+// },
+
+
+// {
+//   _id:"6",
+//   titile:"dss",
+//  link:"H5m25dif7bc",
+//  title:`A story of hardwork and conviction`
+// },
+
+
+// {
+//   _id:"6",
+//   titile:"dss",
+//  link:"Tq_5-PRzMMc",
+//  title:`No lockdown for learning`
+// },
+
+// {
+//   _id:"6",
+//   titile:"dss",
+//  link:"c9pGBidPDT0",
+//  title:`The story of sibling love`
+// },
+
+// {
+//   _id:"6",
+//   titile:"dss",
+//  link:"gEdz4-c9FN4",
+//  title:`A remarkable story from the lanes of Indore`
+// },
+
 
     
 
@@ -83,11 +131,11 @@ function showreel() {
   
       <li onClick={() =>  setactive("Digital") } id={active === "Digital" ? "active" : ""} >Digital Films</li>
       <li onClick={() => setactive("Corporate" ) } id={active === "Corporate" ? "active" : ""} >Corporate Videos</li>
-      <li  onClick={() => setactive("Documentaries") } id={active === "Documentaries" ? "active" : ""}>Documentaries</li>
+      <li  onClick={() => setactive("Documentaries") } id={active === "Documentaries" ? "active" : ""}>Line Production</li>
       <li  onClick={() => setactive("Event") } id={active === "Event" ? "active" : ""}>Event Videos</li>
       <li onClick={() => setactive("Shows") } id={active === "Shows" ? "active" : ""}>TV/Web Shows</li>
       <li onClick={() => setactive('Casting') } id={active === "Casting" ? "active" : ""}>Casting</li>
- 
+      <li onClick={() => setactive('Animation') } id={active === "Animation" ? "active" : ""}>Animation</li>
 
   </div>
 
@@ -118,6 +166,12 @@ function showreel() {
           else if (active === "Casting") {
             return  (
               <Casting/>
+     
+            )
+          }
+          else if (active === "Animation") {
+            return  (
+              <Animation/>
      
             )
           }
