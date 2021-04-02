@@ -10,7 +10,7 @@ justify-content:flex-end;
   height:35rem;
   width:100%;
  
-  margin-top:5rem;
+
 background: #D0345A;
 
  

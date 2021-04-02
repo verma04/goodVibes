@@ -23,6 +23,8 @@ justify-content:space-between;
 h2 {
     font-weight: 900;
     font-size:2.2rem;
+    color: ${({ theme }) => theme.text};
+  
 }
 .mid {
   margin-top:1rem;
