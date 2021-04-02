@@ -39,7 +39,7 @@ function Navbar({toggleTheme , theme}) {
                         
                         <a>Work</a>
                     </div>
-                    <div    className="nav-item" >
+                    <div   id={router.pathname == "/contactus" ? "active" : ""} onClick={()=> router.push('/contactus') }  className="nav-item" >
                         <a>Contact Us</a>
                         </div>
                         <div   onClick={toggleTheme} className="nav-item" >
