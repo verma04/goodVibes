@@ -14,7 +14,7 @@ function Featured() {
            <div  onClick={()=> router.push('https://www.ndtv.com/offbeat/womens-day-2021-5-powerful-ads-on-women-empowerment-2386143?pfrom=home-ndtv_lateststories') } className="img">
            <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617352158/bzh7xvawkbudrkdeplib.webp'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617363322/pmwtew0azvorqk7it1rk.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -27,7 +27,7 @@ function Featured() {
            <div  onClick={()=> router.push('http://www.pitchonnet.com/blog/2021/02/16/amazon-alexas-3rd-anniversary-campaign-brings-stories-from-users-across-india/') } className="img">
            <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617352158/xlh2yel0p9udxovsl2pg.jpg'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617363320/hfmgndgeowfihdrrvsr2.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -39,7 +39,7 @@ function Featured() {
            <div onClick={()=> router.push('https://www.socialsamosa.com/2021/02/amazon-alexa-anniversary-campaign/') } className="img">
            <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617352159/swggb8bahsefxvown9co.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617363319/lod1saghk2uqk1npne1h.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"

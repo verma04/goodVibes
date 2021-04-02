@@ -1,10 +1,12 @@
 import React from 'react';
 import { Section} from './Style'
 import Image from 'next/image';
+import VisibilitySensor from 'react-visibility-sensor';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Testimonials() {
     return (
+     
         <Section>
         <div className="head" >
             <p>See What Our Clients Have to Say</p>
