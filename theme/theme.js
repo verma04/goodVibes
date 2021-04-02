@@ -217,7 +217,7 @@ transition: transform .8s;
       overflow-x: hidden;
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (max-width: 768px) {
     body {
       overflow-x: hidden;
     }
@@ -225,7 +225,7 @@ transition: transform .8s;
       font-size: 1.75rem;
     }
     h2 {
-      
+      font-size: 1.5rem;
     }
     h3 {
       font-size: 1.25rem;

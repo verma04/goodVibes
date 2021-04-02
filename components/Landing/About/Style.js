@@ -52,4 +52,15 @@ justify-content:center;;
   
 
 }
+@media (max-width: 60px) {
+  
+    
+  display:none;
+  
+ 
+
+    
+  
+
+}
 `

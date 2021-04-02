@@ -213,6 +213,10 @@ transitionTime={1000}
        }
        h2 {
         font-size:1.3rem;
+        color:white;
+      }
+      span {
+      color:white;
       }
       `}</style>
           

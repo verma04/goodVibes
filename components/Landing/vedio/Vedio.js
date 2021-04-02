@@ -1,8 +1,13 @@
-import React from 'react';
+import { useEffect  , useState  } from 'react';
 import { Section} from './Style'
 import Image from 'next/image';
-
+import Popup from './Popup'
 function Vedio() {
+
+    const [  visible , setvisible] = useState(false);
+    const toggleMenu = () => {
+      setvisible(!visible)
+  }
     return (
         <Section>
       
@@ -10,7 +15,7 @@ function Vedio() {
       
       <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616142364/goodVibes/zugzmcjxqb8481nzyx7h.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617351800/wsmoijwguig0hc0nv3ix.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -27,15 +32,20 @@ Brand Reel
                <div className="bottom" >
                    <button>
                <i class="fab fa-youtube-square"></i>
-               <span>Watch Our Video</span>
+               <span onClick=  { () => toggleMenu()}>Watch Our Video</span>
                </button>
                </div>
                 
            </div>
 
-           <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616142706/goodVibes/rhriz3nb9nqoxzgcfp7c.png'} /> 
+           <img  onClick=  { () => toggleMenu()}  src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616142706/goodVibes/rhriz3nb9nqoxzgcfp7c.png'} /> 
+      
+      
+      
       </div>
-           
+      {visible &&
+     <Popup toggle={toggleMenu} />
+   }
         </Section>
     )
 }

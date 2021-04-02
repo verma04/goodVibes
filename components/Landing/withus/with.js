@@ -5,7 +5,7 @@ function wit() {
     return (
         <Section>
 
-            <div className="head" >
+            <div data-aos="fade-left" className="head" >
                 <h2>Collaborate with us <i class="fas fa-chevron-right"></i> </h2>
             </div>
             
