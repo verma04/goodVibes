@@ -9,7 +9,7 @@ function Navbar({toggleTheme , theme}) {
         <Nav>
            <div className='flex' >
 
-           <div className='left' >
+           <div onClick={()=> router.push('/')} className='left' >
             
            <Image
             className="myImage"

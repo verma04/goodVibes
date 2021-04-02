@@ -33,7 +33,7 @@ function HeroSection() {
            objectFit="cover"
            />     */}
 
-           <div className="text" >
+           <div data-aos="fade-left" className="text" >
               <div className="data" >
                Work
               </div>

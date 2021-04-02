@@ -34,7 +34,7 @@ function HeroSection() {
            />     */}
 
            <div data-aos="fade-right" className="text" >
-              <div  className="data" >
+              <div  data-aos="fade-left" className="data" >
               ABOUT US
               </div>
                </div>         

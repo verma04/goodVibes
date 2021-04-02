@@ -4,7 +4,7 @@ import { Section } from './Style'
 function Form() {
     return (
         <Section>
-        <div  className="flex" >
+        <div  data-aos="fade-left" className="flex" >
           <div className="list" >
               <span>Our Offices</span>
               <h2>Good Vibes</h2>

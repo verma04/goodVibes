@@ -13,10 +13,8 @@ justify-content:center;
   width:100%;
  
   
-  position: absolute;
-  background-color:white;
-  bottom:-5%;
-  background: #FBFBFB;
+
+  background: ${({ theme }) => theme.background};
 @media (min-width: 1025px) {
   
     

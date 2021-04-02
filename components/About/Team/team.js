@@ -62,7 +62,7 @@ function showreel() {
     
 
         <div   className="data" >
-        <div  className="left" >
+        <div  data-aos="fade-left" className="left" >
 
             <div className="top" >
     <span>— Our Bio</span>
@@ -89,7 +89,7 @@ Video production work with producing video content. It is the analogical of film
             </div>
       
             </div>
-           <div  className="right" >
+           <div  data-aos="fade-left" className="right" >
            <Image
                         className="myImage"
                         src={`https://res.cloudinary.com/dzcmadjl1/image/upload/v1617356888/m3miomaffoepe77q88dl.png`}
