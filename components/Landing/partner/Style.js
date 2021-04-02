@@ -13,6 +13,7 @@ justify-content:space-around;
   height:80rem;
   width:100%;
   margin-top:7rem;
+  margin-bottom:3rem;
     .head {
         display:flex;
 justify-content:space-between;

@@ -15,6 +15,7 @@ export const Pop = styled.section`
      .modal-content {
        position: relative;
      margin: auto;
+   
      margin-top:5rem;
      padding: 20px;
      z-index:1000;
@@ -26,7 +27,11 @@ export const Pop = styled.section`
        justify-content:space-evenly;
        align-items:center;
        flex-direction:column;
-         
+         .react-player {
+           width:100%;
+           height:100%;
+
+         }
        i {
          position:absolute;
          right:-5%;

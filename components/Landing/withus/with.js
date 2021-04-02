@@ -1,16 +1,19 @@
-import React from 'react';
-import { Section } from './Style'
 
-function wit() {
+
+import React from 'react'
+import Image from 'next/image';
+import { Section } from './Style'
+function Form() {
     return (
         <Section>
+        <div data-aos="fade-left" className="flex" >
+           <h2>We give wings to your imagination</h2>
 
-            <div data-aos="fade-left" className="head" >
-                <h2>Collaborate with us <i class="fas fa-chevron-right"></i> </h2>
-            </div>
-            
+           <button>Collaborate with us</button>
+       
+        </div>
         </Section>
     )
 }
 
-export default wit
+export default Form

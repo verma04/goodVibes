@@ -1,7 +1,9 @@
 import React from 'react';
 import { Foot } from './Style'
 import Image from 'next/image';
+import { useRouter } from 'next/router'
 function Footer() {
+    const router = useRouter()
     return (
         <Foot>
             <div className='flex' >
@@ -27,8 +29,8 @@ and stuff.
        </div>
 
        <div  className="bottom" >
-   <li>About</li>
-   <li>Work</li>
+   <li onClick={()=> router.push('/about')} >About</li>
+   <li onClick={()=> router.push('/work')}>Work</li>
    <li>Carrer</li>
        </div>
 

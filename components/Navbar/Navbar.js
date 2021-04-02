@@ -28,13 +28,16 @@ function Navbar({toggleTheme , theme}) {
                         <a  > Home</a>
                         
                        </div>
+                       <div     className="nav-item" >
+                        <a  href="#team" > Team</a>
+                        </div>
                     <div  className="nav-item" >
                         <a href="#service" > Service</a>
                        </div>
                     <div   onClick={()=> router.push('/about') } id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
                         <a> About</a>
                         </div>
-
+                      
                     <div onClick={()=> router.push('/work') } id={router.pathname == "/work" ? "active" : ""} className="nav-item" >
                         
                         <a>Work</a>

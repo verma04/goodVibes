@@ -4,7 +4,7 @@ import { Pop } from './PopStyle'
 function Popup({toggle}) {
     return (
   <Pop >
-        <div data-aos="fade-up" id="myModal" class="modal">
+        <div  id="myModal" class="modal">
 
 
         <div class="modal-content">
@@ -16,8 +16,8 @@ function Popup({toggle}) {
           url={`https://www.youtube.com/watch?v=N1CrFoJMwEI`}
           playing={true}
           loop={true} 
-          width='150%'
-          height='150%'
+          width='100%'
+          height='100%'
         />
             
         <i onClick={()  => toggle()} class="fas fa-times"></i>

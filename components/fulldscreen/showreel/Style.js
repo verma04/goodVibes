@@ -33,7 +33,7 @@ justify-content:center;
  align-items:center;
   flex-direction:column;
   .top {
-      width:100%;
+      width:95%;
       height:10%;
       display:flex;
 justify-content:space-between;

@@ -23,7 +23,7 @@ const responsive = {
 function Team() {
  
     return (
-    <  div data-aos="fade-up"  >
+    <  div id="team" data-aos="fade-up"  >
         <Section>
             <div className="head" >
                 <h2>The Team Behind Good Vibes</h2>

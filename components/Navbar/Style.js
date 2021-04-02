@@ -32,7 +32,7 @@ top:0;
   }
 
   .right {
-    width:40%;
+    width:50%;
       height:100%;
       
        display:flex;
