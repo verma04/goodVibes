@@ -24,13 +24,16 @@ function Testimonials() {
               
                  
                   <div className="midd" > 
-               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>   
+               <p>I have worked with Maxwel and would highly recommend him. He is extremely dedicated and goes out of his way to help the production get on its feet and sprint.</p>   
       </div>
 
       <div className="set" >
           <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
-          <h3>Client Name</h3>
-          <span>Designation</span>
+          <h3> ADITYA THAYIe</h3>
+         
+
+         
+          <span>ENDO PRODUCTIONS, SINGAPORE</span>
       </div>
          
  
@@ -40,15 +43,17 @@ function Testimonials() {
                 <div className="img-1">
          
               
-                 
+             
+
+
          <div className="midd" > 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>   
+      <p>   It's good to see a promising budding company with such raging creative hormones. Keep rocking.</p>   
 </div>
 
 <div className="set" >
  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
- <h3>Client Name</h3>
- <span>Designation</span>
+ <h3>RANJEET PATHAK</h3>
+ <span>NATIONAL PROGRAMMING HEAD, RED FM</span>
 </div>
 
 
@@ -57,23 +62,70 @@ function Testimonials() {
      
 
        <div className="img-1">
-         
+      
+
+
               
                  
          <div className="midd" > 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>   
+      <p> Whoever believes that you can’t put a timeline on creativity, should definitely work with the folks at Good Vibes once! Their team had the patience and ability to not only understand our requirement but also go above and beyond to shape it into something better. A delightful working experience, nothing less.</p>   
 </div>
 
 <div className="set" >
  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
- <h3>Client Name</h3>
- <span>Designation</span>
+ <h3>VIVIAN ALBERT NICHOLAS</h3>
+ <span>NEW BUSINESS DEVELOPMENT, 22FEET TRIBAL WW</span>
 </div>
 
 
       
        </div>
-     
+
+
+       <div className="img-1">
+      
+
+
+      
+
+
+                 
+      <div className="midd" > 
+   <p> I would very highly recommend Maxwel, I worked with him on two projects in India last year and he was reliable, efficient and organized in all aspects of pre production and on shoot. He's also a good problem solver and will always do his best to get what is needed/required.</p>   
+</div>
+
+<div className="set" >
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
+<h3>INDRA NIENHAUS</h3>
+<span>CHANNEL NEWS ASIA, SINGAPORE</span>
+</div>
+
+
+   
+    </div>
+
+    <div className="img-1">
+      
+    
+
+
+
+              
+                 
+      <div className="midd" > 
+   <p> The one thing standing out at Good Vibes is their 'Never say No' attitude. Have never had a service or requirement not done by them. Other than actually sending out "good vibes", they are super professional and one of the best in the industry. Kudos to the team.</p>   
+</div>
+
+<div className="set" >
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
+<h3>EKANT BABANI</h3>
+<span>PARTNER, ALLIGATOR MEDIA</span>
+</div>
+
+
+   
+    </div>
+  
             </Carousel>
            
             <div className="right" > 

@@ -15,7 +15,7 @@ function Vedio() {
       
       <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617351800/wsmoijwguig0hc0nv3ix.jpg'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617366530/pbnv29bfvx9a0sdvvook.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
