@@ -67,6 +67,7 @@ justify-content:center;
         span {
         font-size:1rem;
         font-weight:900;
+        color:black;
 
     
     

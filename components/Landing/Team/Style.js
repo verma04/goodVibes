@@ -17,12 +17,19 @@ justify-content:space-around;
         display:flex;
 justify-content:space-between;
  align-items:center;
+ flex-direction:column;
 
  
 h2 {
     font-weight: 900;
     font-size:2.2rem;
 }
+.mid {
+  margin-top:1rem;
+    font-size:1.3rem;
+  width:100%;
+  text-align:center;
+   }
  
   
  
@@ -34,17 +41,8 @@ h2 {
   
         align-items:center;
           height:60%;
-   .top {
-     font-size:1.4rem;
-  font-weight:800;
-  width:30%;
-  font-family: Mono_bold;
-   }
-   .mid {
-    font-size:1.3rem;
+  
  
-  width:70%;
-   }
    .bottom {
     display:flex;
           justify-content:space-around;

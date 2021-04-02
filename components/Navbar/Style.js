@@ -6,7 +6,7 @@ export const Nav = styled.nav`
 display:flex;
 justify-content:center;
 align-items:center;
-z-index: 1;
+z-index: 1000;
 margin-top:0.5rem;
 @media (min-width: 1025px) {
     position:absolute;

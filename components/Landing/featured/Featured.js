@@ -11,7 +11,7 @@ function Featured() {
                <h2>The Featured Articles</h2>
            </div>
            <div data-aos="fade-down" className="data" >
-           <div  onClick={()=> router.push('/') } className="img">
+           <div  onClick={()=> router.push('https://www.ndtv.com/offbeat/womens-day-2021-5-powerful-ads-on-women-empowerment-2386143?pfrom=home-ndtv_lateststories') } className="img">
            <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617352158/bzh7xvawkbudrkdeplib.webp'
@@ -24,7 +24,7 @@ function Featured() {
            </div>
            </div>
 
-           <div  className="img">
+           <div  onClick={()=> router.push('http://www.pitchonnet.com/blog/2021/02/16/amazon-alexas-3rd-anniversary-campaign-brings-stories-from-users-across-india/') } className="img">
            <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617352158/xlh2yel0p9udxovsl2pg.jpg'
@@ -36,7 +36,7 @@ function Featured() {
                <h3>AMAZON ALEXA’S 3RD ANNIVERSARY CAMPAIGN BRINGS STORIES FROM USERS ACROSS INDIA</h3>
            </div>
            </div>
-           <div className="img">
+           <div onClick={()=> router.push('https://www.socialsamosa.com/2021/02/amazon-alexa-anniversary-campaign/') } className="img">
            <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617352159/swggb8bahsefxvown9co.png'

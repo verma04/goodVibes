@@ -27,18 +27,12 @@ function Team() {
         <Section>
             <div className="head" >
                 <h2>The Team Behind Good Vibes</h2>
-            </div>
-
-            <div className="right" >
-    
-    <div className="top" >
-    We’re an experienced and very creative production agency
-    </div>
-    <div className="mid" >
+                <div className="mid" >
     The strength of a company lies in its people. Meet the team responsible for the growth of Good Vibes.
     </div>
-   
-             </div>
+            </div>
+
+            
            
         </Section>
 
