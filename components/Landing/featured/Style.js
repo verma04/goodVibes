@@ -44,6 +44,16 @@ justify-content:center;
   transform: scale(1.1); 
  z-index:1;
 }
+
+.img:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+}
     }
 
   

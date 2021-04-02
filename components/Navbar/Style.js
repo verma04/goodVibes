@@ -66,5 +66,23 @@ top:0;
    
 }
 
-}`
+}
+
+
+
+@media (mAX-width: 600px) {
+  position:absolute;
+height:5rem;
+  
+width:100%;
+top:0;
+.flex {
+  display:none;
+}
+}
+
+
+
+
+`
 

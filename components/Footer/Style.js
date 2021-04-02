@@ -161,4 +161,158 @@ justify-content:space-around;
   
 
 }
+
+@media (max-width: 600px) {
+  
+
+  .flex {
+    display:flex;
+justify-content:space-around;
+ align-items:center;
+flex-direction:column;
+  width:95%;
+  height:100%;
+ 
+  
+  
+ 
+  .left {
+    
+    width:100%;
+    height:30%;
+    display:flex;
+justify-content:space-around;
+ align-items:center;
+  flex-direction:column;
+  .top {
+    display:flex;
+justify-content:space-between;
+ align-items:center;
+  flex-direction:column;
+  height:30%;
+  
+  width:100%;
+  .footer-logo {
+      width:100%;
+      position: relative;
+      height:60%;
+      align-items:left;
+     
+  }
+  .footer-logo-text {
+      width:100%;
+      position: relative;
+      height:20%;
+      align-items:center;
+      text-align:center;
+      color:white;
+      font-weight:700;
+      font-size:1.3rem;
+  }
+  }
+  .bottom {
+      width:100%;
+      display:flex;
+      justify-content:space-evenly;
+      height:15%;
+      align-items:center;
+      li {
+          list-style:none;
+          color:white;
+           color:white;
+      }
+      
+  }
+  }
+  .right {
+    
+    width:100%;
+    height:60%;
+    display:flex;
+justify-content:space-between;
+ align-items:center;
+  flex-direction:column;
+
+  .top {
+      
+      height:60%;
+      display:flex;
+justify-content:space-around;
+ align-items:center;
+  flex-direction:column;
+  width:100%;
+  .top-1 {
+       height:40%;
+      width:80%;
+      font-weight:900;
+      p {
+      color:white;
+      line-height:1.2;
+      font-family: Mono_bold;
+      text-align:center;
+      }
+
+  }
+
+  .top-2 {
+      display:flex;
+      justify-content:center;
+      width:80%;
+      align-items:center;
+      height:40%;
+      ul {
+          height:100%;
+          
+          width:50%;
+          display:flex;
+          justify-content:space-around;
+          
+          flex-direction:column;
+          li {
+              color:white;
+          }
+      }
+  }
+
+  }
+
+.bottom {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+    height:40%;
+    width:100%;
+    
+    .bottom-1{
+        width:60%;
+         height:50%;
+         background-color:white;
+         display:flex;
+         justify-content:space-around;
+         align-items:center;
+         i {
+              font-size:1.3rem;
+              color:#D0345A;
+         }
+
+
+    }
+    .bottom-2 {
+        font-weight:400%;
+        color:white;
+
+    }
+
+}
+ 
+  }
+
+}
+ 
+
+    
+  
+
+}
 `

@@ -3,7 +3,7 @@ import { Nav } from './Style'
 import Image from 'next/image';
 import { useRouter } from 'next/router'
 function Navbar({toggleTheme , theme}) {
-    console.log(toggleTheme)
+ 
     const router = useRouter()
     return (
         <Nav>

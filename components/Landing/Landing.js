@@ -9,6 +9,7 @@ import Partner from './partner/partner';
 import Featured from './featured/Featured';
 import Vedio from './vedio/Vedio';
 import Team from './Team/Team';
+import Withus from './withus/with'
 import Testimonials from './testimonials/Testimonials'
 function Landing() {
     return (
@@ -25,7 +26,9 @@ function Landing() {
         <Testimonials/>
           <Featured/>
           <Partner/>
+          <Withus/>
           <Footer/>
+          
         </div>
     )
 }
