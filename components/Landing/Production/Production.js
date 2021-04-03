@@ -11,7 +11,7 @@ function Production() {
 
             </div>
             <div className="data" >
-            <div data-aos="fade-left" className="pro" >
+            <div data-aos="fade-up" className="pro" >
   <div className="logo" >
 
   <Image
@@ -30,7 +30,7 @@ function Production() {
   </div>
 
                 </div>
-                <div data-aos="fade-left" className="pro" >
+                <div data-aos="fade-up" className="pro" >
   <div className="logo" >
 
   <Image
@@ -51,7 +51,7 @@ function Production() {
                 </div>
              
                
-                <div data-aos="fade-left" className="pro" >
+                <div data-aos="fade-up" className="pro" >
   <div className="logo" >
 
   <Image

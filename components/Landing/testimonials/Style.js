@@ -120,6 +120,7 @@ h2 {
 }
 
 @media (max-width: 600px) {
+    overflow-x: hidden;
     display:flex;
 justify-content:space-around;
  align-items:center;

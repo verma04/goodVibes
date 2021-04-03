@@ -27,32 +27,32 @@ title:`Ek neeli si roshni, se kar li jo dosti | #AlexaTurns3 `
         _id:"2",
         titile:"dssd",
        link:"5TvG2RmUD7k",
-       title:`CelebrationTohBantaHai ft. #ShankarMahadevan || Rajkummar Rao & Patralekhaa `
+       title:`CelebrationTohBantaHai ft. #ShankarMahadevan `
     },
     {
         _id:"3",
         titile:"dssd",
        link:"rrgYJ_M2GTM",
-       title:`International Women’s Day | #ChallengeChampionChange`
+       title:`International Women’s Day `
     },
 
     {
         _id:"4",
         titile:"dssd",
        link:"u_HIXDYRE94",
-       title:`Challenge the norm | #ChallengeChampionChange`
+       title:`Challenge the norm |`
     },
     {
         _id:"5",
         titile:"dssd",
        link:"XEa0hGPxNGo",
-       title:`Champion a cause | #ChallengeChampionChange`
+       title:`Champion a cause | `
     },
     {
         _id:"6",
         titile:"dssd",
        link:"KBvi5tONxTI",
-       title:`Change the narrative | #ChallengeChampionChange`
+       title:`Change the narrative | `
     },
 
     

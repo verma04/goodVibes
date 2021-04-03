@@ -55,7 +55,7 @@ justify-content:center;
   flex-direction:column;
   height:10rem;
  margin-top:3rem;
- 
+ overflow-x: hidden;
   width:100%;
  
   background: ${({ theme }) => theme.background};

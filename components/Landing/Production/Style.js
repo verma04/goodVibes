@@ -90,10 +90,10 @@ justify-content:space-around;
  
   width:100%;
   margin-top:7%;
-  
+ overflow-x: hidden;
   z-index:1000;
   .head {
-   
+    
       display:flex;
 justify-content:center;
 align-items:center;
@@ -101,13 +101,14 @@ flex-direction:column;
 
 height:3rem;
 h3 {
+  
   font-weight:1000;
 }
 
   }
   .data {
       width:95%;
-   
+      
       
       
       display:flex;
@@ -116,6 +117,7 @@ align-items:center;
 
 flex-direction:column;
 .pro {
+  
   height:20rem;
   width:100%;
   
@@ -131,6 +133,7 @@ flex-direction:column;
   position: relative;
   }
   .set {
+    
   width:90%;
   height:50%;
   
@@ -138,6 +141,7 @@ flex-direction:column;
   flex-direction:column;
   justify-content:space-between;
      h2 {
+      
       font-family: Mono_bold;
          font-weight:900;
            font-size:1.3rem;
@@ -145,6 +149,7 @@ flex-direction:column;
            text-transform:uppercase;
      }
       p {
+        
         text-align:center;
       
       }
@@ -152,6 +157,7 @@ flex-direction:column;
 }
   }
   button {
+    
     margin-top:3rem;
   }
 

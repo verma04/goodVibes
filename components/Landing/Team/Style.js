@@ -68,12 +68,14 @@ h2 {
 
 @media (max-width: 600px) {
   display:flex;
+  overflow-x: hidden;
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
   height:12rem;
   width:100%;
   margin-top:3rem;
+  overflow-x: hidden;
 
   .head {
       display:flex;

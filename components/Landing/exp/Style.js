@@ -7,6 +7,8 @@ export const Section = styled.section`
 
  
 @media (min-width: 1025px) {
+
+
   display:flex;
 justify-content:space-around;
  align-items:center;
@@ -14,6 +16,10 @@ justify-content:space-around;
   height:28rem;
   width:100%;
   margin-top:5rem;
+
+  .grid-sm {
+    display:none;
+  }
   .grid {
       width:100%;
       
@@ -101,15 +107,18 @@ justify-content:space-between;
 
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 600px) {
   display:flex;
 justify-content:space-around;
  align-items:center;
- 
+ overflow-x: hidden;
   height:50rem;
   width:100%;
   margin-top:5rem;
   .grid {
+    display:none;
+  }
+  .grid-sm {
       width:100%;
       
       height:100%;

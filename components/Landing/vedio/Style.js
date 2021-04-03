@@ -13,7 +13,7 @@ justify-content:center;
   height:40rem;
   width:100%;
   margin-top:5rem;
-  
+  overflow-x: hidden;
     
    .flex {
        position: relative;

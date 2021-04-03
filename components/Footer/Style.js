@@ -163,7 +163,7 @@ justify-content:space-around;
 }
 
 @media (max-width: 600px) {
-  
+    overflow-x: hidden;
 
   .flex {
     display:flex;

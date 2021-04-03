@@ -81,7 +81,7 @@ justify-content:space-around;
   flex-direction:column;
 margin-top:3rem;
   width:100%;
-
+  overflow-x: hidden;
     .head {
         display:flex;
 justify-content:space-between;
