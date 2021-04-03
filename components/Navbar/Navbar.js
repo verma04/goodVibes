@@ -129,7 +129,7 @@ objectFit="cover"
 onClick={ () => setvisible(false)}
 />   
 </div>
-         <div    onClick={()=> send('/') } className="nav-item" >
+         <div    onClick={()=> send('home') } className="nav-item" >
              <a> Home</a>
              
             </div>
