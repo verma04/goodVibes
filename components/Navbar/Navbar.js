@@ -26,7 +26,10 @@ function Navbar({toggleTheme , theme}) {
               setnav(false);
             
         }
-    }   
+    }
+     
+
+    
     const router = useRouter()
     return (
         <Nav>
@@ -90,10 +93,11 @@ function Navbar({toggleTheme , theme}) {
                 </div>
 
            </div>
-       
-           <div className='flex-sm' >
+        
 
-<div  id={nav === false ? "" : "hide"} onClick={()=> router.push('/')} className='left' >
+<div  className='flex-sm' >
+
+<div  id={nav === false ? "" : "hide"} onClick={()=> setvisible(true)} className='left' >
  <div className="data" >
 <img
  className="myImage"
@@ -105,10 +109,11 @@ objectFit="cover"
 />   
 </div>
      </div>
-     <div  id={nav === false ? "hide" : "show"}  onClick={()=> router.push('/')} className='left' >
+     <div  id={nav === false ? "hide" : "show"}  onClick={()=> setvisible(true)} className='left' >
      <i  class="fas fa-bars"></i>
 </div>
-     <div className='right' >
+{ visible &&
+     <div  data-aos="fade-top"  className='right' >
      <div className="data" >
 <img
  className="myImage"
@@ -116,7 +121,7 @@ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbe
 alt="Picture of the author"
 layout="fill"
 objectFit="cover"
-
+onClick={ () => setvisible(false)}
 />   
 </div>
          <div onClick={()=> router.push('/') } className="nav-item" >
@@ -166,10 +171,12 @@ return (
              </div>
         
      </div>
-
+}
 </div>
 
 
+      
+        
        
         </Nav>
     )

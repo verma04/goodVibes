@@ -121,31 +121,37 @@ top:0;
       z-index:1000;
         position: fixed;
         background: ${({ theme }) => theme.background};
-     border: 1px solid red;
+  
     justify-content:space-between;
-    align-items:center;
+    align-items:right;
     flex-direction:column;
     .data {
       display:flex;
-      justify-content:center;
+      justify-content:flex-end;
       align-items:center;
-      width:20%;
+      width:100%;
+
       img {
-        width:100%;
+        width:20%;
+        margin:1rem;
       }
     }
     .nav-item {
       height:5%;
       display:flex;
-      justify-content:center;
-      align-items:center;
+      justify-content:flex-end;
+ width:100%;
+ 
       cursor: pointer;
     a {
-    
+      margin-right:1rem;
     font-weight:600;
     font-size:1.2rem;
     font-family: Mono_bold;
      cursor: pointer;
+    }
+    .mode {
+      margin-right:1rem;
     }
     }
     #active {
@@ -157,6 +163,18 @@ top:0;
     font-size:1.2rem;
     }
     
+  }
+
+
+  .social {
+  display:flex;
+  justify-content:space-around;
+ 
+  margin-top:2rem;
+  i {
+    font-size:2rem;
+    color: ${({ theme }) => theme.text};
+  }
   }
 
    

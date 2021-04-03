@@ -15,7 +15,8 @@ export const lightTheme=   {
       buttonColor:"rgb(241, 229 ,213)",
       footerColor: "#2c3132",
        lightblue: "#ddf3ff",
-       dark:'#313942'
+       dark:'#313942',
+       img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1617439006/qmbw3hqxtb0ywmdbmprn.png"
      
     
   };
@@ -37,7 +38,8 @@ export const lightTheme=   {
       buttonColor:"rgb(241, 229 ,213)",
       footerColor: "#2c3132",
        lightblue: "#ddf3ff",
-       dark:'#313942'
+       dark:'#313942',
+       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png',
      
     
   };
