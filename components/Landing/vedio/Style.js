@@ -3,16 +3,16 @@ import styled from 'styled-components'
 
 
 export const Section = styled.section`
-display:flex;
+
+ 
+@media (min-width: 1025px) {
+    display:flex;
 justify-content:center;
  align-items:center;
   flex-direction:column;
   height:40rem;
   width:100%;
   margin-top:5rem;
-  
- 
-@media (min-width: 1025px) {
   
     
    .flex {
@@ -97,6 +97,110 @@ justify-content:center;
 
   
   
+
+}
+
+@media (max-width: 600px) {
+  
+    display:flex;
+justify-content:center;
+ align-items:center;
+  flex-direction:column;
+  height:20rem;
+  width:100%;
+  margin-top:5rem;
+
+  
+  .flex {
+
+      position: relative;
+      width:100%;
+      height:100%;
+      background: transparent;
+   box-shadow: 0 0 20px 4px rgb(0 0 0 / 40%);
+      .circle{
+     
+          position: absolute;
+          width:22rem;
+          height:22rem;
+          border-radius:50%;
+          background: #D0345A;
+        
+    top: 7%;
+
+          bottom:-10%;
+          opacity: 0.95;
+          
+          display:flex;
+        
+          justify-content:space-around;
+          flex-direction:column;
+           align-items:center;
+           .top {
+            margin-top: 13%;
+               width:55%;
+               font-size:1.3rem;
+               color:white;
+               font-weight:1000;
+           }
+           .mid {
+               width:55%;
+               color:white;
+               font-size:0.9rem;
+               
+                line-height: 1.3;
+               
+           }
+           .bottom {
+               display:flex;
+               justify-content:flex-right;
+               align-items:center;
+           
+               width: 55%;
+               margin-bottom:10%;
+   height: 8%;
+   button {
+    height: 155%;
+       display:flex;
+       justify-content:center;
+          justify-content:space-between;
+        text-align:left;
+        border: 1px solid white;
+       span {
+       font-size:0.9rem;
+       font-weight:900;
+       color:black;
+       padding-top:0.2rem;
+
+   
+   
+
+   }
+   i {
+  
+       color: #D0345A;
+   display:none;
+       
+   }
+
+   }
+  
+           }
+
+      }
+      img {
+          
+        position: absolute;
+    left: 27%;
+    width: 4rem;
+    top: 0%;
+
+      
+      }
+  }
+
+ 
+ 
 
 }
 `

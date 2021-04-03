@@ -10,7 +10,7 @@ function Featured() {
            <div className="head" >
                <h2>The Featured Articles</h2>
            </div>
-           <div data-aos="fade-down" className="data" >
+           <div data-aos="fade-up" className="data" >
            <div  onClick={()=>  window.open('https://www.ndtv.com/offbeat/womens-day-2021-5-powerful-ads-on-women-empowerment-2386143?pfrom=home-ndtv_lateststories') } className="img">
            <Image
             className="myImage"

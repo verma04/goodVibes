@@ -71,56 +71,36 @@ h2 {
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  height:20rem;
+  height:12rem;
   width:100%;
   margin-top:3rem;
+
   .head {
       display:flex;
 justify-content:space-between;
 align-items:center;
+flex-direction:column;
 
 
 h2 {
+  width:95%;
+  color: ${({ theme }) => theme.text};
   font-weight: 900;
   font-size:2.2rem;
+  text-align:center;
 }
+
+.mid {
+  margin-top:1rem;
+    font-size:1.3rem;
+  width:90%;
+  text-align:center;
+   }
 
 
 
   }
-  .right {
-        width:80%;
-        display:flex;
-        justify-content:space-between;
-
-      align-items:center;
-        height:60%;
- .top {
-   font-size:1.4rem;
-font-weight:800;
-width:30%;
-font-family: Mono_bold;
- }
- .mid {
-  font-size:1.3rem;
-
-width:70%;
- }
- .bottom {
-  display:flex;
-        justify-content:space-around;
-        width:70%;
-        align-items:center;
-        ul {
-           
-            width:30%;
-            #bold{
-                font-size:2rem;
-                 font-weight:800;
-            }
-        }
- }
-    }
+ 
  
   
 

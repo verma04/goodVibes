@@ -124,12 +124,12 @@ h2 {
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  
   width:100%;
   margin-top:3rem;
+  
 .head {
     width:95%;
-  
+    
     display:flex;
 justify-content:space-evenly;
 align-items:center;
@@ -153,16 +153,19 @@ p {
 
 }
 .center {
+   
     margin-bottom:3rem;
 display:flex;
 justify-content:center;
 align-items:center;
 height:30rem;
 width: 90%;
-
+.carousel-root {
+    width:100%;
+}
 
  .img-1 {
- 
+    
     width:98%;
 display:flex;
 justify-content:flex-start;
@@ -179,7 +182,7 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
  p {
-
+width:95%;
  }
 }
 

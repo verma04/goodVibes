@@ -17,7 +17,7 @@ function Testimonials() {
         <div className="left" > 
                   <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617272022/t3tzcotqnoohrl5ypuf1.png" ></img>
                   </div>
-              <Carousel   showThumbs={false} showStatus={false} useKeyboardArrows  autoPlay interval="2000">
+              <Carousel stye={{width:"100%"}}   showThumbs={false} showStatus={false} useKeyboardArrows  autoPlay interval="2000">
                 
                 <div className="img-1">
          

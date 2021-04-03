@@ -53,7 +53,7 @@ transitionTime={1000}
              customTransition="all 0.5"
              transitionDuration={1000}
              containerClass="carousel-container"
-             removeArrowOnDeviceType={["tablet", "mobile"]}
+            
             
              dotListClass="custom-dot-list-style"
              itemClass="carousel-item-padding-40-px"
@@ -186,7 +186,9 @@ transitionTime={1000}
 </Carousel>
 
 <style jsx>{`
-       
+         .set {
+           
+         }
         .set:before {
           content: "";
           position: absolute;
@@ -197,7 +199,7 @@ transitionTime={1000}
           background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
       
        }
-       .name {
+       .name {  
         position: absolute;
         bottom: 10%;
         z-index:999;

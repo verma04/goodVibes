@@ -64,7 +64,50 @@ function HeroSection() {
 
  
         </div>
-        </Section>
+   
+   
+        <div className="flex-1-sm" >
+           
+       
+           <div className='player-wrapper'>
+           <ReactPlayer
+           volume={0} 
+           className='react-player'
+           onReady={handleOnReady}
+            playing={play}
+  url={"https://res.cloudinary.com/dzcmadjl1/video/upload/v1617365534/lsg3ky9hbfrdxswscp3v.mp4"}
+  playing={true}
+  loop={true} 
+  width='100%'
+  height='100%'
+/>
+ 
+  </div>
+
+        {/* <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616127747/goodVibes/bz4cmr45ybh0mljplawe.jpg'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           />     */}
+
+           <div aos-duration="10000" data-aos="fade-right" className="text" >
+              <div  className="data" >
+              Creative process assures desired result
+              </div>
+               </div>         
+              
+
+               <About/> 
+ 
+        </div>
+   
+   
+   
+   
+   
+       </Section>
     )
 }
 
