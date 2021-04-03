@@ -68,7 +68,7 @@ h2 {
 
 @media (max-width: 600px) {
   display:flex;
-  overflow-x: hidden;
+  
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
