@@ -80,8 +80,9 @@ justify-content:space-around;
  align-items:center;
   flex-direction:column;
 margin-top:3rem;
+margin-bottom:3rem;
   width:100%;
-  overflow-x: hidden;
+
     .head {
         display:flex;
 justify-content:space-between;
@@ -109,6 +110,7 @@ justify-content:space-between;
  
     }
     .data {
+        overflow-x: hidden;
         margin-top:3rem;
         width:90%;
      

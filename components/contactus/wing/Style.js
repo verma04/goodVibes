@@ -12,8 +12,8 @@ justify-content:center;
  align-items:center;
   flex-direction:column;
   height:10rem;
- 
- 
+
+  overflow-x: hidden;
   width:100%;
  
   background: ${({ theme }) => theme.background};
@@ -21,6 +21,7 @@ justify-content:center;
   background: #1C1C1C;
     
   .flex {
+    overflow-x: hidden;
     width:90%;
     height:100%;
     display:flex;
@@ -49,6 +50,7 @@ border:none;
 
 
 @media (max-width:600px) {
+  overflow-x: hidden;
   display:flex;
 justify-content:center;
  align-items:center;

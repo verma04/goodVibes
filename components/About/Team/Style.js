@@ -127,16 +127,16 @@ justify-content:center;
   margin-top:3rem;
  
 
- 
+  overflow-x: hidden;
 
   .team {
       height:80%;
   
-      width:70%;
+      width:100%;
       display:flex;
 justify-content:center;
 align-items:center;
-flex-direction:column;
+
 
 .list {
   width:100%;
@@ -150,18 +150,19 @@ flex-direction:column;
     
     .data {
         width:100%;
-        height:30rem;
-        
+      
+        flex-direction:column;
    
         position: relative;
         display:flex;
-        justify-content:space-between;
+       
         align-items:center;
      
     
   .left {
-    width:50%;
-    height:100%;
+    height:35rem;
+    width:90%;
+    overflow-x: hidden;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -178,7 +179,7 @@ flex-direction:column;
       
     }
     .bottom {
-      width:90%;
+      width:100%;
       height:70%;
       display:flex;
     justify-content:center;
@@ -200,10 +201,10 @@ flex-direction:column;
   }
 
   .right {
-    width:50%;
-    height:100%;
+    width:100%;
+    height:20rem;
     position: relative;
-    
+    overflow-x: hidden;
 
    
    

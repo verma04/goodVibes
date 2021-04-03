@@ -134,15 +134,15 @@ onClick={ () => setvisible(false)}
          <div  className="nav-item" >
              <a href="#service" > Service</a>
             </div>
-         <div   onClick={()=> router.push('/about') } id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
+         <div   onClick={()=> router.push('/about') }  className="nav-item" >
              <a> About</a>
              </div>
            
-         <div onClick={()=> router.push('/work') } id={router.pathname == "/work" ? "active" : ""} className="nav-item" >
+         <div onClick={()=> router.push('/work') }  className="nav-item" >
              
              <a>Work</a>
          </div>
-         <div   id={router.pathname == "/contactus" ? "active" : ""} onClick={()=> router.push('/contactus') }  className="nav-item" >
+         <div    onClick={()=> router.push('/contactus') }  className="nav-item" >
              <a>Contact Us</a>
              </div>
              <div   onClick={toggleTheme} className="nav-item" >
