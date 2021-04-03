@@ -129,7 +129,7 @@ objectFit="cover"
 onClick={ () => setvisible(false)}
 />   
 </div>
-         <div onClick={ ()=>  setvisible(false) }   onClick={()=> router.push('/') } className="nav-item" >
+         <div    onClick={()=> send('/') } className="nav-item" >
              <a> Home</a>
              
             </div>
