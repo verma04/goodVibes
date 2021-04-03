@@ -133,10 +133,10 @@ onClick={ () => setvisible(false)}
              <a> Home</a>
              
             </div>
-            <div     className="nav-item" >
+            <div    onClick={ ()=>  setvisible(false) }  className="nav-item" >
              <a  href="#team"> Team</a>
              </div>
-         <div  className="nav-item" >
+         <div  onClick={ ()=>  setvisible(false)  } className="nav-item" >
              <a href="#service" > Service</a>
             </div>
          <div   onClick={ ()=> send('about')  }  className="nav-item" >
