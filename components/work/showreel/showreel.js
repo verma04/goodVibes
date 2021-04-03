@@ -12,57 +12,56 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import Documentaries from './Documentaries'
 import Animation from './Animation';
-
 const data = [
      
-    {
-        _id:"1",
- titile:"dssd",
+  {
+      _id:"1",
+titile:"dssd",
 link:'bHjKxgjvuR4',
 title:`Ek neeli si roshni, se kar li jo dosti | #AlexaTurns3 `
 
 
-    },
-    {
-        _id:"2",
-        titile:"dssd",
-       link:"5TvG2RmUD7k",
-       title:`CelebrationTohBantaHai ft. #ShankarMahadevan || Rajkummar Rao & Patralekhaa `
-    },
-    {
-        _id:"3",
-        titile:"dssd",
-       link:"rrgYJ_M2GTM",
-       title:`International Women’s Day | #ChallengeChampionChange`
-    },
+  },
+  {
+      _id:"2",
+      titile:"dssd",
+     link:"5TvG2RmUD7k",
+     title:`CelebrationTohBantaHai ft. #ShankarMahadevan `
+  },
+  {
+      _id:"3",
+      titile:"dssd",
+     link:"rrgYJ_M2GTM",
+     title:`International Women’s Day `
+  },
 
-    {
-        _id:"4",
-        titile:"dssd",
-       link:"u_HIXDYRE94",
-       title:`Challenge the norm | #ChallengeChampionChange`
-    },
-    {
-        _id:"5",
-        titile:"dssd",
-       link:"XEa0hGPxNGo",
-       title:`Champion a cause | #ChallengeChampionChange`
-    },
-    {
-        _id:"6",
-        titile:"dssd",
-       link:"KBvi5tONxTI",
-       title:`Change the narrative | #ChallengeChampionChange`
-    },
+  {
+      _id:"4",
+      titile:"dssd",
+     link:"u_HIXDYRE94",
+     title:`Challenge the norm |`
+  },
+  {
+      _id:"5",
+      titile:"dssd",
+     link:"XEa0hGPxNGo",
+     title:`Champion a cause | `
+  },
+  {
+      _id:"6",
+      titile:"dssd",
+     link:"KBvi5tONxTI",
+     title:`Change the narrative | `
+  },
 
-    
-    
-  //   {
-  //     _id:"6",
-  //     titile:"dssd",
-  //    link:"7E9pj86uIik",
-  //    title:`BMW 360 Financial Services`
-  // },
+  
+  
+//   {
+//     _id:"6",
+//     titile:"dssd",
+//    link:"7E9pj86uIik",
+//    title:`BMW 360 Financial Services`
+// },
 
 //   {
 //     _id:"6",
@@ -102,7 +101,7 @@ title:`Ek neeli si roshni, se kar li jo dosti | #AlexaTurns3 `
 // },
 
 
-    
+  
 
 
 ]

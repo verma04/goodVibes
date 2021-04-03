@@ -27,7 +27,7 @@ justify-content:center;
     .ved {
         height:80%;
     
-        width:80%;
+        width:70%;
         display:flex;
 justify-content:center;
  align-items:center;
@@ -182,7 +182,7 @@ height:70%;
 }
 
 
-@media (max-width: 1025px) {
+@media (max-width: 600px) {
   display:flex;
 justify-content:center;
  align-items:center;
@@ -191,7 +191,6 @@ justify-content:center;
   width:100%;
   margin-top:3rem;
 
-    
   .head {
       display:flex;
       height:3rem;
@@ -205,6 +204,7 @@ justify-content:center;
 
     .ved {
        
+  overflow-x: hidden;
         width:95%;
         display:flex;
 justify-content:center;
@@ -212,7 +212,7 @@ justify-content:center;
   flex-direction:column;
   .top {
     width:90%;
-      height:22rem;
+      height:25rem;
       display:flex;
 justify-content:space-between;
  align-items:left;
@@ -274,7 +274,7 @@ flex-direction:column;
 }
 .title {
   position:absolute;
-  width:100%;
+  width:90%;
   height:22%;
   display:flex;
   justify-content:center;
