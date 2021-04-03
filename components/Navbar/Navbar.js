@@ -6,24 +6,27 @@ import { useRouter } from 'next/router'
 function Navbar({toggleTheme , theme}) {
    
     const [nav, setnav] = useState(false);
+    const [visible, setvisible] = useState(false);
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+      
+        // returned function will be called on component unmount 
+        return () => {
+            window.removeEventListener('scroll');
+
+        }
+      }, [])
     const  handleScroll= () => {
         if (window.pageYOffset > 140) {
             if(!nav){
               setnav(true );
             }
-        }else if(window.pageYOffset < 140) {
-            if(nav){
+        }else{
+         
               setnav(false);
-            }
+            
         }
     }   
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-      
-        // returned function will be called on component unmount 
-     
-      }, [])
-    
     const router = useRouter()
     return (
         <Nav>
@@ -91,26 +94,37 @@ function Navbar({toggleTheme , theme}) {
            <div className='flex-sm' >
 
 <div  id={nav === false ? "" : "hide"} onClick={()=> router.push('/')} className='left' >
- 
-<Image
+ <div className="data" >
+<img
  className="myImage"
 src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
 alt="Picture of the author"
 layout="fill"
-objectFit="contain"
+objectFit="cover"
 
 />   
-
+</div>
      </div>
-
+     <div  id={nav === false ? "hide" : "show"}  onClick={()=> router.push('/')} className='left' >
+     <i  class="fas fa-bars"></i>
+</div>
      <div className='right' >
+     <div className="data" >
+<img
+ className="myImage"
+src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
+alt="Picture of the author"
+layout="fill"
+objectFit="cover"
 
+/>   
+</div>
          <div onClick={()=> router.push('/') } className="nav-item" >
-             <a  > Home</a>
+             <a> Home</a>
              
             </div>
             <div     className="nav-item" >
-             <a  href="#team" > Team</a>
+             <a  href="#team"> Team</a>
              </div>
          <div  className="nav-item" >
              <a href="#service" > Service</a>
@@ -144,7 +158,13 @@ return (
 }
 })()}
              </div>
-         <i className="fas fa-search"></i>
+
+             <div className='social' >
+             <i class="fab fa-instagram"></i>
+             <i class="fab fa-facebook"></i>
+             <i class="fab fa-twitter"></i>
+             </div>
+        
      </div>
 
 </div>

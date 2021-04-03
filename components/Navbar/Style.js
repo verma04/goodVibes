@@ -7,7 +7,7 @@ export const Nav = styled.nav`
 @media (min-width: 1025px) {
     position:absolute;
 height:5rem;
-  
+  z-index:1000;
 width:100%;
 top:0;
 .flex-sm {
@@ -69,51 +69,79 @@ top:0;
 
 
 @media (max-width: 600px) {
-  position:fixed;
-height:5rem;
-  z-index:1000;
-width:100%;
-top:0;
+ 
+
+ 
+
 .flex {
   display:none;
 }
 
 
 .flex-sm {
-     display:flex;
-     justify-content:flex-end;
-
-      align-items:center;
-    height:100%;
-    width:95%;
+ 
   
   .left {
-      width:10%;
-      height:100%;
-     
-       position: relative;
+      width:100%;
+     z-index:999;
+     top:0;
+     left:3%;
+       position: fixed;
+       display:flex;
+       justify-content:flex-end;
+        align-items:center;
+        .data {
+          position: relative;
+          width:3rem;
+          margin-right:2rem;
+          margin-top:1rem;
+         img {
+           width:100%;
+         }
+        }
   }
-    
+
+  i {
+ 
+    margin:2rem;
+      z-index:100%;
+      font-size:2.7rem;
+  }
+     
+
   #hide {
     display:none;
 
   }
   .right {
-    width:50%;
+    overflow-x: hidden;
+    width:100%;
       height:100%;
-       
-       display:flex;
-       display:none;
+      top:0%;
+      z-index:1000;
+        position: fixed;
+        background: ${({ theme }) => theme.background};
+     border: 1px solid red;
     justify-content:space-between;
     align-items:center;
+    flex-direction:column;
+    .data {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      width:20%;
+      img {
+        width:100%;
+      }
+    }
     .nav-item {
-      height:50%;
+      height:5%;
       display:flex;
       justify-content:center;
       align-items:center;
       cursor: pointer;
     a {
-      color:white;
+    
     font-weight:600;
     font-size:1.2rem;
     font-family: Mono_bold;

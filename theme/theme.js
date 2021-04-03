@@ -91,6 +91,9 @@ button {
   word-spacing:0.2rem;
   line-height:1.2;
   }
+  a {
+    color: ${({ theme }) => theme.text};
+  }
   .top {
     color: ${({ theme }) => theme.text};
   }
