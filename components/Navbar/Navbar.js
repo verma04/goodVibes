@@ -27,6 +27,11 @@ function Navbar({toggleTheme , theme}) {
             
         }
     }
+
+    const send = async (id) => {
+    await router.push(`/${id}`)
+    await setvisible(false)
+    }
      
 
     
@@ -134,15 +139,15 @@ onClick={ () => setvisible(false)}
          <div  className="nav-item" >
              <a href="#service" > Service</a>
             </div>
-         <div   onClick={()=> router.push('/about') }  className="nav-item" >
+         <div   onClick={ ()=> send('about')  }  className="nav-item" >
              <a> About</a>
              </div>
            
-         <div onClick={()=> router.push('/work') }  className="nav-item" >
+         <div onClick={()=> send('work') }  className="nav-item" >
              
              <a>Work</a>
          </div>
-         <div    onClick={()=> router.push('/contactus') }  className="nav-item" >
+         <div    onClick={()=> send('contactus') }  className="nav-item" >
              <a>Contact Us</a>
              </div>
              <div   onClick={toggleTheme} className="nav-item" >

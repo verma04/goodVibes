@@ -113,7 +113,7 @@ justify-content:center;
       
    top:5rem;
    right:0;
- z-index:100;
+ z-index:1;
  
        display:flex;
        justify-content: space-around;
