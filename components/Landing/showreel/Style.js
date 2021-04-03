@@ -191,7 +191,6 @@ justify-content:center;
   width:100%;
   margin-top:3rem;
 
-  overflow-x: hidden;
   .head {
       display:flex;
       height:3rem;
@@ -205,6 +204,7 @@ justify-content:center;
 
     .ved {
        
+  overflow-x: hidden;
         width:95%;
         display:flex;
 justify-content:center;
