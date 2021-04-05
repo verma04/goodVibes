@@ -31,7 +31,7 @@ and stuff.
        <div  className="bottom" >
    <li onClick={()=> router.push('/about')} >About</li>
    <li onClick={()=> router.push('/work')}>Work</li>
-   <li>Carrer</li>
+   <li>Career</li>
        </div>
 
   </div>

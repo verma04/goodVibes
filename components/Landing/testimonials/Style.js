@@ -19,8 +19,8 @@ justify-content:space-evenly;
  align-items:center;
  flex-direction:column;
 height:10%;
-margin-top:3rem;
-margin-bottom:2.5rem;
+
+
 h2 {
     font-weight: 900;
     color:${({ theme }) => theme.test};
@@ -59,7 +59,7 @@ h2 {
     justify-content:center;
     align-items:center;
      p {
-
+width:90%;
      }
     }
 
@@ -70,7 +70,7 @@ h2 {
     flex-direction:column;
    img {
        width:4rem;
-       margin-top:10%;
+  
    }
 
     }
@@ -163,10 +163,11 @@ height:30rem;
 width: 90%;
 .carousel-root {
     width:100%;
+    margin-bottom:10%;
 }
 
  .img-1 {
-    
+    border:1px solid red;
     width:98%;
 display:flex;
 justify-content:flex-start;
