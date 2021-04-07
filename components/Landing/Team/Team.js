@@ -59,17 +59,17 @@ transitionTime={1000}
              itemClass="carousel-item-padding-40-px"
             
             >
-            <div  className="set">
+<div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617172522/icuoz5qgnilfbyqkrsll.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/utjkpe0lk7xsajzptshj.jpg" ></img>
          
             </div>
             <div   className='name' >
-  
+            
 
-  <h2> Dennis Nagpal</h2>
-  <span>Executive Producer & Founder</span>
+  <h2>Jayant Arora </h2>
+  <span>Production Manager</span>
     </div>
 
           
@@ -79,15 +79,15 @@ transitionTime={1000}
   <div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261874/goodVibes/dfnxtr808ghwwa5kbz1x.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/jocjhep9517rpmuxlj3w.jpg" ></img>
          
             </div>
 
             <div   className='name' >
   
-
-  <h2> Dennis Nagpal</h2>
-  <span>Executive Producer & Founder</span>
+             
+  <h2> Shivam Kinra</h2>
+  <span>Assistant Director</span>
     </div>
           
 
@@ -96,49 +96,33 @@ transitionTime={1000}
   <div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261874/goodVibes/lhifx4kaocsqzm5lhnfz.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/mju3aaw2iwibl59vlyr6.jpg" ></img>
          
             </div>
 
 
             <div   className='name' >
-  
-
-  <h2> Dennis Nagpal</h2>
-  <span>Executive Producer & Founder</span>
-    </div>
-
-            
-  </div>
-  <div  className="set">
-  <div className='wrapper'>
-
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261874/goodVibes/pz1euouykowdjozxkmsh.jpg" ></img>
-         
-            </div>
-
-            <div   className='name' >
-  
-
-  <h2> Dennis Nagpal</h2>
-  <span>Executive Producer & Founder</span>
-    </div>
           
 
+  <h2> Rasleen Kaur</h2>
+  <span> Assistant Producer</span>
+    </div>
+
             
   </div>
   <div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261874/goodVibes/ur1nzhmfmrcn7awpnci9.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/jl7brijsonjgi77awgkw.jpg" ></img>
          
             </div>
 
             <div   className='name' >
   
+            
 
-  <h2> Dennis Nagpal</h2>
-  <span>Executive Producer & Founder</span>
+  <h2>Pooja Verma</h2>
+  <span>Finance & Accounts Head</span>
     </div>
           
 
@@ -147,14 +131,31 @@ transitionTime={1000}
   <div  className="set">
   <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261875/goodVibes/gw5muoodu2grvv79xtcl.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/wsbqtgj0u0wcwuhua4sx.jpg" ></img>
+         
+            </div>
+
+            <div   className='name' >
+  
+            
+  <h2> Sonakshi Khanna</h2>
+  <span>Creative Director</span>
+    </div>
+          
+
+            
+  </div>
+  <div  className="set">
+  <div className='wrapper'>
+
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769690/goodVibes/ywkpwgo3fqufbikzd9ex.jpg" ></img>
          
             </div>
             <div   className='name' >
   
-
-  <h2> Dennis Nagpal</h2>
-  <span>Executive Producer & Founder</span>
+         
+  <h2> Rhea Banerjee</h2>
+  <span> Associate Producer</span>
     </div>
 
           
@@ -162,25 +163,112 @@ transitionTime={1000}
             
   </div>
 
+
   <div  className="set">
-  <div style={{position:"relative"}} className='wrapper'>
+  <div className='wrapper'>
 
-    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617172522/icuoz5qgnilfbyqkrsll.jpg" ></img>
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/utjkpe0lk7xsajzptshj.jpg" ></img>
          
-   <div   className='name' >
-  
-
-     <h2> Dennis Nagpal</h2>
-     <span>Executive Producer & Founder</span>
-       </div>
-
             </div>
+            <div   className='name' >
+            
 
+  <h2>Jayant Arora </h2>
+  <span>Production Manager</span>
+    </div>
 
           
 
             
   </div>
+  <div  className="set">
+  <div className='wrapper'>
+
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/jocjhep9517rpmuxlj3w.jpg" ></img>
+         
+            </div>
+
+            <div   className='name' >
+  
+             
+  <h2> Shivam Kinra</h2>
+  <span>Assistant Director</span>
+    </div>
+          
+
+            
+  </div>
+  <div  className="set">
+  <div className='wrapper'>
+
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/mju3aaw2iwibl59vlyr6.jpg" ></img>
+         
+            </div>
+
+
+            <div   className='name' >
+          
+
+  <h2> Rasleen Kaur</h2>
+  <span> Assistant Producer</span>
+    </div>
+
+            
+  </div>
+  <div  className="set">
+  <div className='wrapper'>
+
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/jl7brijsonjgi77awgkw.jpg" ></img>
+         
+            </div>
+
+            <div   className='name' >
+  
+            
+
+  <h2>Pooja Verma</h2>
+  <span>Finance & Accounts Head</span>
+    </div>
+          
+
+            
+  </div>
+  <div  className="set">
+  <div className='wrapper'>
+
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/wsbqtgj0u0wcwuhua4sx.jpg" ></img>
+         
+            </div>
+
+            <div   className='name' >
+  
+            
+  <h2> Sonakshi Khanna</h2>
+  <span>Creative Director</span>
+    </div>
+          
+
+            
+  </div>
+  <div  className="set">
+  <div className='wrapper'>
+
+    <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769690/goodVibes/ywkpwgo3fqufbikzd9ex.jpg" ></img>
+         
+            </div>
+            <div   className='name' >
+  
+         
+  <h2> Rhea Banerjee</h2>
+  <span> Associate Producer</span>
+    </div>
+
+          
+
+            
+  </div>
+
+
 
  
 </Carousel>
