@@ -45,11 +45,11 @@ function HeroSection() {
            objectFit="cover"
            />     */}
 
-           <div aos-duration="10000" data-aos="fade-right" className="text" >
+           {/* <div aos-duration="10000" data-aos="fade-right" className="text" >
               <div  className="data" >
               Creative process assures desired result
               </div>
-               </div>         
+               </div>          */}
                <div className="social" >
               <div className="icon" >
                Facebook

@@ -37,11 +37,11 @@ function HeroSection() {
            objectFit="cover"
            />     */}
 
-           <div className="text" >
+           {/* <div className="text" >
               <div className="data" >
               Creative process assures desired result
               </div>
-               </div>         
+               </div>          */}
                <div className="social" >
               <div className="icon" >
                Facebook
