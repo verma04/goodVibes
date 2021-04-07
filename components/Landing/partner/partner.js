@@ -30,7 +30,7 @@ for the long run.</p>
                 <div className="partner" >
                 <Image
             className="myImage"
-           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617261029/goodVibes/nuk2asvouywfxqx20bch.jpg"
+           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617802629/u3jvyn6iwz1br78bcrq7.png"
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
