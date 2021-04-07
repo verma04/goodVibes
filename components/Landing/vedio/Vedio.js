@@ -38,7 +38,7 @@ Brand Reel
                 
            </div>
 
-           <img  onClick=  { () => toggleMenu()}  src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616142706/goodVibes/rhriz3nb9nqoxzgcfp7c.png'} /> 
+           <img  onClick=  { () => toggleMenu()}  src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1617804084/goodVibes/ekfhbq5jiqczo6sawuzg.png'} /> 
       
       
       
