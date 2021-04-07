@@ -69,7 +69,7 @@ and stuff.
    <i class="fab fa-dribbble"></i>
    </div>
    <div className="bottom-2" >
-   © 2020. Copyright GoodVibes
+   © 2021 GoodVibes in footer
    </div>
        </div>
 

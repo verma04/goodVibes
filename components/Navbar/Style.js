@@ -23,6 +23,7 @@ top:0;
     width:95%;
   
   .left {
+    margin-top:1rem;
       width:10%;
       height:100%;
      

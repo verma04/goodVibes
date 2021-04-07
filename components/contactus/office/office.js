@@ -12,12 +12,15 @@ function Form() {
           <div className="list" >
 
               <ul>
-                  <li>  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617360176/cwpsxfrm8orr8n79pakl.png" /><h4>India HQ</h4></li>
-                  <li><i class="fas fa-phone-alt"></i><span>+91-1234567890</span></li>
-                  <li><i class="fas fa-envelope"></i><span>hello@email.com</span></li>
+                  <li>  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617360176/cwpsxfrm8orr8n79pakl.png" /><h4>Good Vibes Delhi </h4></li>
 
-                  <li><i class="fas fa-map-marker-alt"></i><span>#123, dskgjkjd, dsagnjkdsa
-dfahfdhdfhdafhfdh</span></li>
+   
+
+                  <li><i class="fas fa-phone-alt"></i><span> Good Vibes Delhi </span></li>
+                  <li><i class="fas fa-envelope"></i><span>E-914, Lower Ground Floor,</span></li>
+
+                  <li><i class="fas fa-map-marker-alt"></i><span> Chittaranjan Park
+                   New Delhi 110019</span></li>
                
               </ul>
           </div>
@@ -25,14 +28,15 @@ dfahfdhdfhdafhfdh</span></li>
          
          
           <div className="list" >
+         
 
 <ul>
-    <li>  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617360176/cwpsxfrm8orr8n79pakl.png" /><h4>India HQ</h4></li>
-    <li><i class="fas fa-phone-alt"></i><span>+91-1234567890</span></li>
-    <li><i class="fas fa-envelope"></i><span>hello@email.com</span></li>
+    <li>  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617360176/cwpsxfrm8orr8n79pakl.png" /><h4> Good Vibes Mumbai</h4></li>
+    <li><i class="fas fa-phone-alt"></i><span>503, Lashkariya Tower, 3, New Link Rd,</span></li>
+    <li><i class="fas fa-envelope"></i><span> Shakti nagar, Veera Desai Industrial Estate, Andheri West</span></li>
 
-    <li><i class="fas fa-map-marker-alt"></i><span>#123, dskgjkjd, dsagnjkdsa
-dfahfdhdfhdafhfdh</span></li>
+    <li><i class="fas fa-map-marker-alt"></i><span>Mumbai, Maharashtra 400102
+</span></li>
  
 </ul>
 </div>
