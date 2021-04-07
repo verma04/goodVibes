@@ -28,7 +28,7 @@ function HeroSection() {
            className='react-player'
            onReady={handleOnReady}
             playing={play}
-  url={"https://res.cloudinary.com/dzcmadjl1/video/upload/v1617365534/lsg3ky9hbfrdxswscp3v.mp4"}
+  url={"https://res.cloudinary.com/dzcmadjl1/video/upload/v1617778510/jzoyotwwt0qi03g2t4pf.mp4"}
   playing={true}
   loop={true} 
   width='100%'
