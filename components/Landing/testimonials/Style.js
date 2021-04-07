@@ -92,7 +92,7 @@ width:90%;
     opacity: .3;
     filter: alpha(opacity=30);
     box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
-    background: #D0345A;
+    background: #47B4DE;
 
     border-radius: 50%;
     width: 1rem;
@@ -230,7 +230,7 @@ transition: opacity .25s ease-in;
 opacity: .3;
 filter: alpha(opacity=30);
 box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
-background: #D0345A;
+background: #47B4DE;
 
 border-radius: 50%;
 width: 1rem;

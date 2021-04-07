@@ -78,7 +78,7 @@ justify-content:center;
       width:42%;
         button {
           border: none;
-          background: #D0345A;
+          background: #47B4DE;
 color:white;
         }
        }
@@ -164,7 +164,7 @@ justify-content:center;
       width:70%;
         button {
           border: none;
-          background: #D0345A;
+          background: #47B4DE;
 color:white;
         }
        }

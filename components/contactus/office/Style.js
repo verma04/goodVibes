@@ -51,7 +51,7 @@ ul {
     }
     i {
       padding-right:0.5rem;
-      color: #D0345A;
+      color: #47B4DE;
 
     }
     h4 {
@@ -117,7 +117,7 @@ ul {
     }
     i {
       padding-right:0.5rem;
-      color: #D0345A;
+      color: #47B4DE;
 
     }
     h4 {

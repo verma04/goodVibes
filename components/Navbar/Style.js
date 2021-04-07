@@ -23,7 +23,7 @@ top:0;
     width:95%;
   
   .left {
-    margin-top:1rem;
+    margin-top:1.5rem;
       width:10%;
       height:100%;
      
@@ -52,7 +52,7 @@ top:0;
     }
     }
     #active {
-      border-bottom: 4px solid red;
+      border-bottom: 4px solid #47B4DE;
     }
     i  {
         color:white;

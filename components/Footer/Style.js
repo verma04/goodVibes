@@ -11,7 +11,7 @@ justify-content:flex-end;
   width:100%;
  
 
-background: #D0345A;
+background: #47B4DE;
 
  
 @media (min-width: 1025px) {
@@ -139,7 +139,7 @@ justify-content:space-around;
          align-items:center;
          i {
               font-size:1.3rem;
-              color:#D0345A;
+              color:#47B4DE;
          }
 
 
@@ -293,7 +293,7 @@ justify-content:space-around;
          align-items:center;
          i {
               font-size:1.3rem;
-              color:#D0345A;
+              color:#47B4DE;
          }
 
 

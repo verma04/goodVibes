@@ -42,7 +42,7 @@ justify-content:space-between;
              li {
                 list-style:none;
                 color:white;
-                background: #D0345A;
+                background: #47B4DE;
             display:flex;
             justify-content:space-around;
             align-items:center;

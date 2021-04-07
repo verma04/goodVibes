@@ -35,7 +35,7 @@ justify-content:center;
       }
 
       button {
-        background: #D0345A;
+        background:#47B4DE;
 color:white;
 border:none;
       }
@@ -78,7 +78,7 @@ justify-content:center;
       }
 
       button {
-        background: #D0345A;
+        background:#47B4DE;
 color:white;
 border:none;
       }

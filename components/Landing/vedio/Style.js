@@ -26,7 +26,7 @@ justify-content:center;
            width:42rem;
            height:42rem;
            border-radius:50%;
-           background: #D0345A;
+           background: #47B4DE;
            left:13%;
            bottom:-10%;
            opacity: 0.95;
@@ -75,7 +75,7 @@ justify-content:center;
     }
     i {
    
-        color: #D0345A;
+        color: #47B4DE;
         font-size:1.4rem;
         
     }
@@ -124,7 +124,7 @@ justify-content:center;
           width:22rem;
           height:22rem;
           border-radius:50%;
-          background: #D0345A;
+          background: #47B4DE;
         
     top: 7%;
 
@@ -178,7 +178,7 @@ justify-content:center;
    }
    i {
   
-       color: #D0345A;
+       color: #47B4DE;
    display:none;
        
    }
