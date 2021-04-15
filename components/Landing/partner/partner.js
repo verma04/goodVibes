@@ -120,15 +120,6 @@ for the long run.</p>
            objectFit="cover"
            />   
                     </div>
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/yasjm3xwg1fz88j3i6d4.jpg'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
                     
                    
                     <div className="partner" >

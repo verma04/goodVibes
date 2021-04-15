@@ -50,9 +50,10 @@ justify-content:space-around;
 align-items:center;
 flex-wrap: wrap;
 .partner {
-    width:24%;
+    width:18%;
+  
 
-    height: 14.8rem;
+    height: 10rem;
     position: relative;
     img {
         border: 1px solid red;
