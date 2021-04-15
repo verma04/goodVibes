@@ -32,9 +32,9 @@ justify-content:center;
         width:95%;
      
         height:85%;
-        
+      
         display:flex;
-justify-content:space-evenly;
+justify-content:center;
 align-items:center;
 flex-wrap: wrap;
 .pro {
@@ -58,8 +58,10 @@ flex-wrap: wrap;
     
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
+    justify-content:flex-start;
        h2 {
+         margin-top:1rem;
+         margin-bottom:0.5rem;
         font-family: Mono_bold;
            font-weight:900;
              font-size:1.3rem;
@@ -135,11 +137,13 @@ flex-wrap: wrap;
     .set {
     width:90%;
     height:55%;
-    
+     
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
+    justify-content:flex-start;
        h2 {
+         margin-top:1rem;
+         margin-bottom:0.5rem;
         font-family: Mono_bold;
            font-weight:900;
              font-size:1.3rem;

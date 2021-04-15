@@ -46,8 +46,8 @@ justify-content:space-between;
             display:flex;
             justify-content:space-around;
             align-items:center;
-            width:10rem;
-            height:3rem;
+            width:11rem;
+            height:2.3rem;
             font-family: Mono_bold ;
            
              }
