@@ -15,6 +15,7 @@ import Documentaries from './Documentaries'
 const data = [
      
     {
+     
         _id:"1",
  titile:"dssd",
 link:'iH28tgQn5bQ',
@@ -23,6 +24,7 @@ title:`Alexa in Hindi, a year long journey: “Alexa, हमारी दोस�
 
     },
     {
+     
         _id:"2",
         titile:"dssd",
        link:"ZpdLgcwdex4",
@@ -31,6 +33,8 @@ title:`Alexa in Hindi, a year long journey: “Alexa, हमारी दोस�
   
 
     {
+     
+     
         _id:"2",
         titile:"dssd",
        link:"D_UWMJ48_88",
@@ -38,6 +42,7 @@ title:`Alexa in Hindi, a year long journey: “Alexa, हमारी दोस�
     },
   
     {
+     
         _id:"2",
         titile:"dssd",
        link:"kP-JfEufypQ",
@@ -45,12 +50,14 @@ title:`Alexa in Hindi, a year long journey: “Alexa, हमारी दोस�
     },
   
     {
+     
         _id:"2",
         titile:"dssd",
        link:"aV7O7q8Qp5w",
        title:`NEW YEAR KA SECRET GIFT | Happy New Year 2021 | Moral Story for kids | Aayu and Pihu Show`
     },
     {
+      
         _id:"2",
         titile:"dssd",
        link:"CP5K66K5ZRQ",
