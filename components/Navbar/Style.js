@@ -166,8 +166,8 @@ top:0;
         }
   }
 
-  i {
- 
+  .fa-bars {
+    color: ${({ theme }) => theme.text1};
     margin:2rem;
       z-index:100%;
       font-size:2.7rem;

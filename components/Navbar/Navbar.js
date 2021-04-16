@@ -1,10 +1,11 @@
 import React from 'react'
 import { Nav } from './Style'
+import styled from 'styled-components'
 import { useEffect  , useState  } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router'
 function Navbar({toggleTheme , theme}) {
-   
+    const isLight = theme === 'light';
     const [nav, setnav] = useState(false);
     const [visible, setvisible] = useState(false);
     useEffect(() => {
@@ -78,7 +79,7 @@ function Navbar({toggleTheme , theme}) {
                         </div>
                         <div   onClick={toggleTheme} className="nav-item" >
                  
-                        {(() => {
+                        {/* {(() => {
         if (theme === "light") {
           return (
             <div  className='mode' onClick={toggleTheme} >  
@@ -92,7 +93,12 @@ function Navbar({toggleTheme , theme}) {
                </div>
           )
         }
-      })()}
+      })()} */}
+
+<ToggleContainer lightTheme={isLight} onClick={toggleTheme}>
+      <img src="https://image.flaticon.com/icons/svg/1164/1164954.svg" width="224" height="224" alt="Sun free icon" title="Sun free icon"/>
+      <img src="https://image.flaticon.com/icons/svg/2033/2033921.svg" width="224" height="224" alt="Moon free icon" title="Moon free icon"/>
+    </ToggleContainer>
                         </div>
                     <i className="fas fa-search"></i>
                 </div>
@@ -167,6 +173,12 @@ return (
 )
 }
 })()}
+
+
+
+
+
+
              </div>
 
              <div className='social' >
@@ -187,4 +199,42 @@ return (
     )
 }
 
+
 export default Navbar
+
+
+
+const ToggleContainer = styled.button`
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background: ${({ theme }) => theme.gradient};
+  width: 7rem;
+  height: 3rem;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 2px solid ${({ theme }) => theme.toggleBorder};
+  font-size: 0.5rem;
+  padding: 0.5rem;
+  overflow: hidden;
+  cursor: pointer;
+
+  img {
+    max-width: 2.2rem;
+    height: auto;
+    transition: all 0.3s linear;
+
+    &:first-child {
+      transform: ${({ lightTheme }) => lightTheme ? 'translateY(0)' : 'translateY(100px)'};
+    }
+
+    &:nth-child(2) {
+      transform: ${({ lightTheme }) => lightTheme ? 'translateY(-100px)' : 'translateY(0)'};
+    }
+  }
+`;
+
+
+  
+
+  

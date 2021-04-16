@@ -1,4 +1,6 @@
 export const lightTheme=   {
+     toggleBorder: '#fff',
+     gradient: 'linear-gradient(#39598A, #79D7ED)',
      textBlac:'#FBFBFB',
         text:"#1C1C1C",
         para: "#40434E",
@@ -22,6 +24,10 @@ export const lightTheme=   {
   };
 
   export const darkTheme=   {
+     toggleBorder: '#6B8096',
+     gradient: 'linear-gradient(#091236, #1E215D)',
+    
+
      test:'white',
      text:"white",
      para:"white",

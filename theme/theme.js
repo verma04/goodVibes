@@ -13,6 +13,9 @@ div {
     font-family: Montserrat ;
   
 }
+.fa-bars {
+  color: ${({ theme }) => theme.text1};
+}
 
   body {
     transition: all 01s linear;
