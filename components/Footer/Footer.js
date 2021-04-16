@@ -69,7 +69,7 @@ and stuff.
    <i class="fab fa-dribbble"></i>
    </div>
    <div className="bottom-2" >
-   © 2021 GoodVibes in footer
+   © 2021 GoodVibes 
    </div>
        </div>
 
