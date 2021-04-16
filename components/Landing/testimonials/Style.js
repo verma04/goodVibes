@@ -274,7 +274,7 @@ width: 90%;
 }
 
  .img-1 {
-    border:1px solid red;
+  
     width:98%;
 display:flex;
 justify-content:flex-start;

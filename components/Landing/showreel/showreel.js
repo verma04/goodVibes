@@ -183,7 +183,7 @@ function showreel() {
                    <div className="cover" >
                  <Image
                         className="myImage"
-                        src={`https://img.youtube.com/vi/${number.link}/maxresdefault.jpg`}
+                        src={`https://res.cloudinary.com/dzcmadjl1/image/upload/v1618566606/xbfeas9nsszfepv6fpuu.jpg`}
             
                        alt="Picture of the author"
                        layout="fill"

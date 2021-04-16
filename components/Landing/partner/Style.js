@@ -10,7 +10,7 @@ export const Section = styled.section`
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  height:80rem;
+
   width:100%;
   margin-top:7rem;
   margin-bottom:3rem;
@@ -52,7 +52,7 @@ flex-wrap: wrap;
 .partner {
     width:18%;
   
-
+  margin-top:1rem;
     height: 10rem;
     position: relative;
     img {
