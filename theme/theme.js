@@ -215,6 +215,85 @@ transition: transform .8s;
     background: transparent;
    
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-weight:1000;
+   color: ${({ theme }) => theme.text};
+    font-size: 1.4rem;
+    line-height: var(--line-height-lg);
+  font-family: Mono_bold ;
+  
+  word-spacing:0.2rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+    line-height: var(--line-height-lg);
+    color: ${({ theme }) => theme.text};
+    font-family: Mono_bold;
+  
+  word-spacing:0.2rem;
+  line-height:1.2;
+  }
+  a {
+    color: ${({ theme }) => theme.text};
+  }
+  .top {
+    color: ${({ theme }) => theme.text};
+  }
+  .mid {
+    color: ${({ theme }) => theme.para};
+  }
+  li {
+    color: ${({ theme }) => theme.text};
+  }
+  h3 {
+    font-weight:1000;
+    font-size: 1.1rem;
+    line-height: var(--line-height-lg);
+    color: ${({ theme }) => theme.text};
+    font-family: Mono_bold;
+    
+    word-spacing:0.2rem;
+    /* family=FiesoleTextW00-Italic */
+  }
+  p {
+    font-family: Montserrat ;
+    word-spacing:0.3rem;
+    line-height: 1.2;
+    
+  }
+  h4 {
+    font-size: 1rem;
+    line-height: var(--line-height-md);
+    
+    word-spacing:0.2rem;
+    color: ${({ theme }) => theme.text};
+  }
+  h5 {
+    font-size: 0.75;
+    line-height: var(--line-height-md);
+    
+    word-spacing:0.2rem;
+    color: ${({ theme }) => theme.text};
+  }
+  h6 {
+    font-size: 0.6rem;
+    line-height: var(--line-height-md);
+    
+    word-spacing:0.2rem;
+    color: ${({ theme }) => theme.text};
+  }
+  p {
+    font-size:1rem;
+line-height:1.2;
+
+color: ${({ theme }) => theme.para};
+
+    font-family: Montserrat ;
+    word-spacing:0.2rem;
+
+  }
+}
   @media only screen and (max-width: 767px) {
     body {
       overflow-x: hidden;
