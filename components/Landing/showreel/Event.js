@@ -17,42 +17,44 @@ const data = [
     {
         _id:1,
  titile:"dssd",
+ img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641607/vf6lhjxanijozufmah2b.jpg",
 link:'lqYDXAZ_G0A',
 title:`Renault Kiger : Launch`
 
 
     },
     {
+      img:'',
         _id:2,
-        titile:"dssd",
-       link:"yA28b3Nkk6U",
-       title:`Renault Kiger : Dealer Event`
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641718/k8knzjups3sapvc4qij6.jpg",
+       link:"PGTMAdO3MCI",
+       title:`Good Vibes//BMW - X1`
     },
     {
         _id:3,
-        titile:"dssd",
-       link:"PGTMAdO3MCI",
-       title:`Good Vibes//BMW - X1`
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641757/pyslfl63njcveqq5guyj.jpg",
+       link:"rN3Xwia_Zvs",
+       title:`Freedom Drive | The All-New Thar | Independence Day 2020`
     },
 
     {
         _id:4,
-        titile:"dssd",
-       link:"totaAD19bUA",
-       title:`Good Vibes//BMW - X1 Q&A`
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+       link:"nDn463aZpX8",
+       title:`KIA Seltos Global Preview - Event Film`
     },
     {
         _id:5,
-        titile:"dssd",
-       link:"nDn463aZpX8",
-       title:`KIA Seltos Global Preview - Event Film`
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641757/q3fffhvdgyd1rvmrksxw.jpg",
+       link:"7E9pj86uIik",
+       title:`BMW 360 Financial Services`
     },
    
     {
       _id:6,
-      titile:"dssd",
-     link:"MIX2893GWDw",
-     title:`Hyundai | Save My Game | Home Dugout | Delhi | Dial **football `
+      img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641757/pcbnlzm0zjzs3jnqs5yj.jpg",
+     link:"totaAD19bUA",
+     title:`Good Vibes//BMW - X1 Q&A `
   },
   
 
@@ -84,7 +86,7 @@ function showreel() {
        <div className="cover" >
      <Image
             className="myImage"
-            src={`https://img.youtube.com/vi/${number.link}/maxresdefault.jpg`}
+            src={number.img}
 
            alt="Picture of the author"
            layout="fill"
