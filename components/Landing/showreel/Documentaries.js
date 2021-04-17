@@ -33,30 +33,34 @@ title:`Road Trippin with RnM and OYO | OYO Rooms India`
     {
       _id:3,
 titile:"dssd",
-link:'Jl-q41-Yac0',
-title:`vivo Retail Network | Love India, Love vivo`
+link:'x8udPtViAw4',
+img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618637215/ksnqeodrsz9ffbsdsytf.jpg",
+title:`Independence Day Film (2019) Royal Enfield - Behind The Scenes`
 
 
   },
   {
       _id:4,
       titile:"dssd",
-     link:"x363W5TwlKw",
-     title:`VBA Family | Love India, Love vivo`
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618636835/vofsbdq7aaszdmkcmeb2.jpg',
+     link:"N7bHgiOidX4",
+     title:`Behind The Scenes SS' 20 shoot Gatsbylady London`
   },
   {
     _id:5,
-titile:"dssd",
-link:'3fqFnfNoAKY',
-title:`Delhi Rules - Pitch Promo`
+    img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618636913/cb7kcovzqiupmo4nasaa.jpg',
+
+link:'39HiEJL79Vw',
+title:`Now United - Beautiful Life (Behind the Scenes 360)`
 
 
 },
 {
     _id:6,
     titile:"dssd",
-   link:"nW04LI4Jj6E",
-   title:`GPL Promo - Episode 9`
+   link:"lgk9J_6EgNI",
+   img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618637084/vtu45fetnnoujj69usnf.jpg',
+   title:`Behind The Scenes // Blackberrys AW' 19 Collection`
 },
   
     
@@ -87,7 +91,7 @@ function showreel() {
        <div className="cover" >
      <Image
             className="myImage"
-            src={`https://img.youtube.com/vi/${number.link}/maxresdefault.jpg`}
+            src={number.img}
 
            alt="Picture of the author"
            layout="fill"
