@@ -39,7 +39,7 @@ title:`vivo Retail Network | Love India, Love vivo`
     },
 
     {
-      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573972/AirJaldi/gshev49aviuzorykvgo1.jpg',
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618632388/AirJaldi/fojrzfxlohgtsddqnjba.jpg',
         _id:"4",
       
        link:"tSPMUvz8p34",
