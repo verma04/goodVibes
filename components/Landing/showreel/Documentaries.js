@@ -15,21 +15,22 @@ import Documentaries from './Documentaries'
 const data = [
      
     {
-        _id:"1",
+        _id:1,
  titile:"dssd",
+ img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618633151/AirJaldi/t2myhsejz9olr9ys6wgr.jpg',
 link:'mgSq6jbS8MY',
 title:`Road Trippin with RnM and OYO | OYO Rooms India`
 
 
     },
     {
-        _id:"2",
+        _id:2,
         titile:"dssd",
        link:"MIX2893GWDw",
        title:`Hyundai | Save My Game | Home Dugout | Delhi | Dial **football `
     },
     {
-      _id:"1",
+      _id:3,
 titile:"dssd",
 link:'Jl-q41-Yac0',
 title:`vivo Retail Network | Love India, Love vivo`
@@ -37,13 +38,13 @@ title:`vivo Retail Network | Love India, Love vivo`
 
   },
   {
-      _id:"2",
+      _id:4,
       titile:"dssd",
      link:"x363W5TwlKw",
      title:`VBA Family | Love India, Love vivo`
   },
   {
-    _id:"1",
+    _id:5,
 titile:"dssd",
 link:'3fqFnfNoAKY',
 title:`Delhi Rules - Pitch Promo`
@@ -51,7 +52,7 @@ title:`Delhi Rules - Pitch Promo`
 
 },
 {
-    _id:"2",
+    _id:6,
     titile:"dssd",
    link:"nW04LI4Jj6E",
    title:`GPL Promo - Episode 9`
