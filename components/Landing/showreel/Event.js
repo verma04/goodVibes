@@ -15,7 +15,7 @@ import Documentaries from './Documentaries'
 const data = [
      
     {
-        _id:"1",
+        _id:1,
  titile:"dssd",
 link:'lqYDXAZ_G0A',
 title:`Renault Kiger : Launch`
@@ -23,33 +23,33 @@ title:`Renault Kiger : Launch`
 
     },
     {
-        _id:"2",
+        _id:2,
         titile:"dssd",
        link:"yA28b3Nkk6U",
        title:`Renault Kiger : Dealer Event`
     },
     {
-        _id:"3",
+        _id:3,
         titile:"dssd",
        link:"PGTMAdO3MCI",
        title:`Good Vibes//BMW - X1`
     },
 
     {
-        _id:"4",
+        _id:4,
         titile:"dssd",
        link:"totaAD19bUA",
        title:`Good Vibes//BMW - X1 Q&A`
     },
     {
-        _id:"5",
+        _id:5,
         titile:"dssd",
        link:"nDn463aZpX8",
        title:`KIA Seltos Global Preview - Event Film`
     },
    
     {
-      _id:"2",
+      _id:6,
       titile:"dssd",
      link:"MIX2893GWDw",
      title:`Hyundai | Save My Game | Home Dugout | Delhi | Dial **football `
