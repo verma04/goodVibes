@@ -18,38 +18,39 @@ const data = [
         _id:"1",
  titile:"dssd",
 link:'cNoFX4mWCgA',
-title:`Kellogg's REALCHEF - The Hunt Begins!`
-
+title:`Kellogg's REALCHEF - The Hunt Begins!`,
+img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618571592/goodVibes/y0ci7z9vndaa8fynkwol.jpg"
 
     },
     {
         _id:"2",
         titile:"dssd",
        link:"MIX2893GWDw",
-       title:`Hyundai | Save My Game | Home Dugout | Delhi | Dial **football `
+      img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618571597/goodVibes/cnxtmhsgrxg6m1h4yvwr.jpg"
     },
     {
         _id:"3",
         titile:"dssd",
        link:"W9Nh-WxW3A0",
-       title:`Ford Ecosport 2017 Unboxing`
-    },
+       title:`Ford Ecosport 2017 Unboxing`,
+       img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618571597/goodVibes/cnxtmhsgrxg6m1h4yvwr.jpg",
+      },
 
     {
         _id:"4",
-        titile:"dssd",
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618571597/goodVibes/cnxtmhsgrxg6m1h4yvwr.jpg",
        link:"pPWyijx4Z_A",
        title:`Nissan Vs Dabbawala`
     },
     {
         _id:"5",
-        titile:"dssd",
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618571597/goodVibes/cnxtmhsgrxg6m1h4yvwr.jpg",
        link:"kUU55unfvyQ",
        title:`Red FM India`
     },
     {
         _id:"6",
-        titile:"dssd",
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618571597/goodVibes/cnxtmhsgrxg6m1h4yvwr.jpg",
        link:"cNoFX4mWCgA",
        title:`Hyundai | Save My Game | Home Dugout | Guwahati`
     },
