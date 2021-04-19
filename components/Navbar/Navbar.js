@@ -213,9 +213,9 @@ const ToggleContainer = styled.button`
   position: relative;
   display: flex;
   justify-content: space-between;
-  background: ${({ theme }) => theme.gradient};
-  width: 7rem;
-  height: 3rem;
+  /* background: ${({ theme }) => theme.gradient}; */
+  width: 4rem;
+  height: 2.3rem;
   margin: 0 auto;
   border-radius: 30px;
   border: 2px solid ${({ theme }) => theme.toggleBorder};
@@ -225,12 +225,12 @@ const ToggleContainer = styled.button`
   cursor: pointer;
 
   img {
-    max-width: 2.2rem;
+    max-width: 1.3rem;
     height: auto;
     transition: all 0.3s linear;
 
     &:first-child {
-      transform: ${({ lightTheme }) => lightTheme ? 'translateY(0)' : 'translateY(100px)'};
+      transform: ${({ lightTheme }) => lightTheme ? 'translateY(0)' : 'translateY(50px)'};
     }
 
     &:nth-child(2) {
