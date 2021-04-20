@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { useEffect  , useState  } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 function Navbar({toggleTheme , theme}) {
     const isLight = theme === 'light';
     const [nav, setnav] = useState(false);
@@ -29,6 +30,13 @@ function Navbar({toggleTheme , theme}) {
         }
     }
 
+
+    const scrollTo = ()  => {
+      scroll.scrollTo(3800);
+    }
+    const scrollToService = ()  => {
+      scroll.scrollTo(800);
+    }
     const send = async (id) => {
     await router.push(`/${id}`)
     await setvisible(false)
@@ -61,10 +69,10 @@ function Navbar({toggleTheme , theme}) {
                         
                        </div>
                        <div     className="nav-item" >
-                        <a  href="#team" > Team</a>
+                        <a  onClick={scrollTo} > Team</a>
                         </div>
                     <div  className="nav-item" >
-                        <a href="#service" > Service</a>
+                        <a  onClick={scrollToService} > Service</a>
                        </div>
                     <div   onClick={()=> router.push('/about') } id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
                         <a> About</a>
@@ -139,10 +147,10 @@ onClick={ () => setvisible(false)}
              <a> Home</a>
              
             </div>
-            <div    onClick={ ()=>  setvisible(false) }  className="nav-item" >
-             <a  href="#team"> Team</a>
+            <div      className="nav-item" >
+             <a  > Team</a>
              </div>
-         <div  onClick={ ()=>  setvisible(false)  } className="nav-item" >
+         <div   className="nav-item" >
              <a href="#service" > Service</a>
             </div>
          <div   onClick={ ()=> send('about')  }  className="nav-item" >

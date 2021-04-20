@@ -16,7 +16,7 @@ const data = [
      
     {
         _id:"1",
- titile:"dssd",
+ img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/roipoluperlvbnhmrw4i.jpg",
 link:'3fqFnfNoAKY',
 title:`Delhi Rules - Pitch Promo`
 
@@ -24,30 +24,35 @@ title:`Delhi Rules - Pitch Promo`
     },
     {
         _id:"2",
-        titile:"dssd",
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/zv5gnzv3itvczzsigp4x.jpg",
        link:"nW04LI4Jj6E",
        title:`GPL Promo - Episode 9`
     },
     {
         _id:"3",
-        titile:"dssd",
-       link:"CQH4-rit3ng",
-       title:`GPL Promo - Episode 10`
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/d0pxfmjrlead3vf4bf3q.jpg",
+       link:"3nq3iJyoYJM",
+       title:`Naam Hai Ziddi EP01`
     },
 
     {
         _id:"4",
-        titile:"dssd",
-       link:"3nq3iJyoYJM",
-       title:`Naam Hai Ziddi EP01`
-    },
-    {
-        _id:"5",
-        titile:"dssd",
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/c7lr6qyhe1jkvdu12f5q.jpg",
        link:"LBv4Ie3intk",
        title:`ZIDD WARS Ep 01`
     },
-   
+    {
+        _id:"5",
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/axbn3qw0knpamkxx1i9k.jpg",
+       link:"Buh5IFhfaUA",
+       title:`Naam Hai Ziddi EP02`
+    },
+    {
+      _id:"6",
+      img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/v4j9rj3hf9docvao3xwo.jpg",
+     link:"CQH4-rit3ng",
+     title:`GPL Promo - Episode 10`
+  },
     
 
 
@@ -76,7 +81,7 @@ function showreel() {
        <div className="cover" >
      <Image
             className="myImage"
-            src={`https://img.youtube.com/vi/${number.link}/maxresdefault.jpg`}
+            src={number.img}
 
            alt="Picture of the author"
            layout="fill"

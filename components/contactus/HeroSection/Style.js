@@ -46,7 +46,7 @@ justify-content:center;
        
     top:5rem;
     right:0;
-
+    z-index:1000;
   
         display:flex;
         justify-content: space-around;

@@ -178,8 +178,11 @@ height:70%;
   }
     }
   
-
+  button {
+    margin-top:2rem;
+  }
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   display:flex;
 justify-content:center;
@@ -202,7 +205,7 @@ justify-content:center;
     .ved {
         height:80%;
     
-        width:85%;
+        width:90%;
         display:flex;
 justify-content:center;
  align-items:center;
@@ -353,8 +356,8 @@ height:70%;
   }
     }
   
-
 }
+
 
 @media (max-width: 600px) {
   display:flex;

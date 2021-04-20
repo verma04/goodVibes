@@ -12,56 +12,62 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import Documentaries from './Documentaries'
 import Animation from './Animation';
+
 const data = [
      
-  {
-      _id:"1",
-titile:"dssd",
-link:'bHjKxgjvuR4',
-title:`Ek neeli si roshni, se kar li jo dosti | #AlexaTurns3 `
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573364/AirJaldi/safmqqbnjhgzuos3tpbl.jpg',
+        _id:"1",
+ titile:"dssd",
+link:'rrgYJ_M2GTM',
+title:`International Women’s Day `
 
 
-  },
-  {
-      _id:"2",
-      titile:"dssd",
-     link:"5TvG2RmUD7k",
-     title:`CelebrationTohBantaHai ft. #ShankarMahadevan `
-  },
-  {
-      _id:"3",
-      titile:"dssd",
-     link:"rrgYJ_M2GTM",
-     title:`International Women’s Day `
-  },
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573409/AirJaldi/fk5xhovvhfzq7em7wf7o.jpg',
+        _id:"2",
+        titile:"dssd",
+       link:"EFaC7XVPYDQ",
+       title:`The story of sibling love`
+    },
+    { img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573703/AirJaldi/htjw8q2qmq9r5gvf9xw9.jpg',
+        _id:"3",
+        titile:"dssd",
+       link:"bHjKxgjvuR4",
+       title:`Customers in India enjoy interacting with Alexa`
+    },
 
-  {
-      _id:"4",
-      titile:"dssd",
-     link:"u_HIXDYRE94",
-     title:`Challenge the norm |`
-  },
-  {
-      _id:"5",
-      titile:"dssd",
-     link:"XEa0hGPxNGo",
-     title:`Champion a cause | `
-  },
-  {
-      _id:"6",
-      titile:"dssd",
-     link:"KBvi5tONxTI",
-     title:`Change the narrative | `
-  },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618572875/AirJaldi/oz7vfpa0enstbrqjqhrw.jpg',
+        _id:"4",
+        titile:"dssd",
+       link:"f2fdv1JimHg",
+       title:`#ReebokWalking​ range feat. Varun Dhawan`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/zen5fkckhdjymmm5or6d.jpg',
+        _id:"5",
+        titile:"dssd",
+       link:"5TvG2RmUD7k",
+       title:`#CelebrationTohBantaHai​ ft. #ShankarMahadevan​ `
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"6",
+        titile:"dssd",
+       link:"n7B_LhzZoBg",
+       title:`Celebrate Diwali with Grofers- Iss Diwali, bhar ke khushiyaan layein !`
+    },
 
-  
-  
-//   {
-//     _id:"6",
-//     titile:"dssd",
-//    link:"7E9pj86uIik",
-//    title:`BMW 360 Financial Services`
-// },
+    
+    
+  //   {
+  //     _id:"6",
+  //     titile:"dssd",
+  //    link:"7E9pj86uIik",
+  //    title:`BMW 360 Financial Services`
+  // },
 
 //   {
 //     _id:"6",
@@ -101,7 +107,7 @@ title:`Ek neeli si roshni, se kar li jo dosti | #AlexaTurns3 `
 // },
 
 
-  
+    
 
 
 ]
@@ -182,7 +188,7 @@ function showreel() {
                    <div className="cover" >
                  <Image
                         className="myImage"
-                        src={`https://img.youtube.com/vi/${number.link}/maxresdefault.jpg`}
+                        src={number.img}
             
                        alt="Picture of the author"
                        layout="fill"
@@ -230,7 +236,7 @@ function showreel() {
               )
           }
       })()}
-
+ <button  data-aos={ani}  >Load More</button>
          </div>
         </Section>
     )

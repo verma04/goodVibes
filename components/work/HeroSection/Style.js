@@ -26,7 +26,7 @@ justify-content:center;
         position:absolute;
         width:90%;
         bottom:35%;
-  z-index:1000;
+ 
         display:flex;
         justify-content:start;
         .data {
@@ -41,7 +41,7 @@ justify-content:center;
   
   .social {
     position:absolute;
-      
+    z-index:1000;
        
     top:5rem;
     right:0;

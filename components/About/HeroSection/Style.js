@@ -42,7 +42,7 @@ justify-content:center;
   .social {
     position:absolute;
       
-       
+    z-index:1000;
     top:5rem;
     right:0;
 

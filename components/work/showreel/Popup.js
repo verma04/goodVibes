@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player';
 import { Pop } from './PopStyle'
-function Popup({toggle , id}) {
+function Popup({toggle}) {
     return (
   <Pop >
         <div  id="myModal" class="modal">

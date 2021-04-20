@@ -16,7 +16,7 @@ const data = [
      
     {
         _id:"1",
- titile:"dssd",
+ img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/hga8wid20bewg9jhd3h7.jpg",
 link:'2g9oUXWoeaw',
 title:`Love School - Season 02 - Episode 1`
 
@@ -24,10 +24,37 @@ title:`Love School - Season 02 - Episode 1`
     },
     {
         _id:"2",
-        titile:"dssd",
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/qpvlkpghxltpzd15ltez.jpg",
        link:"8OH63JIBoWw",
        title:`Arre Ho Ja Re-Gender | First Look | An Arre Original Social Experiment`
     },
+    {
+      _id:"3",
+      img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643799/geavqqojwxwzkavbastf.jpg",
+     link:"uemWawWN0Kg",
+     title:`Pan Villas Raag TVC`
+  },
+  {
+      _id:"4",
+      img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/izy8bbkmmru0okoa6bcu.jpg",
+     link:"VNiXxwgdU4g",
+     title:`Lakme Fashion Week 2018 - 4`
+  },
+  {
+    _id:"5",
+img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/ju5ddyff7bdo3filkg4d.jpg",
+link:'KddOxyWJO4Q',
+title:`Lake Fashion Week 2018 - 1`
+
+
+},
+{
+    _id:"6",
+    img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/owvus3irie1mq2fqmrwa.jpg",
+   link:"6u7VsoPSkt8",
+   title:`Lakme Fashion Week 2018 - 3`
+},
+
   
 
     
@@ -58,7 +85,7 @@ function showreel() {
        <div className="cover" >
      <Image
             className="myImage"
-            src={`https://img.youtube.com/vi/${number.link}/maxresdefault.jpg`}
+            src={number.img}
 
            alt="Picture of the author"
            layout="fill"
