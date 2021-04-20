@@ -16,10 +16,10 @@ function Form() {
 
    
 
-                  <li><i class="fas fa-phone-alt"></i><span> Good Vibes Delhi </span></li>
-                  <li><i class="fas fa-envelope"></i><span>E-914, Lower Ground Floor,</span></li>
+                  <li><i class="fas fa-phone-alt"></i><span> +91 988-719-0102 </span></li>
+                  <li><i class="fas fa-envelope"></i><span>info@goodvibes.com</span></li>
 
-                  <li><i class="fas fa-map-marker-alt"></i><span> Chittaranjan Park
+                  <li><i class="fas fa-map-marker-alt"></i><span> E-914, Lower Ground Floor, Chittaranjan Park
                    New Delhi 110019</span></li>
                
               </ul>
@@ -32,10 +32,10 @@ function Form() {
 
 <ul>
     <li>  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617360176/cwpsxfrm8orr8n79pakl.png" /><h4> Good Vibes Mumbai</h4></li>
-    <li><i class="fas fa-phone-alt"></i><span>503, Lashkariya Tower, 3, New Link Rd,</span></li>
-    <li><i class="fas fa-envelope"></i><span> Shakti nagar, Veera Desai Industrial Estate, Andheri West</span></li>
+    <li><i class="fas fa-phone-alt"></i><span>+91 988-719-0102</span></li>
+    <li><i class="fas fa-envelope"></i><span>info@goodvibes.com </span></li>
 
-    <li><i class="fas fa-map-marker-alt"></i><span>Mumbai, Maharashtra 400102
+    <li><i class="fas fa-map-marker-alt"></i><span>  503, Lashkariya Tower, 3, New Link Rd,  Mumbai, Maharashtra 400102 Shakti nagar, Veera Desai Industrial Estate, Andheri West
 </span></li>
  
 </ul>

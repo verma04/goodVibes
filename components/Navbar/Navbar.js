@@ -70,7 +70,7 @@ function Navbar({toggleTheme , theme}) {
                         <a> About</a>
                         </div>
                       
-                    <div onClick={()=> router.push('/work') } id={router.pathname == "/work" ? "active" : ""} className="nav-item" >
+                    <div  id={router.pathname == "/work" ? "active" : ""} onClick={()=> router.push('/work') } className="nav-item" >
                         
                         <a>Work</a>
                     </div>
@@ -214,8 +214,8 @@ const ToggleContainer = styled.button`
   display: flex;
   justify-content: space-between;
   /* background: ${({ theme }) => theme.gradient}; */
-  width: 4rem;
-  height: 2.3rem;
+  width: 3rem;
+  height: 2rem;
   margin: 0 auto;
   border-radius: 30px;
   border: 2px solid ${({ theme }) => theme.toggleBorder};
@@ -223,9 +223,9 @@ const ToggleContainer = styled.button`
   padding: 0.5rem;
   overflow: hidden;
   cursor: pointer;
-
+   
   img {
-    max-width: 1.3rem;
+    max-width: 1rem;
     height: auto;
     transition: all 0.3s linear;
 
