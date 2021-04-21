@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
 
-  background: ${({ theme }) => theme.textBlac};
+  background: ${({ theme }) => theme.background};
 @media (min-width: 1025px) {
     display:flex;
 justify-content:space-around;

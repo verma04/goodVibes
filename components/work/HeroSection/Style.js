@@ -34,7 +34,7 @@ justify-content:center;
             font-size:4rem;
               line-height:1.2;
             color:white;
-           
+           z-index:1000;
             font-family: Mono_bold;
         }
     }

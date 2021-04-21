@@ -72,7 +72,7 @@ function Navbar({toggleTheme , theme}) {
                         <a  onClick={scrollTo} > Team</a>
                         </div>
                     <div  className="nav-item" >
-                        <a  onClick={scrollToService} > Service</a>
+                        <a  onClick={scrollToService} > Services</a>
                        </div>
                     <div   onClick={()=> router.push('/about') } id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
                         <a> About</a>
@@ -151,7 +151,7 @@ onClick={ () => setvisible(false)}
              <a  > Team</a>
              </div>
          <div   className="nav-item" >
-             <a href="#service" > Service</a>
+             <a href="#service" > Services</a>
             </div>
          <div   onClick={ ()=> send('about')  }  className="nav-item" >
              <a> About</a>

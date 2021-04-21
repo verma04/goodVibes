@@ -55,7 +55,7 @@ function Team() {
             
              
   <h2>Dennis Nagpal </h2>
-  <span>Executive Producer & Founder</span>
+  <span> Producer/Founder</span>
     </div>
 
           
@@ -149,6 +149,24 @@ function Team() {
 
             
   </div>
+           
+ 
+  
+
+ 
+ 
+</Carousel>
+
+
+
+<Carousel
+  ssr
+  partialVisbile
+
+  itemClass="image-item"
+  responsive={responsive}
+            >
+
   <div  className="set">
   <div className='wrapper'>
 

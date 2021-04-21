@@ -63,10 +63,21 @@ and stuff.
 
        <div  className="bottom" >
    <div className="bottom-1" >
-   <i class="fab fa-facebook-f"></i>
-   <i class="fab fa-instagram"></i>
-   <i class="fab fa-twitter"></i>
-   <i class="fab fa-dribbble"></i>
+       <a target="_blank" href="https://www.facebook.com/goodvibesindia">
+       <i  class="fab fa-facebook-f"></i>
+       </a>
+    <a target="_blank" href="https://www.instagram.com/goodvibesindia/">
+    <i  class="fab fa-instagram"></i>
+    </a>
+  
+   <a target="_blank" href="https://twitter.com/GoodVibesIndia">
+   <i   class="fab fa-twitter"></i>
+   </a>
+   
+   {/* <a target="_blank" href="http://www.facebook.com/AirJaldi">
+   <i    class="fab fa-dribbble"></i>
+   </a>
+    */}
    </div>
    <div className="bottom-2" >
    © 2021 GoodVibes 

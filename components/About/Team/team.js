@@ -67,7 +67,7 @@ function showreel() {
             <div className="top" >
     <span>— Our Bio</span>
 
-    <h2>WE ARE A CREATIVE VIDEO PRODUCTION COMPANY</h2>
+    <h2>We are storytellers</h2>
 
             </div>
             <div className="bottom" >
@@ -75,17 +75,13 @@ function showreel() {
    <h3>WHO WE ARE</h3>
 
    <p>
-Video production work with producing video content. It is the analogical of film making, but the images are digitally recorded instead of film stock. There are three levels of video production: production, pre-production and post-production.
+   Good Vibes is a New Delhi based video production company & a talent agency, with a team of young and passionate professionals who aim to break the conventional mould and present the audience with freshly brewed content.  Our team of creative storytellers know how to write directly to your audience, design within your brand guidelines, and communicate through a clear process, ensuring your workload gets lighter and a lot more fun. We offer creative development, video production, photography, and post-production services worldwide. Our clients include global brands, ad agencies, small businesses, nonprofits, government, and many more.
 
 
 </p>
 
    </div>
-   <div className="list" >
-       <h3>WHO WE WORK</h3>
-       <p>Video production work with producing video content. It is the analogical of film making, but the images are digitally recorded instead of film stock. There are three levels of video production.</p>
-   </div>
-
+  
             </div>
       
             </div>

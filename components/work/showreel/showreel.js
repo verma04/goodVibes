@@ -126,7 +126,7 @@ function showreel() {
         <Section>
          <div className="head" >
     
-<h2>The Good Vibes Showreel</h2>
+<h2>Our portfolio</h2>
 
          </div>
 

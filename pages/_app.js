@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
 
   const [theme, themeToggler] = useDarkMode();
 
-  const themeMode = theme === 'light' ? lightTheme : darkTheme;
+  const themeMode = theme === 'dark' ? lightTheme : darkTheme;
   
   return (
     

@@ -67,12 +67,16 @@ justify-content:center;
       }
       .bottom {
         width:90%;
-        height:70%;
+        height:100%;
         display:flex;
       justify-content:center;
       align-items:center;
       flex-direction:column;
+      .list {
       
+        width:100%;
+        height:100%;
+      }
       h3 {
     position: relative;
       }
@@ -182,6 +186,7 @@ justify-content:center;
       justify-content:center;
       align-items:center;
       flex-direction:column;
+     
       
       h3 {
     position: relative;
@@ -194,6 +199,7 @@ justify-content:center;
     border-bottom: 2px solid;
     width: 15%;
       }
+
       }
     }
 

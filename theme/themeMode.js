@@ -34,7 +34,7 @@ export const lightTheme=   {
       darkblue:"#053a73",
       textBlac:'#161b22',
       yellow: "rgb(250,234,84)",
-     background:"#161b22",
+     background:"#000000",
      mainBack:"rgb( 249, 248, 246)",
       blue:"#0085C5",
       grey:	"#2B3339",
