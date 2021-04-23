@@ -48,11 +48,11 @@ justify-content:space-between;
             align-items:center;
             width:11rem;
             height:2.3rem;
-            font-family: Mono_bold ;
+              font-family: Arial, Helvetica, sans-serif;
            
              }
              #bt {
-              font-family: Montserrat ;
+                font-family: Arial, Helvetica, sans-serif;
                font-size:0.8rem;
                text-transform:uppercase;
              }
@@ -74,7 +74,7 @@ justify-content:space-between;
      font-size:1.8rem;
   font-weight:800;
   width:70%;
-  font-family: Mono_bold;
+ 
    }
    .mid {
     font-size:1.3rem;
@@ -149,11 +149,11 @@ align-items:center;
           align-items:center;
           width:11rem;
           height:2.3rem;
-          font-family: Mono_bold ;
+            font-family: Arial, Helvetica, sans-serif;
          
            }
            #bt {
-            font-family: Montserrat ;
+              font-family: Arial, Helvetica, sans-serif;
              font-size:0.8rem;
              text-transform:uppercase;
            }
@@ -248,11 +248,11 @@ justify-content:space-between;
             align-items:center;
             width:10rem;
             height:2rem;
-            font-family: Mono_bold ;
+              font-family: Arial, Helvetica, sans-serif;
            
              }
              #bt {
-              font-family: Montserrat ;
+                font-family: Arial, Helvetica, sans-serif;
                font-size:0.8rem;
                text-transform:uppercase;
              }
