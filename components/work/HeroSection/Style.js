@@ -25,7 +25,7 @@ justify-content:center;
       overflow-x: hidden;
         position:absolute;
         width:90%;
-        bottom:35%;
+      bottom:35%;
  
         display:flex;
         justify-content:start;

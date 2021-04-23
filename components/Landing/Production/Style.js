@@ -62,7 +62,7 @@ flex-wrap: wrap;
        h2 {
          margin-top:1rem;
          margin-bottom:0.5rem;
-        font-family: Mono_bold;
+          font-family: Arial, Helvetica, sans-serif;
            font-weight:900;
              font-size:1.3rem;
              text-align:center;
@@ -142,7 +142,7 @@ flex-wrap: wrap;
        h2 {
          margin-top:1rem;
          margin-bottom:0.5rem;
-        font-family: Mono_bold;
+          font-family: Arial, Helvetica, sans-serif;
            font-weight:900;
              font-size:1.3rem;
              text-align:center;
@@ -224,7 +224,7 @@ flex-wrap: wrap;
        h2 {
          margin-top:1rem;
          margin-bottom:0.5rem;
-        font-family: Mono_bold;
+          font-family: Arial, Helvetica, sans-serif;
            font-weight:900;
              font-size:1.3rem;
              text-align:center;
@@ -303,7 +303,7 @@ flex-direction:column;
   justify-content:space-between;
      h2 {
       
-      font-family: Mono_bold;
+        font-family: Arial, Helvetica, sans-serif;
          font-weight:900;
            font-size:1.3rem;
            text-align:center;

@@ -68,20 +68,24 @@ function Navbar({toggleTheme , theme}) {
                         <a  > Home</a>
                         
                        </div>
-                       <div     className="nav-item" >
-                        <a  onClick={scrollTo} > Team</a>
-                        </div>
-                    <div  className="nav-item" >
-                        <a  onClick={scrollToService} > Services</a>
-                       </div>
-                    <div   onClick={()=> router.push('/about') } id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
+
+                       <div   onClick={()=> router.push('/about') } id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
                         <a> About</a>
                         </div>
-                      
+                        <div  className="nav-item" >
+                        <a  onClick={scrollToService} > Services</a>
+                       </div>
+                           
                     <div  id={router.pathname == "/work" ? "active" : ""} onClick={()=> router.push('/work') } className="nav-item" >
                         
                         <a>Work</a>
                     </div>
+                       <div     className="nav-item" >
+                        <a  onClick={scrollTo} > Team</a>
+                        </div>
+                  
+                    
+                  
                     <div   id={router.pathname == "/contactus" ? "active" : ""} onClick={()=> router.push('/contactus') }  className="nav-item" >
                         <a>Contact Us</a>
                         </div>

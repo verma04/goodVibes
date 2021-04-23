@@ -6,11 +6,11 @@ a {
   text-decoration: none; 
   color: white;
 
-  font-family: Montserrat ;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 div {
-    font-family: Montserrat ;
+      font-family: Arial, Helvetica, sans-serif;
   
 }
 .fa-bars {
@@ -19,7 +19,7 @@ div {
 
   body {
     transition: all 01s linear;
-  font-family: Montserrat ;
+    font-family: Arial, Helvetica, sans-serif;
    background: ${({ theme }) => theme.background};
       overflow-x: hidden;
   
@@ -72,7 +72,7 @@ button {
 }
 button {
   cursor: pointer;
-  font-family: Montserrat ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
  
@@ -89,7 +89,7 @@ button {
     font-size: 2.2rem;
     line-height: var(--line-height-lg);
     color: ${({ theme }) => theme.text};
-    font-family: Mono_bold;
+      font-family: Arial, Helvetica, sans-serif;
   
   word-spacing:0.2rem;
   line-height:1.2;
@@ -111,13 +111,13 @@ button {
     font-size: 1.2rem;
     line-height: var(--line-height-lg);
     color: ${({ theme }) => theme.text};
-    font-family: Mono_bold;
+      font-family: Arial, Helvetica, sans-serif;
     
     word-spacing:0.2rem;
     /* family=FiesoleTextW00-Italic */
   }
   p {
-    font-family: Montserrat ;
+      font-family: Arial, Helvetica, sans-serif;
     word-spacing:0.3rem;
     line-height: 1.2;
     
@@ -149,7 +149,7 @@ line-height:1.2;
 
 color: ${({ theme }) => theme.para};
 
-    font-family: Montserrat ;
+      font-family: Arial, Helvetica, sans-serif;
     word-spacing:0.2rem;
 
   }
@@ -157,12 +157,12 @@ color: ${({ theme }) => theme.para};
     color: ${({ theme }) => theme.para};
   }
   select {
-  font-family: Montserrat ;
+    font-family: Arial, Helvetica, sans-serif;
   
   }
   
   .date {
-  font-family: Montserrat ;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .card {
     border-radius:10px;
@@ -194,12 +194,12 @@ transition: transform .8s;
 
   }
   input {
-  font-family: Montserrat ;
+    font-family: Arial, Helvetica, sans-serif;
     border:1px solid #EFEAE4;
   
   }
   span {
-  font-family: Montserrat ;
+    font-family: Arial, Helvetica, sans-serif;
   }
   i {
    
@@ -232,7 +232,7 @@ transition: transform .8s;
     font-size: 1.4rem;
     line-height: var(--line-height-lg);
     color: ${({ theme }) => theme.text};
-    font-family: Mono_bold;
+      font-family: Arial, Helvetica, sans-serif;
   
   word-spacing:0.2rem;
   line-height:1.2;
@@ -254,13 +254,13 @@ transition: transform .8s;
     font-size: 1.1rem;
     line-height: var(--line-height-lg);
     color: ${({ theme }) => theme.text};
-    font-family: Mono_bold;
+      font-family: Arial, Helvetica, sans-serif;
     
     word-spacing:0.2rem;
     /* family=FiesoleTextW00-Italic */
   }
   p {
-    font-family: Montserrat ;
+      font-family: Arial, Helvetica, sans-serif;
     word-spacing:0.3rem;
     line-height: 1.2;
     
@@ -292,7 +292,7 @@ line-height:1.2;
 
 color: ${({ theme }) => theme.para};
 
-    font-family: Montserrat ;
+      font-family: Arial, Helvetica, sans-serif;
     word-spacing:0.2rem;
 
   }
@@ -319,7 +319,7 @@ color: ${({ theme }) => theme.para};
   a { 
     text-decoration: none; 
     
-  font-family: Montserrat ;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 button {
   font-family: Mono_bold ;
