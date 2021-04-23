@@ -249,7 +249,7 @@ function Team() {
  
 
 
-  <a  target="_blank" href="https://www.linkedin.com/company/goodvibesindia" className="set">
+  <a  target="_blank" href="https://www.linkedin.com/in/laxman-bhamboriya-124b79102/" className="set">
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618487201/ztkj7mahhwly7pd2qsrr.jpg" ></img>
