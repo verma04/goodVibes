@@ -72,8 +72,7 @@ function showreel() {
             </div>
             <div className="bottom" >
    <div className="list" >
-   <h3>WHO WE ARE</h3>
-
+  
    <p>
    Good Vibes is a New Delhi based video production company & a talent agency, with a team of young and passionate professionals who aim to break the conventional mould and present the audience with freshly brewed content.  Our team of creative storytellers know how to write directly to your audience, design within your brand guidelines, and communicate through a clear process, ensuring your workload gets lighter and a lot more fun. We offer creative development, video production, photography, and post-production services worldwide. Our clients include global brands, ad agencies, small businesses, nonprofits, government, and many more.
 

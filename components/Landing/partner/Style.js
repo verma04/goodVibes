@@ -27,7 +27,7 @@ justify-content:space-between;
       p {
           font-size:1.8rem;
          font-weight:900;
-         font-family: Mono_bold;
+             font-family: Arial, Helvetica, sans-serif;
       }
   }
   .right {
@@ -97,7 +97,7 @@ justify-content:space-between;
       p {
           font-size:1.8rem;
          font-weight:900;
-         font-family: Mono_bold;
+             font-family: Arial, Helvetica, sans-serif;
       }
   }
   .right {
@@ -163,7 +163,7 @@ justify-content:space-between;
       p {
           font-size:1.8rem;
          font-weight:900;
-         font-family: Mono_bold;
+             font-family: Arial, Helvetica, sans-serif;
       }
   }
   .right {
