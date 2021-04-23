@@ -47,7 +47,7 @@ top:0;
       color:white;
     font-weight:600;
     font-size:1.2rem;
-      font-family: Arial, Helvetica, sans-serif;
+     
      cursor: pointer;
     }
     }
@@ -111,7 +111,7 @@ top:0;
       color:white;
     font-weight:600;
     font-size:1.2rem;
-      font-family: Arial, Helvetica, sans-serif;
+     
      cursor: pointer;
     }
     }
@@ -212,7 +212,7 @@ top:0;
       margin-right:1rem;
     font-weight:600;
     font-size:1.2rem;
-      font-family: Arial, Helvetica, sans-serif;
+     
      cursor: pointer;
     }
     .mode {

@@ -1,6 +1,13 @@
 @font-face {
-    font-family: FSAlbert  ;
-  src: url('./font/FSAlbert Regular.otf') format('truetype');
+    font-family: Poppins-Bold ;
+  src: url('./font/Poppins-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins-Light ;
+  src: url('./font/Poppins-Light.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

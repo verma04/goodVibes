@@ -35,7 +35,7 @@ justify-content:center;
               line-height:1.2;
             color:white;
            z-index:1000;
-            font-family: Mono_bold;
+             font-family: Poppins-Bold ;
         }
     }
   
@@ -99,7 +99,7 @@ justify-content:center;
              line-height:1.2;
            color:white;
           
-           font-family: Mono_bold;
+            font-family: Poppins-Bold ;
        }
    }
  
@@ -163,7 +163,7 @@ justify-content:center;
              line-height:1.2;
            color:white;
           
-           font-family: Mono_bold;
+            font-family: Poppins-Bold ;
        }
    }
  

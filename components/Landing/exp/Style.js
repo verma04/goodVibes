@@ -74,7 +74,7 @@ justify-content:space-between;
      font-size:1.8rem;
   font-weight:800;
   width:70%;
-  font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins-Bold ;
    }
    .mid {
     font-size:1.3rem;
@@ -92,7 +92,7 @@ justify-content:space-between;
               #bold{
                   font-size:2.5rem;
                    font-weight:1000;
-                   font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+                     font-family: Poppins-Bold ;
                padding-bottom:0.5rem; 
                   }
           }  
@@ -175,7 +175,7 @@ transform: scale(1.1);
    font-size:1.8rem;
 font-weight:800;
 width:70%;
-font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins-Bold ;
  }
  .mid {
   font-size:1.3rem;
@@ -193,7 +193,7 @@ width:70%;
             #bold{
                 font-size:1.5rem;
                  font-weight:1000;
-                 font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+                   font-family: Poppins-Bold ;
              padding-bottom:0.5rem; 
                 }
         }  
@@ -274,7 +274,7 @@ justify-content:space-between;
      font-size:1.8rem;
   font-weight:800;
   width:100%;
-  font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins-Bold ;
   text-align:center;
    }
    .mid {
@@ -293,7 +293,7 @@ justify-content:space-between;
               #bold{
                   font-size:2.5rem;
                    font-weight:1000;
-                   font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+                     font-family: Poppins-Bold ;
               }
           }
    }

@@ -97,7 +97,7 @@ justify-content:space-around;
       p {
       color:white;
       line-height:1.2;
-      font-family: Mono_bold;
+      
       }
 
   }
@@ -243,7 +243,7 @@ justify-content:space-around;
       p {
       color:white;
       line-height:1.2;
-      font-family: Mono_bold;
+      
       }
 
   }
@@ -388,7 +388,7 @@ justify-content:space-around;
       p {
       color:white;
       line-height:1.2;
-      font-family: Mono_bold;
+      
       text-align:center;
       }
 

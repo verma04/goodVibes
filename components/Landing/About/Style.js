@@ -35,7 +35,7 @@ justify-content:center;;
       text-align:center;
       font-weight:600;
       font-size:1.8rem;
-      font-family: Mono_bold;
+      font-family: Poppins-Bold ;
   
 
   }
@@ -86,7 +86,7 @@ justify-content:center;;
       text-align:center;
       font-weight:600;
       font-size:1.4rem;
-      font-family: Mono_bold;
+      font-family: Poppins-Light ;
   
 
   }
@@ -135,7 +135,7 @@ justify-content:center;;
       text-align:center;
       font-weight:600;
       font-size:1.3rem;
-      font-family: Mono_bold;
+      font-family: Poppins-Light ;
   
 
   }

@@ -22,7 +22,7 @@ justify-content:center;
 
 
     .text {
-      overflow-x: hidden;
+   
         position:absolute;
         width:90%;
         bottom:35%;
@@ -35,7 +35,7 @@ justify-content:center;
               line-height:1.2;
             color:white;
            
-            font-family: Mono_bold;
+            font-family: Poppins-Bold ;
         }
     }
   
@@ -99,7 +99,7 @@ justify-content:center;
              line-height:1.2;
            color:white;
           
-           font-family: Mono_bold;
+           font-family: Poppins-Light ;
        }
    }
  
@@ -162,7 +162,7 @@ justify-content:center;
              line-height:1.2;
            color:white;
           
-           font-family: Mono_bold;
+           font-family: Poppins-Light ;
        }
    }
  
