@@ -12,6 +12,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import Documentaries from './Documentaries'
 import Animation from './Animation';
+import Pop from './Popup'
 
 const data = [
      
@@ -182,7 +183,7 @@ function showreel() {
           }
           else {
               return (
-                <div data-aos={ani} className="list" >
+                <div  className="list" >
                 {data.map((number) => 
                     <div  key={number._id} className="data" >
                    <div className="cover" >

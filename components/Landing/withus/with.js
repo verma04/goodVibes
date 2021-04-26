@@ -9,7 +9,7 @@ function Form() {
         <div data-aos="fade-left" className="flex" >
            <h2>We give wings to your imagination</h2>
 
-           <button>Collaborate with us</button>
+           <button> Let's Talk</button>
        
         </div>
         </Section>

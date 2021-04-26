@@ -75,7 +75,7 @@ function showreel() {
         
   
 
-  <div data-aos={ani} className="list" >
+  <div  className="list" >
     {data.map((number) => 
         <div  key={number._id} className="data" >
        <div className="cover" >
