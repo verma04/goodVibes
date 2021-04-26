@@ -22,8 +22,7 @@ function Footer() {
        </div>
 
        <div className="footer-logo-text">
-       We do care about details
-and stuff.
+       Hello, let's talk about the details.
             </div>
 
        </div>
@@ -52,7 +51,7 @@ and stuff.
    </ul>
    <ul>
        <li>Contact us</li>
-       <li>info@goodvibes.com
+       <li> dennis@thegoodvibes.co.in
 </li>
 
        <li>+91 988-719-0102</li>
@@ -80,7 +79,7 @@ and stuff.
     */}
    </div>
    <div className="bottom-2" >
-   © 2021 GoodVibes 
+   © 2016-2021 Good Vibes Entertainment LLP, All Rights Reserved.
    </div>
        </div>
 

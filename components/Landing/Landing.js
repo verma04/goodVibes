@@ -11,6 +11,7 @@ import Vedio from './vedio/Vedio';
 import Team from './Team/Team';
 import Withus from './withus/with'
 import Testimonials from './testimonials/Testimonials'
+import Behind from './Behind/Behind'
 function Landing() {
     return (
         <div>
@@ -23,6 +24,7 @@ function Landing() {
           <Showreel/>
           <Vedio/>
         <Team/>
+        <Behind/>
         <Testimonials/>
           <Featured/>
           <Partner/>

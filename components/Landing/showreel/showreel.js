@@ -126,7 +126,7 @@ function showreel() {
         <Section>
          <div className="head" >
     
-<h2>The Good Vibes Showreel</h2>
+<h2>Portfolio</h2>
 
          </div>
 
@@ -237,6 +237,8 @@ function showreel() {
           }
       })()}
 
+
+<button  style={{marginTop:"2rem"}} data-aos={ani}  >Show More</button>
      
 
          </div>

@@ -14,7 +14,7 @@ export const Section = styled.section`
 justify-content:center;
  align-items:center;
   flex-direction:column;
-  height:30rem;
+  height:37rem;
  
  
   width:100%;

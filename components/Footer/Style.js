@@ -130,6 +130,7 @@ justify-content:space-around;
     align-items:center;
     height:15%;
     width:100%;
+ 
     .bottom-1{
         width:40%;
          height:100%;
@@ -138,6 +139,7 @@ justify-content:space-around;
          justify-content:space-around;
          align-items:center;
          i {
+            
               font-size:1.3rem;
               color:#47B4DE;
          }
@@ -145,6 +147,8 @@ justify-content:space-around;
 
     }
     .bottom-2 {
+        width:50%;
+        text-align:center;
         font-weight:400%;
         color:white;
 

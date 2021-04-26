@@ -13,6 +13,8 @@ Message Us.
             </h2>
             <input  placeholder="Name" ></input>
             <input  placeholder="Email" ></input>
+            <input  placeholder="Phone Number" ></input>
+            <input  placeholder="Company Name" ></input>
             <textarea  placeholder="Message" ></textarea>
             <div className='btn' >
             <button>Submit</button>
