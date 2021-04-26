@@ -51,15 +51,15 @@ function HeroSection() {
               </div>
                </div>          */}
                <div className="social" >
-              <div className="icon" >
+              <a className="icon" >
                Facebook
-              </div>
-              <div className="icon" >
+              </a>
+              <a className="icon" >
                Instargram
-              </div>
-              <div className="icon" >
+              </a>
+              <a className="icon" >
                Twitter
-              </div>
+              </a>
                </div>  
 
  
