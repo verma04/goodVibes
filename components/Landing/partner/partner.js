@@ -118,7 +118,15 @@ for the long run.</p>
  objectFit="cover"
  />   
           </div>
-          
+          <div className="partner" >
+          <Image
+  className="myImage"
+ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522672/ea0v2fwzru9efx4lcugu.png'
+ alt="Picture of the author"
+ layout="fill"
+ objectFit="cover"
+ /> 
+ </div>
          
           <div className="partner" >
           <Image
@@ -129,6 +137,10 @@ for the long run.</p>
  objectFit="cover"
  /> 
  </div>
+
+       
+   
+
  <div className="partner" >
           <Image
   className="myImage"
@@ -157,7 +169,28 @@ for the long run.</p>
  objectFit="cover"
  /> 
  </div>
+
+ <div className="partner" >
+          <Image
+  className="myImage"
+ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524388/s7ah99qfbjkegs92cyh4.png'
+ alt="Picture of the author"
+ layout="fill"
+ objectFit="cover"
+ /> 
+ </div>
+
+ <div className="partner" >
+          <Image
+  className="myImage"
+ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524388/yj3uej3gmgra3cszs4ky.png'
+ alt="Picture of the author"
+ layout="fill"
+ objectFit="cover"
+ /> 
+ </div>
        
+      
        
        
  
@@ -333,6 +366,31 @@ for the long run.</p>
                     <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524087/ry9d0rvotadctonfnqdj.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           /> 
+            </div>
+        
+            
+
+                
+            <div className="partner" >
+                    <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524388/btpmvd0plv4uhmyg53rc.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           /> 
+            </div>
+        
+            
+                
+            <div className="partner" >
+                    <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524388/niio0fpezaniuvyayfea.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
