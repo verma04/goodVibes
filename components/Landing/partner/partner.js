@@ -138,6 +138,25 @@ for the long run.</p>
  objectFit="cover"
  /> 
  </div>
+
+ <div className="partner" >
+          <Image
+  className="myImage"
+ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524087/llkbuis6h5gfvcm2bo4h.png'
+ alt="Picture of the author"
+ layout="fill"
+ objectFit="cover"
+ /> 
+ </div>
+ <div className="partner" >
+          <Image
+  className="myImage"
+ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524087/rz6v4suvu8nhtsbdgkx6.png'
+ alt="Picture of the author"
+ layout="fill"
+ objectFit="cover"
+ /> 
+ </div>
        
        
        
@@ -292,6 +311,28 @@ for the long run.</p>
                     <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619523571/hke5jyptgyomdrlxphqx.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           /> 
+            </div>
+        
+            
+            <div className="partner" >
+                    <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524087/eaihh5pdetuek2b6jjrj.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           /> 
+            </div>
+        
+            
+            <div className="partner" >
+                    <Image
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524087/ry9d0rvotadctonfnqdj.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
