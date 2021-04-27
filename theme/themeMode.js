@@ -18,15 +18,15 @@ export const lightTheme=   {
       footerColor: "#2c3132",
        lightblue: "#ddf3ff",
        dark:'#313942',
-       img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1617439006/qmbw3hqxtb0ywmdbmprn.png"
-     
+       img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1617439006/qmbw3hqxtb0ywmdbmprn.png",
+       logo1:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619503291/pccqrnbtedh5eybzklr3.png", 
     
   };
 
   export const darkTheme=   {
      toggleBorder: '#6B8096',
      gradient: 'linear-gradient(#091236, #1E215D)',
-    
+      logo1:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619503291/pccqrnbtedh5eybzklr3.png", 
 
      test:'white',
      text:"white",
