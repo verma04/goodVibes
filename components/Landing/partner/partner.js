@@ -84,7 +84,7 @@ for the long run.</p>
           <div className="partner" >
           <Image
   className="myImage"
- src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260065/goodVibes/u4nf7lxjtxa6k4qzavfl.jpg"
+ src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522285/apykpnv5dwr7sux599us.png"
  alt="Picture of the author"
  layout="fill"
  objectFit="cover"
@@ -93,7 +93,7 @@ for the long run.</p>
           <div className="partner" >
           <Image
   className="myImage"
- src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260065/goodVibes/jqrck9fw3nfuywrjr1qy.jpg"
+ src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522285/zfdnfjyuj6dhleiorapa.png"
  alt="Picture of the author"
  layout="fill"
  objectFit="cover"
@@ -103,7 +103,7 @@ for the long run.</p>
           <div className="partner" >
           <Image
   className="myImage"
- src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/nqpnclcb1oegcde8smgl.jpg'
+ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522286/njwnninczig1gsa7m0fs.png'
  alt="Picture of the author"
  layout="fill"
  objectFit="cover"
@@ -112,7 +112,7 @@ for the long run.</p>
           <div className="partner" >
           <Image
   className="myImage"
- src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/z76zdjc339jdxxy4yzsj.jpg'
+ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522286/gocsatgqzrlh3dekegz4.png'
  alt="Picture of the author"
  layout="fill"
  objectFit="cover"
@@ -123,40 +123,25 @@ for the long run.</p>
           <div className="partner" >
           <Image
   className="myImage"
- src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/nwo0bam38fg0ou20npqg.jpg'
+ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619523030/ios6xhrd2xsqm2r4zsc5.png'
+ alt="Picture of the author"
+ layout="fill"
+ objectFit="cover"
+ /> 
+ </div>
+ <div className="partner" >
+          <Image
+  className="myImage"
+ src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619523571/ipb5nzuqpvhykcwntxe5.png'
  alt="Picture of the author"
  layout="fill"
  objectFit="cover"
  /> 
  </div>
        
-          <div className="partner" >
-          <Image
-  className="myImage"
- src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/kaphn9ty9skwtg3c3yht.jpg'
- alt="Picture of the author"
- layout="fill"
- objectFit="cover"
- /> 
-  </div>
-  <div className="partner" >
-          <Image
-  className="myImage"
- src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/mubea31erup0ytistwdw.jpg'
- alt="Picture of the author"
- layout="fill"
- objectFit="cover"
- /> 
-          </div>
-  <div className="partner" >
-          <Image
-  className="myImage"
- src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260083/goodVibes/tctkkrjbaucuy5cuqwp1.jpg"
- alt="Picture of the author"
- layout="fill"
- objectFit="cover"
- /> 
- </div>
+       
+       
+ 
   </div>
 
   <div data-aos="zoom-out" className="button" >
@@ -248,7 +233,7 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260065/goodVibes/t0ox75fhbsd8azupxczm.jpg'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522285/qz66ahnllijpomjn9ill.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -257,7 +242,7 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260065/goodVibes/u4nf7lxjtxa6k4qzavfl.jpg"
+           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522285/reyjrm5uvoueyrpcjjsq.png"
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -266,7 +251,7 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260065/goodVibes/jqrck9fw3nfuywrjr1qy.jpg"
+           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522286/qn7sclyrudok9kovaa4x.png"
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -276,7 +261,7 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/nqpnclcb1oegcde8smgl.jpg'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522286/pf5l6rzxdxmw0u8c7xzm.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -285,7 +270,7 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/z76zdjc339jdxxy4yzsj.jpg'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522672/fm11cxk8uehfa5y5gk0n.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -296,7 +281,7 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/nwo0bam38fg0ou20npqg.jpg'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619523030/h3uyibgffyzhwllf5dk3.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -306,30 +291,15 @@ for the long run.</p>
                     <div className="partner" >
                     <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/kaphn9ty9skwtg3c3yht.jpg'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619523571/hke5jyptgyomdrlxphqx.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
            /> 
             </div>
-            <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260066/goodVibes/mubea31erup0ytistwdw.jpg'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
-            <div className="partner" >
-                    <Image
-            className="myImage"
-           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617260083/goodVibes/tctkkrjbaucuy5cuqwp1.jpg"
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-           </div>
+        
+            
+            
             </div>
 
             <div data-aos="zoom-out" className="button" >
