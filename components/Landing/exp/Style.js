@@ -48,11 +48,11 @@ justify-content:space-between;
             align-items:center;
             width:11rem;
             height:2.3rem;
-              font-family: Arial, Helvetica, sans-serif;
+              font-family: Poppins-Bold ;
            
              }
              #bt {
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Poppins-Bold ;
                font-size:0.8rem;
                text-transform:uppercase;
              }
@@ -149,11 +149,11 @@ align-items:center;
           align-items:center;
           width:11rem;
           height:2.3rem;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Poppins-Bold ;
          
            }
            #bt {
-              font-family: Arial, Helvetica, sans-serif;
+              font-family: Poppins-Bold ;
              font-size:0.8rem;
              text-transform:uppercase;
            }
@@ -248,11 +248,11 @@ justify-content:space-between;
             align-items:center;
             width:10rem;
             height:2rem;
-              font-family: Arial, Helvetica, sans-serif;
+              font-family: Poppins-Bold ;
            
              }
              #bt {
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Poppins-Bold ;
                font-size:0.8rem;
                text-transform:uppercase;
              }
