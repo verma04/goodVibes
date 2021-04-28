@@ -8,10 +8,11 @@ import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } f
 function Navbar({toggleTheme , theme}) {
     const isLight = theme === 'light';
     const [nav, setnav] = useState(false);
+    const [state, setstate] = useState("")
     const [visible, setvisible] = useState(false);
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
-      
+        setstate(window.localStorage.theme)
         // returned function will be called on component unmount 
         return () => {
             window.removeEventListener('scroll');
@@ -112,7 +113,7 @@ function Navbar({toggleTheme , theme}) {
       <img src="https://image.flaticon.com/icons/svg/2033/2033921.svg" width="224" height="224" alt="Moon free icon" title="Moon free icon"/>
     </ToggleContainer>
                         </div>
-                    <i className="fas fa-search"></i>
+                    <i   className="fas fa-search"></i>
                 </div>
 
            </div>
@@ -122,6 +123,7 @@ function Navbar({toggleTheme , theme}) {
 
 <div  id={nav === false ? "" : "hide"} onClick={()=> setvisible(true)} className='left' >
  <div className="data" >
+   
 <img
  className="myImage"
 src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
@@ -138,14 +140,31 @@ objectFit="cover"
 { visible &&
      <div  data-aos="fade-top"  className='right' >
      <div className="data" >
-<img
- className="myImage"
-src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
-alt="Picture of the author"
-layout="fill"
-objectFit="cover"
-onClick={ () => setvisible(false)}
-/>   
+     {(() => {
+        if (state === "dark") {
+          return (
+            <img
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619609053/zibldcg8lngvrlqgfxhu.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           
+           />  
+          )
+        } else {
+          return (
+            <img
+            className="myImage"
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           
+           />  
+          )
+        }
+      })()}
 </div>
          <div    onClick={()=> send('home') } className="nav-item" >
              <a> Home</a>
