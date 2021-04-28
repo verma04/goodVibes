@@ -152,7 +152,7 @@ function Production() {
 
  <Image
            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608574/ekhbeujxxboa8crnrqt3.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608574/qxicr1fhgxs6lgv0y93q.png'
           alt="Picture of the author"
           layout="fill"
           objectFit="contain"
