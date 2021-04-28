@@ -23,58 +23,28 @@ const responsive = {
  
 const data  = [
 
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426702/goodVibes/dvmu3bax079rrs9oxdsb.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426702/goodVibes/i9vcpgeexgdu0gmc2fzc.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426700/goodVibes/uuika07m1yaeqkilkfev.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426701/goodVibes/yjuvnz0xmordmzwmrc34.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426701/goodVibes/grushpgketn15mvdkh2v.jpg",
-
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426700/goodVibes/cjqdvthsaftjwpwjlitu.jpg",
-
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426695/goodVibes/poygyb4ccnofulygi5ow.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426700/goodVibes/olwnfdzpyfw7ymskks12.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426699/goodVibes/bx4vlvjqbnmvtfxwvexz.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426699/goodVibes/i1g6bguisequz21jlxrq.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426699/goodVibes/tcfknntchgrpammdssyk.jpg",
-
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426698/goodVibes/lvzo1aydsxpn2nw93j7n.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426697/goodVibes/k5fmd8mu5s4ipbb7qoq8.jpg",
-
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426693/goodVibes/qfed50eho5qfpstihx0v.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426696/goodVibes/p4u4kvl5cltganaxghfd.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426696/goodVibes/ebwe4euceeyg64mbvjcd.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426696/goodVibes/l57epuyjh4cmjscr1iou.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426695/goodVibes/a3xi7zynhde6dhn3nopz.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426695/goodVibes/huvc6mu94po1rqarxtyj.jpg",
-
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426694/goodVibes/fjli1mbzyki1s90h9dtw.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426694/goodVibes/uumewgn0ipc88dirvf5f.jpg",
+"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607310/goodVibes/chjyiuqo1vpbrqz3zzfe.jpg",
+'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/eutah6sewz11gxcmsepw.jpg',
+'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/wvnbb5k2i0jlit8kwurf.jpg',
+"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607310/goodVibes/gvcxaw4uzgkziru3p52k.jpg",
+"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/olnxf9muioajijk4ilsy.jpg",
+"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/ujvz565i8wevjiqrc2dg.jpg",
+"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/nkqoglv4vuyqwmwq4xpf.jpg",
+"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/tbgmttx9rnunydkxxvtd.jpg",
+"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/szxgpnu8owaa7kq5flli.jpg",
 
 ]
 const data1  = [
 
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426694/goodVibes/vpmi7fg5lteaijczoxd9.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426693/goodVibes/elihacslv8kjlfl4h8kw.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426692/goodVibes/vo5oejf18ugk4pjdbccu.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426692/goodVibes/twia9mkwors0sbbpadge.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426692/goodVibes/gvsrnytxd6y3meqimpnk.jpg",
-
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426691/goodVibes/ztfam0mxxra3hcw1ttzi.jpg",
-
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426691/goodVibes/giiygqaisbbvcphhe7vq.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426690/goodVibes/bdtdpjhz4qtp2zarcxdg.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426689/goodVibes/fqsz4rs6ezhco620l57k.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426686/goodVibes/bwbnvyrtkjvrss1gahfs.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426689/goodVibes/faak3qeznsxdyewaidiz.jpg",
-
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426688/goodVibes/csayaunx9ovtympdxuta.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426688/goodVibes/mwyqqtogommpmxiethrj.jpg",
-
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426688/goodVibes/b2ty6h82jhxn7jkdxlkb.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426686/goodVibes/ivlsjhmmfatyppjdhc51.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619426686/goodVibes/mvtlwird1oyecxavp2j3.jpg",
- 
-
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607307/goodVibes/qyn228celxirb3k3rjmu.jpg",
+  'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/b8dvqvukwshs2fm4nczn.jpg',
+  'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/cy3h2d86mxxxy3xfgwmn.jpg',
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/dnzsjdqnhyhmr70pmhff.jpg",
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/vhrye0dqpshr1h4xjqk1.jpg",
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/gwhu3jij6psuqnm9emfu.jpg",
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/dn3a9azlynl5z1vtully.jpg",
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607305/goodVibes/l4qv4oo7rqzimgozgnti.jpg",
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607305/goodVibes/bsvxqdjnhqjkb1ad0tb5.jpg",
 ]
 
 
