@@ -72,6 +72,12 @@ flex-wrap: wrap;
           text-align:center;
         
         }
+        li {
+          list-style:none;
+          text-align:center;
+          line-height:1.4;
+          font-size:1.2rem;
+        }
     }
 }
     }

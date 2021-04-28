@@ -19,20 +19,22 @@ function Production() {
         <div className="data" >
         <div data-aos="fade-up" className="pro" >
 <div className="logo" >
-
 <Image
         className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608574/ndia0abizmpgujq4nfm0.png'
-
+        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608573/sxaulxzlfooszyossmh7.png'
        alt="Picture of the author"
        layout="fill"
        objectFit="contain"
-       />   
+       />  
+ 
 </div>
 
 <div className="set" >
-  <h2>LINE PRODUCTION</h2>
-  <p>We are equipped to carry out line production activities PAN India. We provide line production services for TV shows, TVC’s, Digital Films, Corporate videos, Web shows and documentaries.</p>
+  <h2>TV & Film Production</h2>
+  <li>Commercial & Brand Films</li>
+         <li>Corporate & Internal Videos</li>
+         <li>Animation & Explainers</li>
+         <li>Event & Conferences</li>
 </div>
 
             </div>
@@ -51,7 +53,11 @@ function Production() {
 
 <div  className="set" >
   <h2>Casting</h2>
-  <p>We have a pool of fresh talent and provide casting services for Reality shows, Fiction TV Shows, Print Ads, Digital Films, Corporate Videos, Web shows & documentaries.</p>
+  <li>Our divisions include Commercials</li>
+  <li>Non-Fiction shows</li>
+  <li>Print, Digital Media</li>
+  <li>and Celebrity Endorsements</li>
+
 </div>
 
             </div>
@@ -60,19 +66,21 @@ function Production() {
             <div data-aos="fade-up" className="pro" >
 <div className="logo" >
 
-<Image
+ 
+       <Image
         className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608573/sxaulxzlfooszyossmh7.png'
+        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608574/ndia0abizmpgujq4nfm0.png'
+
        alt="Picture of the author"
        layout="fill"
        objectFit="contain"
-       />   
+       />  
 </div>
 
 <div className="set" >
 
 
-  <h2>Creatives</h2>
+  <h2>Line Production</h2>
   <p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post production to the final delivery of the product.</p>
 </div>
 
@@ -112,17 +120,27 @@ function Production() {
 
  <Image
            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608574/ekhbeujxxboa8crnrqt3.png'
-
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608574/qxicr1fhgxs6lgv0y93q.png'
           alt="Picture of the author"
           layout="fill"
           objectFit="contain"
           />   
+  
  </div>
 
  <div className="set" >
-     <h2>LINE PRODUCTION</h2>
-     <p>We are equipped to carry out line production activities PAN India. We provide line production services for TV shows, TVC’s, Digital Films, Corporate videos, Web shows and documentaries.</p>
+     <h2>TV & Film Production</h2>
+     <p>
+
+         <li>Commercial & Brand Films</li>
+         <li>Corporate & Internal Videos</li>
+         <li>Animation & Explainers</li>
+         <li>Event & Conferences</li>
+         
+
+
+
+     </p>
  </div>
 
                </div>
@@ -141,7 +159,10 @@ function Production() {
 
  <div  className="set" >
      <h2>Casting</h2>
-     <p>We have a pool of fresh talent and provide casting services for Reality shows, Fiction TV Shows, Print Ads, Digital Films, Corporate Videos, Web shows & documentaries.</p>
+     <li>Our divisions include Commercials</li>
+  <li>Non-Fiction shows</li>
+  <li>Print, Digital Media</li>
+  <li>and Celebrity Endorsements</li>
  </div>
 
                </div>
@@ -150,19 +171,21 @@ function Production() {
                <div data-aos="fade-up" className="pro" >
  <div className="logo" >
 
- <Image
+
+<Image
            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608574/qxicr1fhgxs6lgv0y93q.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619608574/ekhbeujxxboa8crnrqt3.png'
+
           alt="Picture of the author"
           layout="fill"
           objectFit="contain"
-          />   
+          /> 
  </div>
 
  <div className="set" >
  
 
-     <h2>Creatives</h2>
+     <h2>Line Production</h2>
      <p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post production to the final delivery of the product.</p>
  </div>
 

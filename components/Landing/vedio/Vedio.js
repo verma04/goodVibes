@@ -23,11 +23,10 @@ function Vedio() {
 
            <div className="circle" >
                <div className="top" >
-               The Good Vibes
-Brand Reel
+               The Good Vibes Showreel
                </div>
                <div className="mid" >
-               We work hard to achieve best awards exposing new the ways to evolve our design language, digital literacy. Prethink talk to the slides, regroup your plate, so pivot. 
+               From single-camera studio setup to multi-camera, multi-crew on-location video production services, we have the expertise and resources to deliver your projects just the way you envisioned. Regardless of the budget and scope of a video, our goal remains the same, i.e. to make world-class video content. From script to screen, our team of producers, videographers and content developers is here to ensure the success of your project.
                </div>
                <div className="bottom" >
                    <button>

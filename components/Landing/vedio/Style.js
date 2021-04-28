@@ -38,14 +38,14 @@ justify-content:center;
             .top {
                 margin-top:22%;
                 width:55%;
-                font-size:4rem;
+                font-size:3.2rem;
                 color:white;
                 font-weight:1000;
             }
             .mid {
                 width:55%;
                 color:white;
-                font-size:1.2rem;
+                font-size:1.1rem;
                  line-height: 1.3;
                 
             }
@@ -133,14 +133,14 @@ justify-content:center;
             .top {
                 margin-top:22%;
                 width:55%;
-                font-size:4rem;
+                font-size:3.2rem;
                 color:white;
                 font-weight:1000;
             }
             .mid {
                 width:55%;
                 color:white;
-                font-size:1.2rem;
+                font-size:1.1rem;
                  line-height: 1.3;
                 
             }
@@ -196,8 +196,9 @@ justify-content:center;
 }
 
 @media (max-width: 600px) {
-  
-    display:flex;
+    display:none;
+/*   
+    display:flex; */
 justify-content:center;
  align-items:center;
   flex-direction:column;
