@@ -113,6 +113,7 @@ justify-content:center;
  align-items:center;
   flex-direction:column;
   height:22rem;
+  margin-top:2rem;
  
 
   width:100%;

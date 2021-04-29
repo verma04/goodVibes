@@ -93,9 +93,7 @@ function HeroSection() {
            />     */}
 
            <div aos-duration="10000" data-aos="fade-right" className="text" >
-              <div  className="data" >
-              Creative process assures desired result
-              </div>
+            
                </div>         
               
 
