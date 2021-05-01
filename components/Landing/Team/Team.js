@@ -41,7 +41,7 @@ function Team() {
         <Carousel
   ssr
   partialVisbile
-
+ id="team"
   itemClass="image-item"
   responsive={responsive}
             >
@@ -300,7 +300,7 @@ function Team() {
 
 <style jsx>{`
          .set {
-
+          
          }
         .set:before {
           content: "";
@@ -312,6 +312,23 @@ function Team() {
           background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
       
        }
+       .set:after {
+        display:block;
+        position: absolute;
+        width:100%;
+        z-index:990;
+      bottom:0%;
+        content: '';
+        border-bottom: solid 8px #47B4DE;  
+        transform: scaleX(0);  
+        transition: transform 1s ease-in-out;
+      }
+     
+      .set:hover:after {
+              transform: scaleX(1);
+             
+            }
+           
        .name {  
         position: absolute;
         bottom: 10%;

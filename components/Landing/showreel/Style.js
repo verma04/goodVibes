@@ -119,7 +119,7 @@ justify-content:space-between;
 
           }
 
-          .img:after {
+          .cover:after {
   display:block;
   position: absolute;
   width:100%;
@@ -130,7 +130,7 @@ bottom:0%;
   transform: scaleX(0);  
   transition: transform 1s ease-in-out;
 }
-.img:hover:after {
+.cover:hover:after {
         transform: scaleX(1);
       }
 
@@ -295,7 +295,7 @@ justify-content:space-between;
 
           }
 
-          .img:after {
+          .cover:after {
   display:block;
   position: absolute;
   width:100%;
@@ -306,7 +306,7 @@ bottom:0%;
   transform: scaleX(0);  
   transition: transform 1s ease-in-out;
 }
-.img:hover:after {
+.cover:hover:after {
         transform: scaleX(1);
       }
 

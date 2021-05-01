@@ -1,7 +1,9 @@
 import React ,  {useEffect , useState} from 'react';
 import { Section } from './Style'
 import Image from 'next/image';
+import { useRouter } from 'next/router'
 function Production() {
+    const router = useRouter()
     const [state, setstate] = useState("")
     useEffect(function() {
             
@@ -199,7 +201,7 @@ function Production() {
            
 
            <div data-aos="zoom-out" className="button" >
-               <button  >Let’s Collaborate</button>
+               <button  onClick={() => router.push("/contactus#form") } >Let’s Collaborate</button>
            </div>
        </Section>
  

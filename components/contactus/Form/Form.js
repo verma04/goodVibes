@@ -5,7 +5,7 @@ function Form() {
     return (
         <Section>
         <div data-aos="fade-left" className="flex" >
-            <div className="left" >
+            <div  id="form" className="left" >
             
             <h2>
             We're the Best!

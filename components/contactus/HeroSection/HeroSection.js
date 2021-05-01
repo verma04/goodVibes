@@ -46,7 +46,7 @@ function HeroSection() {
                Instargram
               </div>
               <div className="icon" >
-               Twitter
+               YouTube
               </div>
                </div>  
 

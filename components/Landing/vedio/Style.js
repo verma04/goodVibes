@@ -64,21 +64,8 @@ justify-content:center;
            justify-content:space-between;
          text-align:left;
          border: 1px solid white;
-        span {
-        font-size:1rem;
-        font-weight:900;
-        color:black;
-
-    
-    
-
-    }
-    i {
+      
    
-        color: #47B4DE;
-        font-size:1.4rem;
-        
-    }
 
     }
    

@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 import Documentaries from './Documentaries'
 import Animation from './Animation';
 import Pop from './Popup'
-
+import { useRouter } from 'next/router'
 const data = [
      
     {
@@ -114,6 +114,8 @@ title:`International Women’s Day `
 ]
 
 function showreel() {
+  const router = useRouter()
+
     const [active, setactive] = useState("Digital");
     const [  visible , setvisible] = useState(false);
     const [  ani , setani] = useState("fade-up");
@@ -239,7 +241,7 @@ function showreel() {
       })()}
 
 
-<button  style={{marginTop:"2rem"}} data-aos={ani}  >Show More</button>
+<button   onClick={() => router.push("/work") }  style={{marginTop:"2rem"}} data-aos={ani}  >Show More</button>
      
 
          </div>

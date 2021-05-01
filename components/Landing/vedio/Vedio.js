@@ -29,9 +29,9 @@ function Vedio() {
                From single-camera studio setup to multi-camera, multi-crew on-location video production services, we have the expertise and resources to deliver your projects just the way you envisioned. Regardless of the budget and scope of a video, our goal remains the same, i.e. to make world-class video content. From script to screen, our team of producers, videographers and content developers is here to ensure the success of your project.
                </div>
                <div className="bottom" >
-                   <button>
-               <i class="fab fa-youtube-square"></i>
-               <span onClick=  { () => toggleMenu()}>Watch Our Video</span>
+                   <button onClick=  { () => toggleMenu()}>
+              
+ Watch Our Video
                </button>
                </div>
                 

@@ -189,7 +189,7 @@ padding-bottom:0.5rem;
 background-color:white;
 border: 2px solid;
 font-size:1.3rem;
-font-family: Mono_bold ;
+
 transition: transform .8s;
 
 

@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router'
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 function Navbar({toggleTheme , theme}) {
+  
     const isLight = theme === 'light';
     const [nav, setnav] = useState(false);
     const [state, setstate] = useState("")
@@ -74,7 +75,13 @@ function Navbar({toggleTheme , theme}) {
                         <a> About</a>
                         </div>
                         <div  className="nav-item" >
-                        <a  onClick={scrollToService} > Services</a>
+                        {router.pathname == "/" ? 
+                        <a  onClick={scrollToService} > Services</a>: 
+                        
+                        <a  onClick={() => router.push('/#service') } > Services</a>
+                        }
+                           
+                       
                        </div>
                            
                     <div  id={router.pathname == "/work" ? "active" : ""} onClick={()=> router.push('/work') } className="nav-item" >
@@ -82,7 +89,13 @@ function Navbar({toggleTheme , theme}) {
                         <a>Work</a>
                     </div>
                        <div     className="nav-item" >
-                        <a  onClick={scrollTo} > Team</a>
+
+                       {router.pathname == "/" ? 
+                              <a  onClick={scrollTo} > Team</a>: 
+                        
+                        <a  onClick={() => router.push('/#team') } >Team</a>
+                        }
+   
                         </div>
                   
                     

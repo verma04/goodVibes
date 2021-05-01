@@ -22,7 +22,7 @@ justify-content:center;
 
 
     .text {
-      overflow-x: hidden;
+    
         position:absolute;
         width:90%;
       bottom:35%;
@@ -45,7 +45,7 @@ justify-content:center;
        
     top:5rem;
     right:0;
-
+  cursor: pointer;
   
         display:flex;
         justify-content: space-around;
