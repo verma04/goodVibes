@@ -74,7 +74,7 @@ function Team() {
   responsive={responsive}
             >
 {data.sort( () => .5 - Math.random()).map(number => 
-  <a     className="set">
+  <div    className="set">
   <div style={{height:"20rem"}} className='wrapper'>
 
     <Image style={{width:"100%", height:"100%"}} layout="fill"
@@ -86,7 +86,7 @@ function Team() {
           
 
             
-  </a>
+  </div>
 
 
 )}
@@ -107,7 +107,7 @@ function Team() {
             >
 
 {data1.sort( () => .5 - Math.random()).map(number => 
-  <a     className="set">
+  <div     className="set">
   <div style={{height:"20rem"}} className='wrapper'>
 
     <Image style={{width:"100%", height:"100%"}} layout="fill"
@@ -119,7 +119,7 @@ function Team() {
           
 
             
-  </a>
+  </div>
 
 
 )}
@@ -133,34 +133,16 @@ function Team() {
 </Carousel>
 
 <style jsx>{`
-         .set {
+.wrapper { 
+  transition: transform 5s;
+  
+}
 
-         }
-        .set:before {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          height: 100%;
-          width: 100%;
-          z-index: 100;
-        
+.wrapper:hover {
+  transform: scale(1.5); 
+}
+
       
-       }
-       .name {  
-        position: absolute;
-        bottom: 10%;
-        z-index:999;
-        width:95%;
-        left:8%;
-       
-       }
-       h2 {
-        font-size:1.3rem;
-        color:white;
-      }
-      span {
-      color:white;
-      }
       `}</style>
           
    </div>
