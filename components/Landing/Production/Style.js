@@ -79,11 +79,16 @@ flex-wrap: wrap;
           font-size:1.2rem;
         }
     }
+    i {
+      color:white;
+      font-size:2rem;
+    }
 }
     }
     button {
       margin-top:3rem;
     }
+
   
  
     

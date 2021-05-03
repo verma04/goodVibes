@@ -18,8 +18,9 @@ export const Pop = styled.section`
     /* margin-top: 5rem; */
     /* padding: 20px; */
     z-index: 1000;
-    width: 87%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
+    
     border-radius: 10px;
     min-height: 10rem;
     display: -webkit-box;
@@ -37,11 +38,53 @@ export const Pop = styled.section`
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-         .react-player {
-           width:100%;
-           height:100%;
+    .pro {
+  
+  height:20rem;
+  width:100%;
+  
+  display:flex;
+  justify-content:space-around;
+align-items:center;
+flex-direction:column;
 
-         }
+  .logo {
+  width:100%;
+  height:40%;
+  
+  position: relative;
+  }
+  .set {
+    
+  width:90%;
+  height:50%;
+  
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+     h2 {
+      
+        font-family: Arial, Helvetica, sans-serif;
+         font-weight:900;
+           font-size:1.3rem;
+           text-align:center;
+           text-transform:uppercase;
+     }
+      p {
+        
+        margin-top:0.5rem;
+        text-align:center;
+      
+      }
+
+      li {
+          list-style:none;
+          text-align:center;
+          line-height:1.4;
+          font-size:1.2rem;
+        }
+  }
+}
        i {
          position:absolute;
          right:-5%;

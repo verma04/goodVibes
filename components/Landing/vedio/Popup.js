@@ -25,6 +25,10 @@ function Popup({toggle}) {
              </div> 
         
              </div>
+      
+      
+      
+      
              </Pop> 
     )
 }
