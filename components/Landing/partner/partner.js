@@ -13,7 +13,7 @@ function partner() {
   <div className="head" >
 <div  className="left" > 
 <h5>Our Clients  </h5>
-<p> We become your partners for the long run"</p>
+<p> We become your partners for the long run</p>
 </div>
 <div  className="right" >
 <p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post-production to the final delivery of the product. </p>
