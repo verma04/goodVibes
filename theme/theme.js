@@ -199,6 +199,9 @@ transition: transform .8s;
     border:1px solid #EFEAE4;
   
   }
+  textarea {
+    font-family: Poppins-Light ;
+  }
   span {
    
   }

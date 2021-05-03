@@ -19,7 +19,7 @@ justify-content:center;
 
   width:100%;
  
-  background: ${({ theme }) => theme.background};
+  background: white;
   .flex-1 {
       width:60%;
       display:flex;
@@ -33,12 +33,13 @@ justify-content:center;;
       font-weight:600;
       font-size:1.8rem;
        font-family: Poppins-Bold ;
+    
+    color:black;
   
-
   }
   p {
     text-align:center;
-  
+    color:black;
  
     word-spacing:0.4rem;
   }

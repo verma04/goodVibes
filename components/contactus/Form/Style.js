@@ -19,7 +19,7 @@ justify-content:center;
  
   width:100%;
  
-  background: ${({ theme }) => theme.background};  
+  background: white;  
   .flex {
     width:100%;
     height:100%;
@@ -27,7 +27,7 @@ justify-content:center;
     justify-content:center;
     align-items:center;
   
-    background: #1C1C1C;
+    background: white;
   
     .right{
       width:40%;
@@ -56,20 +56,20 @@ justify-content:center;
        }
        input {
         width:40%;
-        border: 1px solid white;
-        background: #1C1C1C;
+         border: 1px solid black;
+        background: white;
         height:2em;
         padding-left:1rem;
        }
        textarea {
         width:40%;
-        border: 1px solid white;
-        background: #1C1C1C;
+         border: 1px solid black;
+        background: white;
         height:4em;
         padding-left:1rem;
         padding-top:1rem;
         font-size:1.3rem;
-        font-family: Montserrat;
+    
        }
       .btn  {
         display:flex;
@@ -105,7 +105,7 @@ justify-content:center;
  
   width:100%;
  
-  background: ${({ theme }) => theme.background}; 
+  
   .flex {
     width:100%;
     height:100%;
@@ -113,7 +113,7 @@ justify-content:center;
     justify-content:center;
     align-items:center;
      flex-direction:column;
-    background: #1C1C1C;
+    background: white;
     overflow-x: hidden;
     .right{
       width:100%;
@@ -142,20 +142,20 @@ justify-content:center;
        }
        input {
         width:70%;
-        border: 1px solid white;
-        background: #1C1C1C;
+        border: 1px solid black;
+        background: white;
         height:2em;
         padding-left:1rem;
        }
        textarea {
         width:70%;
-        border: 1px solid white;
-        background: #1C1C1C;
+         border: 1px solid black;
+        background: white;
         height:4em;
         padding-left:1rem;
         padding-top:1rem;
         font-size:1.3rem;
-        font-family: Montserrat;
+    
        }
       .btn  {
         display:flex;
@@ -190,7 +190,7 @@ justify-content:center;
  
   width:100%;
  
-  background: ${({ theme }) => theme.background}; 
+   background: white;
   .flex {
     width:100%;
     height:100%;
@@ -198,7 +198,7 @@ justify-content:center;
     justify-content:center;
     align-items:center;
      flex-direction:column;
-    background: #1C1C1C;
+    background: white;
     overflow-x: hidden;
     .right{
       width:100%;
@@ -212,7 +212,7 @@ justify-content:center;
     .left {
       width:100%;
       height:30rem;
-      
+      background: white;
       display:flex;
       justify-content:space-around;
       align-items:center;
@@ -227,20 +227,20 @@ justify-content:center;
        }
        input {
         width:70%;
-        border: 1px solid white;
-        background: #1C1C1C;
+         border: 1px solid black;
+        background: white;
         height:2em;
         padding-left:1rem;
        }
        textarea {
         width:70%;
-        border: 1px solid white;
-        background: #1C1C1C;
+         border: 1px solid black;
+        background: white;
         height:4em;
         padding-left:1rem;
         padding-top:1rem;
         font-size:1.3rem;
-        font-family: Montserrat;
+    
        }
       .btn  {
         display:flex;
