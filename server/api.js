@@ -16,7 +16,7 @@ router.post("/formEnquiry", (req, res) => {
     const msg = {
       to: 'info@thegoodvibes.co.in',
       from: 'info@thegoodvibes.co.in',
-      subject: "Contact Us form  ",
+      subject: "ContactUs form  ",
     
       html: `
    
