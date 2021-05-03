@@ -195,7 +195,7 @@ transition: transform .8s;
 
   }
   input {
-   
+    font-family: Poppins-Light ;
     border:1px solid #EFEAE4;
   
   }
