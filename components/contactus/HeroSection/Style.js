@@ -94,7 +94,7 @@ justify-content:center;
        position:absolute;
        width:90%;
        bottom:35%;
-  z-index:1000;
+       z-index:900;
        display:flex;
        justify-content:start;
        .data {
