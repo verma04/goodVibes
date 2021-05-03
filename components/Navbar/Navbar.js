@@ -157,7 +157,7 @@ objectFit="cover"
         if (state === "dark") {
           return (
             <img
-            onClick={setvisible(false)}
+            
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619609053/zibldcg8lngvrlqgfxhu.png'
            alt="Picture of the author"
@@ -169,7 +169,7 @@ objectFit="cover"
         } else {
           return (
             <img
-            onClick={setvisible(false)}
+        
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
            alt="Picture of the author"
