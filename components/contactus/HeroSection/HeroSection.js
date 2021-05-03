@@ -38,17 +38,17 @@ function HeroSection() {
               Contact
               </div>
                </div>         
-               <div className="social" >
-              <div className="icon" >
+               <a className="social" >
+              <a   target="_blank" href="https://www.facebook.com/goodvibesindia" className="icon" >
                Facebook
-              </div>
-              <div className="icon" >
+              </a>
+              <a target="_blank" href="https://www.instagram.com/goodvibesindia/" className="icon" >
                Instargram
-              </div>
-              <div className="icon" >
+              </a>
+              <a  target="_blank" href="https://twitter.com/GoodVibesIndia" className="icon" >
                YouTube
-              </div>
-               </div>  
+              </a>
+               </a>  
 
  
         </div>
