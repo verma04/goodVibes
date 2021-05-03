@@ -12,7 +12,7 @@ function exp() {
 
              <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616132695/goodVibes/l7gxqws1zfbnnvye7ptj.jpg'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026503/xdvwf7swg7yw9ff7pofv.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -22,11 +22,11 @@ function exp() {
              </div>
              <div data-aos="fade-left" className="right" >
     
-    <div className="top" >
-    We’re an experienced and very creative branding agency
+             <div className="top" >
+    This is the professional video production place where your story starts
     </div>
     <div className="mid" >
-    <p>Build on a culture of contribution and inclusion is a lot of persent cross-pollination, nor closing these latest prospects.</p>
+    <p>If you're ready to get started making a masterpiece, let's talk!</p>
     </div>
     <div className="bottom" >
        <ul>
@@ -85,7 +85,7 @@ function exp() {
 
              <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616132695/goodVibes/l7gxqws1zfbnnvye7ptj.jpg'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026503/xdvwf7swg7yw9ff7pofv.jpg'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"
@@ -99,10 +99,10 @@ function exp() {
              <div data-aos="fade-left" className="right" >
     
     <div className="top" >
-    We’re an experienced and very creative branding agency
+    This is the professional video production place where your story starts
     </div>
     <div className="mid" >
-    <p>Build on a culture of contribution and inclusion is a lot of persent cross-pollination, nor closing these latest prospects.</p>
+    <p>f you're ready to get started making a masterpiece, let's talk!</p>
     </div>
     <div className="bottom" >
        <ul>

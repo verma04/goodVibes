@@ -38,7 +38,7 @@ h2 {
     display:flex;
     justify-content:center;
     align-items:center;
-    height:20rem;
+    height:30rem;
     width:60rem;
 
      .img-1 {
@@ -47,7 +47,7 @@ h2 {
     display:flex;
     justify-content:flex-start;
     align-items:center;
-    height:20rem;
+    height:30rem;
 
     flex-direction:column;
     .midd {

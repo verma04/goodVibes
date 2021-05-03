@@ -161,10 +161,16 @@ function Production() {
 
  <div  className="set" >
      <h2>Casting</h2>
-     <li>Our divisions include Commercials</li>
+
+     
+
+
+
+
+     <li>Commercials</li>
   <li>Non-Fiction shows</li>
   <li>Print, Digital Media</li>
-  <li>and Celebrity Endorsements</li>
+  <li>Celebrity Endorsements</li>
  </div>
 
                </div>
@@ -188,7 +194,14 @@ function Production() {
  
 
      <h2>Line Production</h2>
-     <p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post production to the final delivery of the product.</p>
+
+
+ <li>   Selecting Locations </li>
+ <li>Provide Equipments </li>
+ <li>Align Cast & Crew </li>
+ <li>Arrange Permissions </li>
+
+    
  </div>
 
                </div>
@@ -201,7 +214,7 @@ function Production() {
            
 
            <div data-aos="zoom-out" className="button" >
-               <button  onClick={() => router.push("/contactus#form") } >Let’s Collaborate</button>
+               <button  onClick={() => router.push("/contactus#form") } >Lets Talk</button>
            </div>
        </Section>
  

@@ -38,7 +38,7 @@ justify-content:center;
             .top {
                 margin-top:22%;
                 width:55%;
-                font-size:3.2rem;
+                font-size:2.2rem;
                 color:white;
                 font-weight:1000;
             }

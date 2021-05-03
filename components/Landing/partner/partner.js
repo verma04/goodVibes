@@ -13,12 +13,10 @@ function partner() {
   <div className="head" >
 <div  className="left" > 
 <h5>Our Clients  </h5>
-<p> We’re going to
-became partners
-for the long run.</p>
+<p> We become your partners for the long run"</p>
 </div>
 <div  className="right" >
-<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.  The point of using <span> Lorem Ipsum is that it has a more-or-less normal</span> distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+<p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post-production to the final delivery of the product. </p>
 </div>
   </div>
   
@@ -211,12 +209,10 @@ for the long run.</p>
             <div className="head" >
    <div  className="left" > 
     <h5>Our Clients  </h5>
-    <p> We’re going to
-became partners
-for the long run.</p>
+    <p> We become your partners for the long run"</p>
    </div>
    <div  className="right" >
-   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.  The point of using <span> Lorem Ipsum is that it has a more-or-less normal</span> distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+   <p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post-production to the final delivery of the product. </p>
         </div>
             </div>
             

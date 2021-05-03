@@ -26,7 +26,9 @@ function Vedio() {
                The Good Vibes Showreel
                </div>
                <div className="mid" >
-               From single-camera studio setup to multi-camera, multi-crew on-location video production services, we have the expertise and resources to deliver your projects just the way you envisioned. Regardless of the budget and scope of a video, our goal remains the same, i.e. to make world-class video content. From script to screen, our team of producers, videographers and content developers is here to ensure the success of your project.
+               
+From single-camera studio setup to multi-camera, multi-crew on-location video production services, we have the expertise and resources to deliver you a world-class video content, the way you envisioned. From script to screen, our expert team of producers, videographers and content developers is here to ensure the success of your project.
+
                </div>
                <div className="bottom" >
                    <button onClick=  { () => toggleMenu()}>

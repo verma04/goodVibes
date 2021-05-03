@@ -132,7 +132,7 @@ function Team() {
 
             
   </a>
-  <div  target="_blank" href="https://www.linkedin.com/in/rhea-banerjee-84961524" className="set">
+  <a  target="_blank" href="https://www.linkedin.com/in/rhea-banerjee-84961524" className="set">
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769690/goodVibes/ywkpwgo3fqufbikzd9ex.jpg" ></img>
@@ -148,7 +148,7 @@ function Team() {
           
 
             
-  </div>
+  </a>
            
  
   

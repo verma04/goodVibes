@@ -28,8 +28,8 @@ function Testimonials() {
       </div>
 
       <div className="set" >
-          <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
-          <h3> ADITYA THAYIe</h3>
+          <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026503/q8prwfaksowrpugksldz.jpg" ></img>
+          <h3> Aditia Thayi</h3>
          
 
          
@@ -47,13 +47,16 @@ function Testimonials() {
 
 
          <div className="midd" > 
-      <p>   It's good to see a promising budding company with such raging creative hormones. Keep rocking.</p>   
+      <p>  Post our first project on VIVO where we developed a couple of Vox Pop videos, Goodvibes has been our go to production team from Delhi; because of their attitude and dedication towards delivering the right product. It’s been a pleasure working with Dennis, Max and the amazing team that they have built. As 22feet, we have always enjoyed working with the Goodvibes team and will continue to collaborate with them and create some exciting projects. 
+</p>   
 </div>
 
 <div className="set" >
- <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
- <h3>RANJEET PATHAK</h3>
- <span>NATIONAL PROGRAMMING HEAD, RED FM</span>
+ <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026503/ltlwtcio8p0jqnkvg4dp.png" ></img>
+ <h3>Vivian Albert Nicholas</h3>
+ <span>Client Solutions Director  ,
+ 22feet Tribal Worldwide, DDM Mudra Group
+</span>
 </div>
 
 
@@ -72,9 +75,9 @@ function Testimonials() {
 </div>
 
 <div className="set" >
- <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
- <h3>VIVIAN ALBERT NICHOLAS</h3>
- <span>NEW BUSINESS DEVELOPMENT, 22FEET TRIBAL WW</span>
+ <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026503/jgd2z52uujucvmlmafqe.png" ></img>
+ <h3>Ekant Babani</h3>
+ <span>Fiction Head - Youth & Lifestyle,  Endemol Shine India</span>
 </div>
 
 
@@ -91,13 +94,13 @@ function Testimonials() {
 
                  
       <div className="midd" > 
-   <p> I would very highly recommend Maxwel, I worked with him on two projects in India last year and he was reliable, efficient and organized in all aspects of pre production and on shoot. He's also a good problem solver and will always do his best to get what is needed/required.</p>   
+   <p>  It's been great working with GoodVibes, they get the brief, read between the lines and add great value to a campaign with their creativity. Working with them is easy, they are open to feedback and retentive about adhering to standards. What really sets GoodVibes apart is definitely the team! Each one of them works tirelessly and with great passion even in the most challenging situations. We thank them for being a part of some of our memorable campaigns and look forward to navigate new initiatives with their support.</p>   
 </div>
 
 <div className="set" >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
-<h3>INDRA NIENHAUS</h3>
-<span>CHANNEL NEWS ASIA, SINGAPORE</span>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026503/x1nf37paxas3zbxluhti.jpg" ></img>
+<h3>Michelle Kumar</h3>
+<span> India PR lead, Amazon Devices ,  Amazon</span>
 </div>
 
 
@@ -113,13 +116,13 @@ function Testimonials() {
               
                  
       <div className="midd" > 
-   <p> The one thing standing out at Good Vibes is their 'Never say No' attitude. Have never had a service or requirement not done by them. Other than actually sending out "good vibes", they are super professional and one of the best in the industry. Kudos to the team.</p>   
+   <p>We developed a great partnership with the team from Goodvibes and their dedication to our project in all aspects was commendable. It was such a great and fascinating experience. All I can say is WOW!</p>   
 </div>
 
 <div className="set" >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616145728/goodVibes/vyqbqj889dqdbmpi8v0k.png" ></img>
-<h3>EKANT BABANI</h3>
-<span>PARTNER, ALLIGATOR MEDIA</span>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026896/v831xmkwfmemkqopurkr.png" ></img>
+<h3>Vineet Garude</h3>
+<span> Group Head Client Servicing , Wizcraft International Entertainment Pvt. Ltd. </span>
 </div>
 
 
