@@ -3,6 +3,9 @@ import React, {  useEffect , useState } from 'react';
 import { ThemeProvider } from "styled-components";
 import AOS from 'aos';
 import "aos/dist/aos.css";
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
  import  {useDarkMode} from '../theme/useDarkMode'
  import GlobalFonts from '../theme/theme';
  import { lightTheme, darkTheme } from "../theme/themeMode";
@@ -42,7 +45,7 @@ function MyApp({ Component, pageProps }) {
 
  
   <ThemeProvider theme={themeMode}>
-  
+  <ToastContainer />
     <GlobalFonts/>
     <Navbar   toggleTheme={themeToggler} theme={theme}  />
  <Component {...pageProps}  />

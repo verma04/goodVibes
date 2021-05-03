@@ -33,10 +33,14 @@ router.post("/formEnquiry", (req, res) => {
     </div>`
     };
     sgMail.send(msg).catch(err => {
+        if(err) {
       console.log(err);
+        }
+        
     });
 
-
+    console.log("dsd")
+    res.json("succces")
 });
 
 

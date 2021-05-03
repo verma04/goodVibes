@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image';
 import { Section } from './Style'
 import { useForm } from "react-hook-form";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios'
 function Form() {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
@@ -9,7 +11,7 @@ function Form() {
  
     const onSubmit = async  data =>  {
         const response = await axios.post('/api/formEnquiry', data);
-    
+          await toast.success("Data Send Success")
     }
     
    
