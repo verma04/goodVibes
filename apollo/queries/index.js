@@ -9,15 +9,16 @@ import { gql } from 'apollo-boost';
 
 export const GET_CAFE = gql`
 query MyQuery {
-  page(id: "cG9zdDo3") {
-    title
-    content
-    featuredImage {
+  portfolioTypes {
+    edges {
       node {
-        sourceUrl
+        id
+        termTaxonomyId
+        name
+        count
+        uri
       }
     }
-    baRe
   }
 }`
 
