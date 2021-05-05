@@ -4,7 +4,62 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
 
-@media (min-width: 1025px) {
+
+@media (min-width: 1281px) {
+  
+  display:flex;
+justify-content:center;
+ align-items:center;
+  flex-direction:column;
+  height:18rem;
+ 
+
+  width:100%;
+ 
+  background: ${({ theme }) => theme.background};
+  
+ 
+
+  .flex-1-sm {
+    display:none;
+  }
+
+    
+  .flex-1 {
+      width:60%;
+      display:flex;
+      z-index:1000;
+justify-content:center;;
+ align-items:center;
+  flex-direction:column;
+  height:100%;
+  h3 {
+    margin-bottom:5%;
+      text-align:center;
+      font-weight:600;
+      font-size:1.8rem;
+      font-family: Poppins-Bold ;
+  
+
+  }
+  p {
+    text-align:center;
+  
+ 
+
+  }
+
+     
+    }
+  
+ 
+
+    
+  
+
+}
+@media (min-width: 1025px) and (max-width: 1280px)  {
+  margin-top:10rem;
   display:flex;
 justify-content:center;
  align-items:center;
