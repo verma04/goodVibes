@@ -11,7 +11,7 @@ justify-content:center;
   flex-direction:column;
   height:18rem;
  
-border: 1px solid red;
+
   width:100%;
  
   background: ${({ theme }) => theme.background};

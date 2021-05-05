@@ -32,7 +32,7 @@ justify-content:center;
       height:80%;
 
 display:flex;
-justify-content:center;
+justify-content:flex-start;
 flex-direction:column;
 align-items:center;
 ul {
