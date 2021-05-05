@@ -51,7 +51,7 @@ justify-content:center;
 
        h2 {
          width:42%;
-         color:white;
+         color:black;
         
        }
        input {
@@ -137,7 +137,7 @@ justify-content:center;
 
        h2 {
          width:70%;
-         color:white;
+         color:black;
         
        }
        input {
@@ -222,7 +222,7 @@ justify-content:center;
 
        h2 {
          width:70%;
-         color:white;
+         color:black;
         
        }
        input {

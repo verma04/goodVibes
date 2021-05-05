@@ -26,7 +26,7 @@ function exp() {
     This is the professional video production place where your story starts
     </div>
     <div className="mid" >
-    <p>If you're ready to get started making a masterpiece, let's talk!</p>
+    <p>If you're ready to create a masterpiece, let's talk!</p>
     </div>
     <div className="bottom" >
        <ul>

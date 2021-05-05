@@ -43,10 +43,15 @@ justify-content:space-between;
   color:black;
   width:100%;
   .footer-logo {
-      width:20%;
-      position: relative;
-      height:60%;
+    
+    width: 48%;
+    position: relative;
+    height: 88%;
+    
+
+     
       align-items:left;
+    
      
   }
   .footer-logo-text {
@@ -114,11 +119,15 @@ justify-content:space-around;
           
           width:50%;
           display:flex;
-          justify-content:space-around;
+          justify-content:flex-start;
           
           flex-direction:column;
           li {
+              margin-bottom:0.5rem;
              color:black;
+          }
+          #bold {
+              font-weight:900;
           }
       }
   }

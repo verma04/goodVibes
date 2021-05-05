@@ -55,7 +55,7 @@ function Navbar({toggleTheme , theme}) {
             
            <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620219914/mfjtmhek2ipqcborohhw.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -139,7 +139,7 @@ function Navbar({toggleTheme , theme}) {
    
 <img
  className="myImage"
-src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
+src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620219914/mfjtmhek2ipqcborohhw.png'
 alt="Picture of the author"
 layout="fill"
 objectFit="cover"
@@ -171,7 +171,7 @@ objectFit="cover"
             <img
         
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620219914/mfjtmhek2ipqcborohhw.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"

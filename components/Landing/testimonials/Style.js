@@ -72,6 +72,10 @@ width:90%;
        width:4rem;
   
    }
+   h3 {
+       margin-top:1rem;
+       margin-bottom:0.5rem;
+   }
 
     }
 

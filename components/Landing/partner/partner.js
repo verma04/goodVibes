@@ -12,8 +12,8 @@ function partner() {
   <Section>
   <div className="head" >
 <div  className="left" > 
-<h5>Our Clients  </h5>
-<p> We become your partners for the long run</p>
+<h5>  </h5>
+<p>Our Clients - we become your partners for the long run</p>
 </div>
 <div  className="right" >
 <p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post-production to the final delivery of the product. </p>
@@ -208,8 +208,8 @@ function partner() {
         <Section>
             <div className="head" >
    <div  className="left" > 
-    <h5>Our Clients  </h5>
-    <p> We become your partners for the long run"</p>
+    <h5>  </h5>
+    <p>Our Clients - We become your partners for the long run</p>
    </div>
    <div  className="right" >
    <p>We are creatively involved in a project starting from ideation, conceptualization, storyboarding, production, post-production to the final delivery of the product. </p>

@@ -51,13 +51,14 @@ justify-content:center;
       width:50%;
       height:100%;
       display:flex;
-      justify-content:center;
+      
+      justify-content:flex-start;
       align-items:center;
       flex-direction:column;
       
       .top {
         width:100%;
-        height:30%;
+        height:10%;
         display:flex;
       justify-content:center;
       align-items:left;

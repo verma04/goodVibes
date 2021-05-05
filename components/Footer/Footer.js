@@ -13,7 +13,7 @@ function Footer() {
        <div className="footer-logo" >
        <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619609053/zibldcg8lngvrlqgfxhu.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620218844/w1sytanymmtr8diya4a6.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -42,7 +42,7 @@ function Footer() {
        </div>
        <div className="top-2" >
    <ul>
-       <li>Visit us</li>
+       <li id="bold" >Visit us</li>
        <li>GoodVibes </li>
        <li>Delhi</li>
  <li>Mumbai, India</li>
@@ -50,7 +50,7 @@ function Footer() {
        
    </ul>
    <ul>
-       <li>Contact us</li>
+       <li id="bold"  >Contact us</li>
        <li> dennis@thegoodvibes.co.in
 </li>
 
