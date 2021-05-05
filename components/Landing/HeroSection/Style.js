@@ -136,7 +136,7 @@ justify-content:center;
         }
     }
   
-  .social {
+    .social {
     position:absolute;
       
        
@@ -147,8 +147,9 @@ justify-content:center;
         display:flex;
         justify-content: space-around;
         flex-direction:column;
-        height:20rem;
+        height:30rem;
         .icon {
+          font-size:1.2rem;
             font-weight:400;
             color:white;
             transform: rotate(90deg);
@@ -170,6 +171,8 @@ justify-content:center;
   flex-direction:column;
   margin-bottom:3rem;
   .flex-1 {
+
+    padding-bottom:2rem;
     position: relative;
       display:flex;
        justify-content:center;
@@ -220,13 +223,13 @@ justify-content:center;
       
        
     top:5rem;
-    right:0;
+    right:5%;
 
   
         display:flex;
         justify-content: space-around;
         flex-direction:column;
-        height:20rem;
+        height:26rem;
         .icon {
             font-weight:400;
             color:white;
