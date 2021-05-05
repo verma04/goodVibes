@@ -40,7 +40,7 @@ div {
 }
 
 button {
-  font-family: Poppins-Bold ;
+  font-family: Poppins-Light;
 
 
 
@@ -81,7 +81,7 @@ button {
    color: ${({ theme }) => theme.text};
     font-size: 1.65rem;
     line-height: var(--line-height-lg);
-    font-family: Poppins-Bold ;
+    font-family: Poppins-Light;
   
   word-spacing:0.2rem;
   }
@@ -89,7 +89,7 @@ button {
     font-size: 2.2rem;
     line-height: var(--line-height-lg);
     color: ${({ theme }) => theme.text};
-    font-family: Poppins-Bold ;
+    font-family: Poppins-Light;
   
   word-spacing:0.2rem;
   line-height:1.2;
@@ -111,7 +111,7 @@ button {
     font-size: 1.2rem;
     line-height: var(--line-height-lg);
     color: ${({ theme }) => theme.text};
-    font-family: Poppins-Bold ;
+    font-family: Poppins-Light;
     
   
     /* family=FiesoleTextW00-Italic */
@@ -125,14 +125,14 @@ button {
   h4 {
     font-size: 1rem;
     line-height: var(--line-height-md);
-    font-family: Poppins-Bold ;
+    font-family: Poppins-Light;
     word-spacing:0.2rem;
     color: ${({ theme }) => theme.text};
   }
   h5 {
     font-size: 0.75;
     line-height: var(--line-height-md);
-    font-family: Poppins-Bold ;
+    font-family: Poppins-Light;
     word-spacing:0.2rem;
     color: ${({ theme }) => theme.text};
   }
