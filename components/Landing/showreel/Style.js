@@ -19,7 +19,7 @@ justify-content:center;
       height:7%;
       justify-content:space-between;
       h2 {
-          font-weight:800;
+          
       }
   }
  
@@ -195,7 +195,7 @@ justify-content:center;
       height:7%;
       justify-content:space-between;
       h2 {
-          font-weight:800;
+          
       }
   }
  
@@ -372,7 +372,7 @@ justify-content:center;
       justify-content:space-between;
     
       h2 {
-          font-weight:800;
+          
       }
   }
  

@@ -11,7 +11,7 @@ justify-content:flex-end;
   width:100%;
  
 
-background: #47B4DE;
+background: white;
 
  
 @media (min-width: 1025px) {
@@ -40,7 +40,7 @@ justify-content:space-between;
  align-items:center;
   flex-direction:column;
   height:30%;
-  
+  color:black;
   width:100%;
   .footer-logo {
       width:20%;
@@ -53,9 +53,10 @@ justify-content:space-between;
       width:100%;
       position: relative;
       height:20%;
+      color:black;
       align-items:center;
       text-align:center;
-      color:white;
+    
       font-weight:700;
       font-size:1.3rem;
   }
@@ -68,8 +69,8 @@ justify-content:space-between;
       align-items:center;
       li {
           list-style:none;
-          color:white;
-           color:white;
+         color:black;
+          color:black;
       }
       
   }
@@ -95,7 +96,7 @@ justify-content:space-around;
       width:80%;
       font-weight:900;
       p {
-      color:white;
+     color:black;
       line-height:1.2;
       
       }
@@ -117,7 +118,7 @@ justify-content:space-around;
           
           flex-direction:column;
           li {
-              color:white;
+             color:black;
           }
       }
   }
@@ -141,7 +142,7 @@ justify-content:space-around;
          i {
             
               font-size:1.3rem;
-              color:#47B4DE;
+              color:black;
          }
 
 
@@ -150,7 +151,7 @@ justify-content:space-around;
         width:50%;
         text-align:center;
         font-weight:400%;
-        color:white;
+       color:black;
 
     }
 
@@ -205,7 +206,7 @@ justify-content:space-between;
       height:20%;
       align-items:center;
       text-align:center;
-      color:white;
+     color:black;
       font-weight:700;
       font-size:1.3rem;
   }
@@ -218,8 +219,8 @@ justify-content:space-between;
       align-items:center;
       li {
           list-style:none;
-          color:white;
-           color:white;
+         color:black;
+          color:black;
       }
       
   }
@@ -245,7 +246,7 @@ justify-content:space-around;
       width:80%;
       font-weight:900;
       p {
-      color:white;
+     color:black;
       line-height:1.2;
       
       }
@@ -267,7 +268,7 @@ justify-content:space-around;
           
           flex-direction:column;
           li {
-              color:white;
+             color:black;
           }
       }
   }
@@ -296,7 +297,7 @@ justify-content:space-around;
     }
     .bottom-2 {
         font-weight:400%;
-        color:white;
+       color:black;
 
     }
 
@@ -349,7 +350,7 @@ justify-content:space-between;
       height:20%;
       align-items:center;
       text-align:center;
-      color:white;
+     color:black;
       font-weight:700;
       font-size:1.3rem;
   }
@@ -362,8 +363,8 @@ justify-content:space-between;
       align-items:center;
       li {
           list-style:none;
-          color:white;
-           color:white;
+         color:black;
+          color:black;
       }
       
   }
@@ -390,7 +391,7 @@ justify-content:space-around;
       width:80%;
       font-weight:900;
       p {
-      color:white;
+     color:black;
       line-height:1.2;
       
       text-align:center;
@@ -413,7 +414,7 @@ justify-content:space-around;
           
           flex-direction:column;
           li {
-              color:white;
+             color:black;
           }
       }
   }
@@ -444,7 +445,7 @@ justify-content:space-around;
     }
     .bottom-2 {
         font-weight:400%;
-        color:white;
+       color:black;
 
     }
 

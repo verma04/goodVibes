@@ -13,7 +13,7 @@ function Footer() {
        <div className="footer-logo" >
        <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619609053/zibldcg8lngvrlqgfxhu.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"

@@ -21,7 +21,7 @@ justify-content:space-between;
 
  
 h2 {
-    font-weight: 900;
+    
     font-size:2.2rem;
     color: ${({ theme }) => theme.text};
   
@@ -82,7 +82,7 @@ justify-content:space-between;
 
  
 h2 {
-    font-weight: 900;
+    
     font-size:2.2rem;
     color: ${({ theme }) => theme.text};
   
@@ -146,7 +146,7 @@ flex-direction:column;
 h2 {
   width:95%;
   color: ${({ theme }) => theme.text};
-  font-weight: 900;
+  
   font-size:2.2rem;
   text-align:center;
 }

@@ -21,7 +21,7 @@ justify-content:center;
   width:30%;
   height:20%;
   h2 {
-       font-weight:900;
+       
   }
  
     }

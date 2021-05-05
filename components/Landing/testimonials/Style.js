@@ -22,7 +22,7 @@ height:10%;
 
 
 h2 {
-    font-weight: 900;
+    
     color:${({ theme }) => theme.test};
 }
 
@@ -136,7 +136,7 @@ height:10%;
 
 
 h2 {
-    font-weight: 900;
+    
     color:${({ theme }) => theme.test};
 }
 
@@ -248,7 +248,7 @@ margin-bottom:2.5rem;
 h2 {
    text-align:center;
    
-font-weight: 900;
+
 color:${({ theme }) => theme.test};
 }
 
