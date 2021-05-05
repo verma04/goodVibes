@@ -65,7 +65,7 @@ function showreel() {
         <div  data-aos="fade-left" className="left" >
 
             <div className="top" >
-    <span>— Our Bio</span>
+   
 
     <h2>We are storytellers</h2>
 

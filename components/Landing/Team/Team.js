@@ -46,6 +46,9 @@ function Team() {
   responsive={responsive}
             >
 <a     target="_blank" href="https://www.linkedin.com/in/dennisnagpal" className="set">
+  
+<i className="fab fa-linkedin"></i>
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618486433/goodVibes/sudxjey4tzhvt8rznjgl.jpg" ></img>
@@ -63,6 +66,7 @@ function Team() {
             
   </a>
   <a  target="_blank" href="https://www.linkedin.com/in/sonakshi-khanna-520b40141" className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
    
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618486524/goodVibes/bczbqpsl6va27bhnsb2f.jpg" ></img>
@@ -80,6 +84,7 @@ function Team() {
             
   </a>
   <a   target="_blank" href="https://www.linkedin.com/in/maxwel-nagpal-80144118" className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618486524/goodVibes/ca6yvdbi3uxyhwabzkav.jpg" ></img>
@@ -97,6 +102,7 @@ function Team() {
             
   </a>
   <a   target="_blank" href="https://www.linkedin.com/in/atul-sharma-68235617b" className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618486631/goodVibes/pyebdekbtb4bxlketmqf.jpg" ></img>
@@ -115,6 +121,7 @@ function Team() {
             
   </a>
   <a   target="_blank" href="https://www.linkedin.com/company/goodvibesindia"  className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/jl7brijsonjgi77awgkw.jpg" ></img>
@@ -133,6 +140,7 @@ function Team() {
             
   </a>
   <a  target="_blank" href="https://www.linkedin.com/in/rhea-banerjee-84961524" className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769690/goodVibes/ywkpwgo3fqufbikzd9ex.jpg" ></img>
@@ -168,6 +176,7 @@ function Team() {
             >
 
   <a  target="_blank" href="https://www.linkedin.com/company/goodvibesindia" className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/mju3aaw2iwibl59vlyr6.jpg" ></img>
@@ -186,6 +195,7 @@ function Team() {
   </a>
  
   <a  target="_blank" href="https://www.linkedin.com/in/ishitaa-sengupta-b9076b7a" className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618486999/cnm7oqfornynx54jfbae.jpg" ></img>
@@ -203,6 +213,7 @@ function Team() {
  
   </a>
   <a target="_blank" href="https://www.linkedin.com/in/shivam-kinra-8279741bb"  className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/jocjhep9517rpmuxlj3w.jpg" ></img>
@@ -228,6 +239,7 @@ function Team() {
  
 
   <a  target="_blank" href="https://www.linkedin.com/in/jayant-arora-b98232183/" className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617769689/goodVibes/utjkpe0lk7xsajzptshj.jpg" ></img>
@@ -250,6 +262,7 @@ function Team() {
 
 
   <a  target="_blank" href="https://www.linkedin.com/in/laxman-bhamboriya-124b79102/" className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618487201/ztkj7mahhwly7pd2qsrr.jpg" ></img>
@@ -275,6 +288,7 @@ function Team() {
  
 
   <a target="_blank" href="https://www.linkedin.com/company/goodvibesindia"  className="set">
+  <i className="fab fa-linkedin"></i>
   <div className='wrapper'>
 
     <img style={{width:"100%", height:"100%"}} src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618487160/dgxf9ygr37adwwf62uds.jpg" ></img>
@@ -302,6 +316,16 @@ function Team() {
          .set {
           
          }
+
+         i {
+          position: absolute;
+          display:none;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    color: #0072b1;
+}
+         
         .set:before {
           content: "";
           position: absolute;
@@ -326,8 +350,19 @@ function Team() {
      
       .set:hover:after {
               transform: scaleX(1);
+
+             
              
             }
+
+
+            .set:hover i {
+              transform: scaleX(1);
+          display:flex;
+             
+             
+            }
+            
            
        .name {  
         position: absolute;

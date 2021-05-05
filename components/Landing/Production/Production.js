@@ -198,7 +198,7 @@ const toggleMenu2 = async () => {
 
      <li>Commercials</li>
   <li>Non-Fiction shows</li>
-  <li>Print, Digital Media</li>
+  <li>Print & Digital Media</li>
   <li>Celebrity Endorsements</li>
  </div>
  <i onClick=  { () => toggleMenu1()} class="fas fa-plus-circle"></i>
@@ -225,12 +225,12 @@ const toggleMenu2 = async () => {
      <h2>Line Production</h2>
 
 
- <li>   Selecting Locations </li>
- <li>Provide Equipments </li>
- <li>Align Cast & Crew </li>
- <li>Arrange Permissions </li>
 
-    
+ <li> Location Scouting</li>
+ <li> Equipment & Manpower Hiring</li>
+ <li> Budgeting & Scheduling</li>
+ <li> Aligning Cast & Crew</li>
+ <li> Permissions</li>
  </div>
  <i  onClick=  { () => toggleMenu2()} class="fas fa-plus-circle"></i>
                </div>
@@ -255,7 +255,7 @@ const toggleMenu2 = async () => {
 <div class="modal-content">
                
                  
-<i onClick={() => setvisible1(false) } class="fas fa-times"></i>
+<i onClick={() => setvisible(false) } class="fas fa-times"></i>
    <div data-aos="fade-up" className="pro" >
  <div className="logo" >
 
@@ -285,7 +285,7 @@ const toggleMenu2 = async () => {
 
      </p>
  </div>
- <i onClick=  { () => toggleMenu()} class="fas fa-plus-circle"></i>
+ 
 
 
 
@@ -330,7 +330,7 @@ const toggleMenu2 = async () => {
 
      <li>Commercials</li>
   <li>Non-Fiction shows</li>
-  <li>Print, Digital Media</li>
+  <li>Print & Digital Media</li>
   <li>Celebrity Endorsements</li>
 
   <p>
@@ -379,12 +379,13 @@ Our divisions include Commercials, Non-Fiction shows, Print, Digital Media, and 
      <h2>Line Production</h2>
 
 
- <li>   Selecting Locations </li>
- <li>Provide Equipments </li>
- <li>Align Cast & Crew </li>
- <li>Arrange Permissions </li>
+     <li> Location Scouting</li>
+ <li> Equipment & Manpower Hiring</li>
+ <li> Budgeting & Scheduling</li>
+ <li> Aligning Cast & Crew</li>
+ <li> Permissions</li>
 <p>
-We help in assisting production companies from all over the world to shoot in India. We are your one stop destination for providing locations, equipment, cast & crew for shooting across India and take the advantage of the locations we have to offer them. We also help in providing assistance in acquiring any kind of permissions required for filming in India.
+We help in assisting production companies from all over the world to shoot in India. We are your one stop destination for providing locations, equipment, cast & crew for shooting across India and take the advantage of the locations we have to offer. We also help in providing assistance in acquiring any kind of permissions required for filming in India.
 </p>
     
  </div>

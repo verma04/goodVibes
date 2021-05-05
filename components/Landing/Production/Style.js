@@ -80,6 +80,7 @@ flex-wrap: wrap;
         }
     }
     i {
+      margin-top:1rem;
       color:white;
       font-size:2rem;
     }

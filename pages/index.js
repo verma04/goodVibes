@@ -1,7 +1,19 @@
 import Head from 'next/head'
+import { useGetCafes } from '@/apollo/actions';
 import Landing from '@/components/Landing/Landing'
+import withApollo from '@/hoc/withApollo';
 
-export default function Home() {
+
+ function Home() {
+
+ 
+  const { data , loading , error } = useGetCafes();
+  const cafes = data && data.cafes || [];
+
+  console.log(error)
+
+  console.log(data)
+
   return (
     
     <div>
@@ -14,3 +26,6 @@ export default function Home() {
    
   )
 }
+
+
+export default withApollo(Home);

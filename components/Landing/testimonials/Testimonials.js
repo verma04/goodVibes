@@ -75,7 +75,7 @@ function Testimonials() {
 </div>
 
 <div className="set" >
- <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026503/jgd2z52uujucvmlmafqe.png" ></img>
+ <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1620188047/wvndzi2n7tpgwi3dxt34.png" ></img>
  <h3>Ekant Babani</h3>
  <span>Fiction Head - Youth & Lifestyle,  Endemol Shine India</span>
 </div>
@@ -123,6 +123,29 @@ function Testimonials() {
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026896/v831xmkwfmemkqopurkr.png" ></img>
 <h3>Vineet Garude</h3>
 <span> Group Head Client Servicing , Wizcraft International Entertainment Pvt. Ltd. </span>
+</div>
+
+
+   
+    </div>
+  
+
+    <div className="img-1">
+      
+    
+
+
+
+              
+                 
+      <div className="midd" > 
+   <p>I share a great professional relationship with Good Vibes. They have catered to all requests and promptly helped us in identifying talent that are the right fit to our broadcast.</p>   
+</div>
+
+<div className="set" >
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1620188299/ipzddri5jvxaqtetm3v4.png" ></img>
+<h3>Rekha Navani </h3>
+<span> Lead, National Broadcast Talent  ,  Star Sports India</span>
 </div>
 
 

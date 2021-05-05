@@ -11,13 +11,13 @@ justify-content:center;
   flex-direction:column;
   height:18rem;
  
-
+border: 1px solid red;
   width:100%;
  
   background: ${({ theme }) => theme.background};
-  position: absolute;
+  
  
-  bottom:-5%;
+
   .flex-1-sm {
     display:none;
   }
@@ -26,6 +26,7 @@ justify-content:center;
   .flex-1 {
       width:60%;
       display:flex;
+      z-index:1000;
 justify-content:center;;
  align-items:center;
   flex-direction:column;
@@ -66,9 +67,9 @@ justify-content:center;
   width:100%;
  
   background: ${({ theme }) => theme.background};
-  position: absolute;
  
-  bottom:-5%;
+ 
+
   .flex-1-sm {
     display:none;
   }

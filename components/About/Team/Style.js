@@ -66,12 +66,13 @@ justify-content:center;
         
       }
       .bottom {
-        width:90%;
+        width:100%;
         height:100%;
+        
         display:flex;
-      justify-content:center;
-      align-items:center;
-      flex-direction:column;
+      justify-content:flex-start;
+      align-items:left;
+   
       .list {
       
         width:100%;
@@ -88,6 +89,10 @@ justify-content:center;
     border-bottom: 2px solid;
     width: 15%;
       }
+       p {
+         height:100%;
+         width:90%;
+       }
       }
     }
 

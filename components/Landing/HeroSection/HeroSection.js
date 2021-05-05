@@ -34,7 +34,7 @@ function HeroSection() {
   width='100%'
   height='100%'
 />
- <About/> 
+
   </div>
 
         {/* <Image
@@ -51,13 +51,13 @@ function HeroSection() {
               </div>
                </div>          */}
                <div className="social" >
-              <a className="icon" >
+               <a   target="_blank" href="https://www.facebook.com/goodvibesindia" className="icon" >
                Facebook
               </a>
-              <a className="icon" >
+              <a target="_blank" href="https://www.instagram.com/goodvibesindia/" className="icon" >
                Instargram
               </a>
-              <a className="icon" >
+              <a  target="_blank" href="https://twitter.com/GoodVibesIndia" className="icon" >
                Twitter
               </a>
                </div>  

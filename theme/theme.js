@@ -150,7 +150,7 @@ line-height:1.2;
 color: ${({ theme }) => theme.para};
 
      
-    word-spacing:0.2rem;
+    word-spacing:0.1rem;
 
   }
   span {

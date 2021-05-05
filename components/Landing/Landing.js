@@ -16,7 +16,7 @@ function Landing() {
     return (
         <div>
           <HeroSection/>
-        
+        <About/>
           <Production/> 
          
           <Exp/>

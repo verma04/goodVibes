@@ -68,8 +68,9 @@ justify-content:center;
         display:flex;
         justify-content: space-around;
         flex-direction:column;
-        height:20rem;
+        height:30rem;
         .icon {
+          font-size:1.2rem;
             font-weight:400;
             color:white;
             transform: rotate(90deg);
