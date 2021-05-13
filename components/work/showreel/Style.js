@@ -10,13 +10,13 @@ export const Section = styled.section`
 justify-content:center;
  align-items:center;
   flex-direction:column;
-  height:50rem;
+
   width:100%;
   margin-top:5rem;
-    
+    margin-bottom:5rem;
   .head {
       display:flex;
-      height:7%;
+      height:5rem;
       justify-content:space-between;
       h2 {
           
@@ -68,7 +68,7 @@ justify-content:space-between;
       
       .data {
           width:33.3%;
-          height:50%;
+          height:20rem;
           position: relative;
           display:flex;
           justify-content:center;

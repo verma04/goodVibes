@@ -17,46 +17,57 @@ const data = [
     {
         _id:"1",
  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/hga8wid20bewg9jhd3h7.jpg",
-link:'2g9oUXWoeaw',
-title:`Love School - Season 02 - Episode 1`
+link:'0Ro_X0JY5Tw',
+title:`What The Love! with Karan Johar | Official Trailer | Netflix India`
 
 
     },
     {
         _id:"2",
         img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/qpvlkpghxltpzd15ltez.jpg",
-       link:"8OH63JIBoWw",
-       title:`Arre Ho Ja Re-Gender | First Look | An Arre Original Social Experiment`
+       link:"MLdh2ZCyjpE",
+       title:`Hear Me Love Me | Official Teaser | Shilpa Shetty | Prime Original | Amazon Prime Video`
     },
     {
       _id:"3",
       img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643799/geavqqojwxwzkavbastf.jpg",
-     link:"uemWawWN0Kg",
-     title:`Pan Villas Raag TVC`
+     link:"nmK64X3skYU",
+     title:`Dating Aaj Kal | Karan Kundrra | Flipkart Video | Official Promo`
   },
   {
       _id:"4",
       img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/izy8bbkmmru0okoa6bcu.jpg",
-     link:"VNiXxwgdU4g",
-     title:`Lakme Fashion Week 2018 - 4`
+     link:"jvZvIjqUCUo",
+     title:`Tanya Purohit In 2nd Match Featuring.Sanjana Ganesan`
   },
   {
     _id:"5",
 img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/ju5ddyff7bdo3filkg4d.jpg",
-link:'KddOxyWJO4Q',
-title:`Lake Fashion Week 2018 - 1`
+link:'3dRlYm6VXMI',
+title:`Splitsvilla X3 I Watch for FREE only on Voot`
 
 
 },
 {
     _id:"6",
     img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/owvus3irie1mq2fqmrwa.jpg",
-   link:"6u7VsoPSkt8",
-   title:`Lakme Fashion Week 2018 - 3`
+   link:"A0XjcConzYU",
+   title:`Splitsvilla Season 13 | The Greek Gods On The Beach | Ep. 01 | Highlights`
 },
 
   
-
+{
+  _id:"7",
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/owvus3irie1mq2fqmrwa.jpg",
+ link:"eCeiMgSVX4s",
+ title:`Splitsvilla Season 13 | The Gold And Silver Cupid Arrows | Ep.01`
+},
+{
+  _id:"8",
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/owvus3irie1mq2fqmrwa.jpg",
+ link:"tWgKVzHcQvI",
+ title:`MTV Roadies Revolution | Episode 1 | The Biggest Youth Reality Show`
+},
     
 
 
@@ -85,8 +96,7 @@ function showreel() {
        <div className="cover" >
      <Image
             className="myImage"
-            src={number.img}
-
+            src={`https://img.youtube.com/vi/${number.link}/hqdefault.jpg`}
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"

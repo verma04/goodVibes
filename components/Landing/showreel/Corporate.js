@@ -18,49 +18,26 @@ const data = [
       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573873/AirJaldi/rucbxtijjdn767eglfql.jpg',
         _id:"1",
  titile:"dssd",
-link:'Jl-q41-Yac0',
-title:`vivo Retail Network | Love India, Love vivo`
+link:'OanYYNv42m0',
+title:`CM「生活って宇宙だ。」60秒`
 
 
     },
     {
-      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573872/AirJaldi/sxlfp3c8xxrgpox9gkmf.jpg',
+      img:'https://vimeo.com/540957507',
         _id:"2",
         titile:"dssd",
-       link:"x363W5TwlKw",
-       title:`VBA Family | Love India, Love vivo`
+       link:"https://vimeo.com/540957507",
+       title:`vimeo.com`
     },
     {
       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573972/AirJaldi/eofwhth6v75xiisoaz8e.jpg',
         _id:"3",
         titile:"dssd",
-       link:"4zhE-SYpEw8",
-       title:`OP Jindal GUniversity - Student Film`
+       link:"https://vimeo.com/540957507",
+       title:`vimeo.com`
     },
 
-    {
-      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618632388/AirJaldi/fojrzfxlohgtsddqnjba.jpg',
-        _id:"4",
-      
-       link:"tSPMUvz8p34",
-       title:"Sourav Ganguly urges India to 'Deliver Smiles' this festive season",
-    },
-
-    {
-      img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618574189/AirJaldi/qocytl9frirjabo8e9nz.jpg",
-      _id:"4",
-    
-     link:"cZp0DVIfO_Q",
-     title:"Ford Ecosport 2018 Unboxing",
-  },
- 
-
-  {
-    _id:"4",
-    img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618632639/AirJaldi/u7fo6vypfrancyamyrna.jpg',
-   link:"RR9X0wpalk",
-   title:"Hyundai AV",
-},
 
    
 
@@ -92,7 +69,7 @@ function showreel() {
        <div className="cover" >
      <Image
             className="myImage"
-            src={number.img}
+            src={`https://img.youtube.com/vi/${number.link}/hqdefault.jpg`}
 
            alt="Picture of the author"
            layout="fill"

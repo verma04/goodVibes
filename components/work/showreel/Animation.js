@@ -18,8 +18,8 @@ const data = [
      
         _id:"1",
  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618644138/b7ks3fnqkju7maudhkud.jpg",
-link:'iH28tgQn5bQ',
-title:`Alexa in Hindi, a year long journey: “Alexa, हमारी दोस्ती पर poem सुनाओ".`
+link:'UW1qxIWMAGQ',
+title:`Royal Enfield - Case Study AV 1`
 
 
     },
@@ -27,28 +27,29 @@ title:`Alexa in Hindi, a year long journey: “Alexa, हमारी दोस�
      
         _id:"2",
         img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618644138/ia7mdiofe1ln9pvbrcka.jpg",
-       link:"ZpdLgcwdex4",
-       title:`Of stories, poetry and tiny tales: For Rafaa Dalvi, small is big`
+       link:"iH28tgQn5bQ",
+       title:`Alexa in Hindi, a year long journey: “Alexa, हमारी दोस्ती पर poem सुनाओ".`
     },
   
+    {
+     
+      _id:"3",
+      img:"Of stories, poetry and tiny tales: For Rafaa Dalvi, small is big",
+     link:"ZpdLgcwdex4",
+     title:`Of stories, poetry and tiny tales: For Rafaa Dalvi, small is big.`
+  },
+
+ 
+
 
     {
      
      
-        _id:"3",
+        _id:"4",
         img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618644138/cab95jutrskze2bhimx6.jpg",
        link:"D_UWMJ48_88",
        title:`How Anubhav Agrawal became #1 bestselling author on Kindle`
     },
-  
-    {
-     
-        _id:"4",
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618644139/ahzfh7arp8ittcaiiza1.jpg",
-       link:"CP5K66K5ZRQ",
-       title:`How 'online' emerged as a lifeline of sorts in 2020`
-    },
-  
 
     {
      
@@ -57,16 +58,34 @@ title:`Alexa in Hindi, a year long journey: “Alexa, हमारी दोस�
      link:"rj8w_khcPUQ",
      title:`Amazon India Prime Day 2020 Highlights`
   },
+  
+    {
+     
+        _id:"6",
+        img:"NEW YEAR KA SECRET GIFT | Happy New Year 2021 | Moral Story for kids | Aayu and Pihu Show",
+       link:"aV7O7q8Qp5w",
+       title:`NEW YEAR KA SECRET GIFT | Happy New Year 2021 | Moral Story for kids | Aayu and Pihu Show`
+    },
+  
+
+  
    
   {
      
-    _id:"6",
-    img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618644610/t4bptjiuq3cvaewohwkz.jpg",
+    _id:"7",
+    img:"",
    link:"CP5K66K5ZRQ",
    title:`How 'online' emerged as a lifeline of sorts in 2020`
 },
 
     
+{
+     
+  _id:"8",
+  img:"",
+ link:"IGA5wMOIkBM",
+ title:`2020 Shopping trends`
+},
 
 
 ]
@@ -94,7 +113,7 @@ function showreel() {
        <div className="cover" >
      <Image
             className="myImage"
-            src={number.img}
+            src={`https://img.youtube.com/vi/${number.link}/hqdefault.jpg`}
 
            alt="Picture of the author"
            layout="fill"
