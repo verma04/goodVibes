@@ -26,6 +26,50 @@ query MyQuery {
 
 
 
+export const GALLERY = gql`
+query MyQuery {
+  gallerys {
+    edges {
+      node {
+        featuredImage {
+          node {
+            sourceUrl
+          }
+        }
+        title
+        content
+        id
+        galleryVideoUrl
+      }
+    }
+  }
+}`
+
+
+
+
+
+export const TESTS = gql`
+query MyQuery {
+  testimonials {
+    edges {
+      node {
+        id
+        testimonialId
+        title
+        content
+        featuredImage {
+          node {
+            sourceUrl
+            title
+          }
+        }
+        menuOrder
+      }
+    }
+  }
+}`
+
 
 
 // AUTH QUERIES END ----------------------------

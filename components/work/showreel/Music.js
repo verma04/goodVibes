@@ -16,45 +16,29 @@ const data = [
      
     {
         _id:"1",
- img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/roipoluperlvbnhmrw4i.jpg",
-link:'3fqFnfNoAKY',
-title:`Delhi Rules - Pitch Promo`
+ img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/hga8wid20bewg9jhd3h7.jpg",
+link:'i0AjtpI81xs',
+title:`Now United - Beautiful Life (Official Music Video)`
 
 
     },
     {
         _id:"2",
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/zv5gnzv3itvczzsigp4x.jpg",
-       link:"kldITYyGShM",
-       title:`Starting On December 9th, Detective Didi! (ZEE TV Caribbean)`
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618643800/qpvlkpghxltpzd15ltez.jpg",
+       link:"YQ5Jv4x_Hp0",
+       title:`Now United - How We Do It ft. Badshah (Official Music Video)`
     },
-    {
-        _id:"3",
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/d0pxfmjrlead3vf4bf3q.jpg",
-       link:"nW04LI4Jj6E",
-       title:`GPL Promo - Episode 9`
-    },
+ 
 
-    {
-        _id:"4",
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/c7lr6qyhe1jkvdu12f5q.jpg",
-       link:"73PqJN3V6j4",
-       title:`Detective Didi - Coming Soon`
-    },
-    {
-        _id:"5",
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/axbn3qw0knpamkxx1i9k.jpg",
-       link:"CQH4-rit3ng",
-       title:`GPL Promo - Episode 10`
-    },
   
+
     
 
 
 ]
 
 function showreel() {
-    const [active, setactive] = useState("Brands");
+    const [active, setactive] = useState("Digital");
     const [  visible , setvisible] = useState(false);
     const [  ani , setani] = useState("fade-up");
     const toggleMenu = id => {
@@ -77,6 +61,7 @@ function showreel() {
      <Image
             className="myImage"
             src={`https://img.youtube.com/vi/${number.link}/hqdefault.jpg`}
+
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"

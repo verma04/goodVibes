@@ -15,46 +15,50 @@ import Documentaries from './Documentaries'
 const data = [
      
     {
+     
         _id:"1",
- img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/roipoluperlvbnhmrw4i.jpg",
-link:'3fqFnfNoAKY',
-title:`Delhi Rules - Pitch Promo`
+ img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618644138/b7ks3fnqkju7maudhkud.jpg",
+link:'x8udPtViAw4',
+title:`Independence Day Film (2019) Royal Enfield - Behind The Scenes`
 
 
     },
     {
+     
         _id:"2",
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/zv5gnzv3itvczzsigp4x.jpg",
-       link:"kldITYyGShM",
-       title:`Starting On December 9th, Detective Didi! (ZEE TV Caribbean)`
-    },
-    {
-        _id:"3",
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/d0pxfmjrlead3vf4bf3q.jpg",
-       link:"nW04LI4Jj6E",
-       title:`GPL Promo - Episode 9`
-    },
-
-    {
-        _id:"4",
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/c7lr6qyhe1jkvdu12f5q.jpg",
-       link:"73PqJN3V6j4",
-       title:`Detective Didi - Coming Soon`
-    },
-    {
-        _id:"5",
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642023/axbn3qw0knpamkxx1i9k.jpg",
-       link:"CQH4-rit3ng",
-       title:`GPL Promo - Episode 10`
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618644138/ia7mdiofe1ln9pvbrcka.jpg",
+       link:"lgk9J_6EgNI",
+       title:`Behind The Scenes // Blackberrys AW' 19 Collection`
     },
   
+
+    {
+     
+     
+        _id:"3",
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618644138/cab95jutrskze2bhimx6.jpg",
+       link:"N7bHgiOidX4",
+       title:`Behind The Scenes // SS' 20 shoot Gatsbylady London`
+    },
+  
+    {
+     
+        _id:"4",
+        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618644139/ahzfh7arp8ittcaiiza1.jpg",
+       link:"39HiEJL79Vw",
+       title:`Now United - Beautiful Life (Behind the Scenes 360)`
+    },
+  
+
+ 
+
     
 
 
 ]
 
 function showreel() {
-    const [active, setactive] = useState("Brands");
+    const [active, setactive] = useState("Digital");
     const [  visible , setvisible] = useState(false);
     const [  ani , setani] = useState("fade-up");
     const toggleMenu = id => {
@@ -77,6 +81,7 @@ function showreel() {
      <Image
             className="myImage"
             src={`https://img.youtube.com/vi/${number.link}/hqdefault.jpg`}
+
            alt="Picture of the author"
            layout="fill"
            objectFit="cover"

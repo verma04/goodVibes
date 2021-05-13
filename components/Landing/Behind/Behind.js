@@ -1,7 +1,9 @@
 import React from 'react'
 import  { Section ,Slider } from './Style'
 import Image from 'next/image';
+import { useGetGallery } from '@/apollo/actions';
 import Carousel from 'react-multi-carousel';
+import withApollo from '@/hoc/withApollo';
 import 'react-multi-carousel/lib/styles.css';
 const responsive = {
   desktop: {
@@ -49,9 +51,16 @@ const data1  = [
 
 
 function Team() {
+
+  
+  const { datas , loading , error } = useGetGallery();
+  const cafes = datas && data.cafes || [];
+
+
+  console.log(datas)
  
     return (
-    <  div id="team" data-aos="fade-up"  >
+    <div id="team" data-aos="fade-up"  >
         <Section>
             <div className="head" >
                 <h2>Behind the Scenes</h2>
@@ -149,4 +158,4 @@ function Team() {
    )
 }
 
-export default Team
+export default   Team

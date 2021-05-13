@@ -18,8 +18,8 @@ const data = [
         _id:1,
  titile:"dssd",
  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641607/vf6lhjxanijozufmah2b.jpg",
-link:'lqYDXAZ_G0A',
-title:`Renault Kiger : Launch`
+link:'rN3Xwia_Zvs',
+title:`Freedom Drive | The All-New Thar | Independence Day 2020`
 
 
     },
@@ -33,8 +33,8 @@ title:`Renault Kiger : Launch`
     {
         _id:3,
         img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641757/pyslfl63njcveqq5guyj.jpg",
-       link:"rN3Xwia_Zvs",
-       title:`Freedom Drive | The All-New Thar | Independence Day 2020`
+       link:"totaAD19bUA",
+       title:`Good Vibes//BMW - X1 Q&A`
     },
 
     {
@@ -43,19 +43,7 @@ title:`Renault Kiger : Launch`
        link:"nDn463aZpX8",
        title:`KIA Seltos Global Preview - Event Film`
     },
-    {
-        _id:5,
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641757/q3fffhvdgyd1rvmrksxw.jpg",
-       link:"7E9pj86uIik",
-       title:`BMW 360 Financial Services`
-    },
    
-    {
-      _id:6,
-      img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641757/pcbnlzm0zjzs3jnqs5yj.jpg",
-     link:"totaAD19bUA",
-     title:`Good Vibes//BMW - X1 Q&A `
-  },
   
 
     
@@ -86,7 +74,7 @@ function showreel() {
        <div className="cover" >
      <Image
             className="myImage"
-            src={number.img}
+            src={`https://img.youtube.com/vi/${number.link}/hqdefault.jpg`}
 
            alt="Picture of the author"
            layout="fill"

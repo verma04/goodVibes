@@ -1,11 +1,23 @@
 import React from 'react';
 import { Section} from './Style'
 import Image from 'next/image';
+import { useGetTests } from '@/apollo/actions';
 import VisibilitySensor from 'react-visibility-sensor';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Testimonials() {
+
+
+    const { data , loading , error } = useGetTests();
+    const cafes = data && data.cafes || [];
+  
+    console.log(error)
+  
+    console.log(data)
+
     return (
+
+        
      
         <Section>
         <div className="head" >

@@ -28,40 +28,9 @@ title:`Road Trippin with RnM and OYO | OYO Rooms India`
         titile:"dssd",
         img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618633639/AirJaldi/y39flzirxawjbee7uh8o.jpg',
        link:"xUHrxetGW_c",
-       title:`Jonaki - trailer | IFFR 2018 `
+       title:`Jonaki - trailer | IFFR 2018`
     },
-    {
-      _id:3,
-titile:"dssd",
-link:'x8udPtViAw4',
-img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618637215/ksnqeodrsz9ffbsdsytf.jpg",
-title:`Independence Day Film (2019) Royal Enfield - Behind The Scenes`
 
-
-  },
-  {
-      _id:4,
-      titile:"dssd",
-      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618636835/vofsbdq7aaszdmkcmeb2.jpg',
-     link:"N7bHgiOidX4",
-     title:`Behind The Scenes SS' 20 shoot Gatsbylady London`
-  },
-  {
-    _id:5,
-    img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618636913/cb7kcovzqiupmo4nasaa.jpg',
-
-link:'39HiEJL79Vw',
-title:`Now United - Beautiful Life (Behind the Scenes 360)`
-
-
-},
-{
-    _id:6,
-    titile:"dssd",
-   link:"lgk9J_6EgNI",
-   img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618637084/vtu45fetnnoujj69usnf.jpg',
-   title:`Behind The Scenes // Blackberrys AW' 19 Collection`
-},
   
     
 
@@ -91,7 +60,7 @@ function showreel() {
        <div className="cover" >
      <Image
             className="myImage"
-            src={number.img}
+            src={`https://img.youtube.com/vi/${number.link}/hqdefault.jpg`}
 
            alt="Picture of the author"
            layout="fill"

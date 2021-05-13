@@ -8,11 +8,13 @@ import Event from './Event';
 import Corporate from './Corporate';
 import  Digital from './Digital';
 import Shows from './Shows'
+import Music from './Music'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import Documentaries from './Documentaries'
 import Animation from './Animation';
 import Pop from './Popup'
+import Behind from './Behind'
 import { useRouter } from 'next/router'
 const data = [
      
@@ -20,8 +22,8 @@ const data = [
       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573364/AirJaldi/safmqqbnjhgzuos3tpbl.jpg',
         _id:"1",
  titile:"dssd",
-link:'rrgYJ_M2GTM',
-title:`International Women’s Day `
+link:'bHjKxgjvuR4',
+title:`Customers in India enjoy interacting with Alexa`
 
 
     },
@@ -29,36 +31,36 @@ title:`International Women’s Day `
       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573409/AirJaldi/fk5xhovvhfzq7em7wf7o.jpg',
         _id:"2",
         titile:"dssd",
-       link:"EFaC7XVPYDQ",
-       title:`The story of sibling love`
+       link:"5TvG2RmUD7k",
+       title:`#CelebrationTohBantaHai ft. #ShankarMahadevan || Rajkummar Rao & Patralekhaa`
     },
     { img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573703/AirJaldi/htjw8q2qmq9r5gvf9xw9.jpg',
         _id:"3",
         titile:"dssd",
-       link:"bHjKxgjvuR4",
-       title:`Customers in India enjoy interacting with Alexa`
+       link:"n7B_LhzZoBg",
+       title:`Celebrate Diwali with Grofers- Iss Diwali, bhar ke khushiyaan layein !`
     },
 
     {
       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618572875/AirJaldi/oz7vfpa0enstbrqjqhrw.jpg',
         _id:"4",
         titile:"dssd",
-       link:"f2fdv1JimHg",
-       title:`#ReebokWalking​ range feat. Varun Dhawan`
+       link:"aULnvrUWaMQ",
+       title:`Dastak Khushiyon Ki - Amazon India Great Indian Festival 2020`
     },
     {
       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/zen5fkckhdjymmm5or6d.jpg',
         _id:"5",
         titile:"dssd",
-       link:"5TvG2RmUD7k",
-       title:`#CelebrationTohBantaHai​ ft. #ShankarMahadevan​ `
+       link:"4LeJdDsv0Vc",
+       title:`Ford Ecosport 2018 Unboxing`
     },
     {
       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
         _id:"6",
         titile:"dssd",
-       link:"n7B_LhzZoBg",
-       title:`Celebrate Diwali with Grofers- Iss Diwali, bhar ke khushiyaan layein !`
+       link:"rrgYJ_M2GTM",
+       title:`International Women’s Day | #ChallengeChampionChange`
     },
 
     
@@ -116,7 +118,7 @@ title:`International Women’s Day `
 function showreel() {
   const router = useRouter()
 
-    const [active, setactive] = useState("Digital");
+    const [active, setactive] = useState("Brands");
     const [  visible , setvisible] = useState(false);
     const [  ani , setani] = useState("fade-up");
     const toggleMenu = id => {
@@ -137,14 +139,20 @@ function showreel() {
   
   <div className="top" >
   
-      <li onClick={() =>  setactive("Digital") } id={active === "Digital" ? "active" : ""} >Digital Films</li>
+      <li onClick={() =>  setactive("Brands") } id={active === "Brands" ? "active" : ""} >Brands</li>
       <li onClick={() => setactive("Corporate" ) } id={active === "Corporate" ? "active" : ""} >Corporate Videos</li>
-      <li  onClick={() => setactive("Documentaries") } id={active === "Documentaries" ? "active" : ""}>Line Production</li>
       <li  onClick={() => setactive("Event") } id={active === "Event" ? "active" : ""}>Event Videos</li>
       <li onClick={() => setactive("Shows") } id={active === "Shows" ? "active" : ""}>TV/Web Shows</li>
-      <li onClick={() => setactive('Casting') } id={active === "Casting" ? "active" : ""}>Casting</li>
+      
+      <li  onClick={() => setactive("Documentaries") } id={active === "Documentaries" ? "active" : ""}>Line Produced Films</li>
+    
+      <li  onClick={() => setactive("Behind") } id={active === "Behind" ? "active" : ""}>Behind The Scenes</li>
+      
       <li onClick={() => setactive('Animation') } id={active === "Animation" ? "active" : ""}>Animation</li>
-
+    
+      <li onClick={() => setactive('Casting') } id={active === "Casting" ? "active" : ""}>Casting</li>
+   
+      <li onClick={() => setactive('Music') } id={active === "Music" ? "active" : ""}>Music</li>
   </div>
 
  
@@ -171,6 +179,12 @@ function showreel() {
      
             )
           }
+          else if (active === "Behind") {
+            return  (
+              <Behind/>
+     
+            )
+          }
           else if (active === "Casting") {
             return  (
               <Casting/>
@@ -183,6 +197,12 @@ function showreel() {
      
             )
           }
+          else if (active === "Music") {
+            return  (
+              <Music/>
+     
+            )
+          }
           else {
               return (
                 <div  className="list" >
@@ -191,7 +211,7 @@ function showreel() {
                    <div className="cover" >
                  <Image
                         className="myImage"
-                        src={number.img}
+                        src={`https://img.youtube.com/vi/${number.link}/hqdefault.jpg`}
             
                        alt="Picture of the author"
                        layout="fill"
@@ -202,6 +222,8 @@ function showreel() {
                        </div>
                        </div>  
                 <div className="img" >
+
+                  
                     <img onClick={() => toggleMenu(number._id) }  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616750466/auegoewnepob301zsbj8.svg" ></img>
                      </div>
             
