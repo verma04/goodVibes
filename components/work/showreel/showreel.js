@@ -58,6 +58,14 @@ title:`Customers in India enjoy interacting with Alexa`
     
 
     {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/zen5fkckhdjymmm5or6d.jpg',
+        _id:"6",
+        titile:"dssd",
+       link:"rrgYJ_M2GTM",
+       title:`International Women’s Day | #ChallengeChampionChange`
+    },
+    
+    {
       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
         _id:"7",
         titile:"dssd",

@@ -65,7 +65,7 @@ justify-content:space-between;
       justify-content:center;
       align-items:center;
       flex-wrap:wrap;
-      
+      margin-top:2rem;
       .data {
           width:33.3%;
           height:20rem;
