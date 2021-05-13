@@ -27,7 +27,7 @@ justify-content:center;
     .ved {
         height:80%;
     
-        width:70%;
+        width:75%;
         display:flex;
 justify-content:center;
  align-items:center;
