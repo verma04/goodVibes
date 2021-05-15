@@ -88,6 +88,21 @@ title:`Royal Enfield - Case Study AV 1`
 },
 
 
+
+{
+     
+  _id:"9",
+  img:"",
+ link:"kP-JfEufypQ",
+ title:`From a routine job to full-time writing: The journey of KDP author MV Kasi`
+},
+{
+     
+  _id:"10",
+  img:"",
+ link:"kaCAX-sEUp4",
+ title:`How Kindle Direct Publishing helped keep Aishwarya’s family afloat during COVID-19 job cuts`
+},
 ]
 
 function showreel() {

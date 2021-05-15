@@ -37,12 +37,71 @@ title:`Freedom Drive | The All-New Thar | Independence Day 2020`
        title:`Good Vibes//BMW - X1 Q&A`
     },
 
+   
     {
-        _id:4,
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
-       link:"nDn463aZpX8",
-       title:`KIA Seltos Global Preview - Event Film`
-    },
+      _id:4,
+      img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+     link:"nDn463aZpX8",
+     title:`KIA Seltos Global Preview - Event Film`
+  },
+
+  {
+    _id:5,
+    img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+   link:"cUhqqSxqEt0",
+   title:`Nexa Lakme - After Movie // Good Vibes`
+},
+{
+  _id:6,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"arXKp-XCD5k",
+ title:`Nexa Lakme - Pre Show // Good Vibes`
+},
+{
+  _id:7,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"RDT3H9xRN4w",
+ title:`Nexa Lakme - Pre Show II // Good Vibes`
+},
+{
+  _id:8,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"oKqYbQHwgeI",
+ title:`Nexa Lakme 2020 // Good Vibes`
+},
+{
+  _id:9,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"_Qdg9tgWhgE",
+ title:`Nexa Lakme - Samant Chauhan // Good Vibes`
+},
+{
+  _id:10,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"lqYDXAZ_G0A",
+ title:`Renault Kiger : Launch`
+},
+
+{
+  _id:11,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"nDn463aZpX8",
+ title:`Renault Kiger : Dealer Event`
+},  {
+  _id:12,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"MMQWPjKlEFE",
+ title:`Maruti S-Presso Launch Film // Good Vibes`
+},
+{
+  _id:13,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"S94D1lvQ38s",
+ title:`Maruti S-Presso - Launch Drive // Good Vibes`
+},
+
+
+
    
   
 

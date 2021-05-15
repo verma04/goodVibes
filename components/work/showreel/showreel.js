@@ -80,7 +80,152 @@ title:`Customers in India enjoy interacting with Alexa`
        title:`VBA Family | Love India, Love vivo`
     },
 
+
+   
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"10",
+        titile:"dssd",
+       link:"MhJcNl526sQ",
+       title:`Alexa for people with disabilities | Nipun Malhotra | #AlexaTurns3`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"11",
+        titile:"dssd",
+       link:"LHO7zbY2cVs",
+       title:`Alexa transforming education in schools | Tribal district of Bastar | #AlexaTurns3`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"12",
+        titile:"dssd",
+       link:"VUPZQTRMY1Y",
+       title:`Alexa entertaining residents of retirement home | Primus Reflections in Bangalore | #AlexaTurns3`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"13",
+        titile:"dssd",
+       link:"uJJfv9CeWmg",
+       title:`Alexa is the perfect partner for entertaining young kids | #AlexaTurns3`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"14",
+        titile:"dssd",
+       link:"_1xClyyq9Zc",
+       title:`Alexa helps customers with visual disability | #AlexaTurns3`
+    },
+
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"15",
+        titile:"dssd",
+       link:"UW1qxIWMAGQ",
+       title:`Royal Enfield - Case Study AV 1`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"16",
+        titile:"dssd",
+       link:"9dVnJpYb1lA",
+       title:`Royal Enfield - Case Study AV 2`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"17",
+        titile:"dssd",
+       link:"rrgYJ_M2GTM",
+       title:`International Women’s Day | #ChallengeChampionChange`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"18",
+        titile:"dssd",
+       link:"u_HIXDYRE94",
+       title:`Challenge the norm | #ChallengeChampionChange`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"19",
+        titile:"dssd",
+       link:"XEa0hGPxNGo",
+       title:`Champion a cause | #ChallengeChampionChange`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"20",
+        titile:"dssd",
+       link:"KBvi5tONxTI",
+       title:`Change the narrative | #ChallengeChampionChange`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"21",
+        titile:"dssd",
+       link:"f2fdv1JimHg",
+       title:`#ReebokWalking range feat. Varun Dhawan`
+    },
+
+
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"22",
+        titile:"dssd",
+       link:"EFaC7XVPYDQ",
+       title:`The story of sibling love`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"23",
+        titile:"dssd",
+       link:"H5m25dif7bc",
+       title:`A story of hardwork and conviction`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"24",
+        titile:"dssd",
+       link:"yRmpuOjncWI",
+       title:`#DastakKhushiyonKi | Traditional Blue Art Pottery & Jaipur's Pride`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"25",
+        titile:"dssd",
+       link:"TjelTbOGcPI",
+       title:`In search for the perfect gift - Abha's story`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"26",
+        titile:"dssd",
+       link:"gEdz4-c9FN4",
+       title:`A remarkable story from the lanes of Indore`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"27",
+        titile:"dssd",
+       link:"uemWawWN0Kg",
+       title:`Dastak Khushiyon Ki - Amazon India Great Indian Festival 2020`
+    },
     
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"28",
+        titile:"dssd",
+       link:"7E9pj86uIik",
+       title:`BMW 360 Financial Services`
+    },
+    {
+      img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573476/AirJaldi/modadlg7n17c54xwkffx.jpg',
+        _id:"29",
+        titile:"dssd",
+       link:"uemWawWN0Kg",
+       title:`Pan Villas Raag TVC`
+    },
     
   //   {
   //     _id:"6",

@@ -14,38 +14,49 @@ import Documentaries from './Documentaries'
 
 const data = [
      
-    {
-        _id:1,
- titile:"dssd",
- img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641607/vf6lhjxanijozufmah2b.jpg",
+  {
+    _id:1,
+titile:"dssd",
+img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641607/vf6lhjxanijozufmah2b.jpg",
 link:'rN3Xwia_Zvs',
 title:`Freedom Drive | The All-New Thar | Independence Day 2020`
 
 
-    },
-    {
-      img:'',
-        _id:2,
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641718/k8knzjups3sapvc4qij6.jpg",
-       link:"PGTMAdO3MCI",
-       title:`Good Vibes//BMW - X1`
-    },
-    {
-        _id:3,
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641757/pyslfl63njcveqq5guyj.jpg",
-       link:"totaAD19bUA",
-       title:`Good Vibes//BMW - X1 Q&A`
-    },
+},
+{
+  img:'',
+    _id:2,
+    img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641718/k8knzjups3sapvc4qij6.jpg",
+   link:"PGTMAdO3MCI",
+   title:`Good Vibes//BMW - X1`
+},
+{
+    _id:3,
+    img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641757/pyslfl63njcveqq5guyj.jpg",
+   link:"totaAD19bUA",
+   title:`Good Vibes//BMW - X1 Q&A`
+},
 
-    {
-        _id:4,
-        img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
-       link:"nDn463aZpX8",
-       title:`KIA Seltos Global Preview - Event Film`
-    },
-   
-  
 
+{
+  _id:4,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"nDn463aZpX8",
+ title:`KIA Seltos Global Preview - Event Film`
+},
+
+{
+_id:5,
+img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+link:"cUhqqSxqEt0",
+title:`Nexa Lakme - After Movie // Good Vibes`
+},
+{
+  _id:6,
+  img:"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618641758/umbcgxelqrdo1ln04hkt.jpg",
+ link:"arXKp-XCD5k",
+ title:`Nexa Lakme - Pre Show // Good Vibes`
+}
     
 
 
