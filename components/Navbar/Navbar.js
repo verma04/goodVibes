@@ -148,11 +148,12 @@ const sercices = () => {
 
 <div  className='flex-sm' >
 
-<div  id={nav === false ? "" : "hide"} onClick={()=> home()} className='left' >
+<div  id={nav === false ? "" : "hide"}  className='left' >
  
  <div className="data" >
    
 <img
+onClick={()=> home()}
  className="myImage"
 src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620219914/mfjtmhek2ipqcborohhw.png'
 alt="Picture of the author"
@@ -162,7 +163,7 @@ objectFit="cover"
 />   
 </div>
 
-<i  class="fas fa-bars"></i>
+<i  onClick={()=> setvisible(true)}  class="fas fa-bars"></i>
      </div>
      <div  id={nav === false ? "hide" : "show"}  onClick={()=> setvisible(true)}  className='left-left' >
      <i  class="fas fa-bars"></i>
