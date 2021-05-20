@@ -145,7 +145,27 @@ if(  loading ) {
    
   
   {data.portfolioTypes.edges.sort((a, b) => a.node.termTaxonomyId - b.node.termTaxonomyId).map(number => 
+  <>
+ 
       <li onClick={() =>  setactive(number.node.name) } id={active === number.node.name ? "active" : ""}  >{number.node.name}</li>
+     
+     </>
+      )
+
+   }
+    
+     
+  </div>
+
+   
+  <div className="top-1" >
+   
+  <i className="fas fa-sort-down"></i>
+  {data.portfolioTypes.edges.sort((a, b) => a.node.termTaxonomyId - b.node.termTaxonomyId).map(number => 
+   
+      
+      <li className="shwo-cat"  onClick={() =>  setactive(number.node.name) } id={active === number.node.name ? "active" : ""}  >{number.node.name}</li>
+
    )
 
    }
