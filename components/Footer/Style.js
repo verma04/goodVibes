@@ -455,6 +455,7 @@ justify-content:space-around;
     .bottom-2 {
         font-weight:400%;
        color:black;
+    text-align:center;
 
     }
 
