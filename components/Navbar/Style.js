@@ -151,33 +151,54 @@ top:0;
  display: flex;
  width: 100%;
  justify-content: space-between;
- 
+
   .left {
   
-      width:100%;
+      width:95%;
      z-index:999;
      top:0;
-     left:3%;
+     right:3%;
        position: fixed;
        display:flex;
-       justify-content:flex-end;
+       justify-content:space-between;
         align-items:center;
         .data {
           position: relative;
           width:5rem;
           margin-right:2rem;
-          margin-top:1rem;
+        
          img {
            width:100%;
          }
         }
   }
+ 
+  .left-left {
+  
+  width:100%;
+ z-index:999;
+ top:0;
+ right:3%;
+   position: fixed;
+   display:flex;
+   justify-content:flex-end;
+    align-items:center;
+    .data {
+      position: relative;
+      width:5rem;
+      margin-right:2rem;
+      margin-top:1rem;
+     img {
+       width:100%;
+     }
+    }
+}
 
   .fa-bars {
     color: ${({ theme }) => theme.text1};
-    margin:2rem;
+    margin:1rem;
       z-index:100%;
-      font-size:2.7rem;
+      font-size:2rem;
   }
      
 

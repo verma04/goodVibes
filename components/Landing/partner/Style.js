@@ -166,13 +166,13 @@ justify-content:space-between;
         height:90%;
         
         display:flex;
-justify-content:space-around;
+justify-content:space-between;
 align-items:center;
 flex-wrap: wrap;
 .partner {
-    width:45%;
+    width:30%;
   margin-top:1rem;
-    height: 13rem;
+    height: 5rem;
     position: relative;
     img {
         border: 1px solid red;

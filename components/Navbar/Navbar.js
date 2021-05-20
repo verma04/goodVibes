@@ -147,8 +147,10 @@ objectFit="cover"
 
 />   
 </div>
+
+<i  class="fas fa-bars"></i>
      </div>
-     <div  id={nav === false ? "hide" : "show"}  onClick={()=> setvisible(true)} className='left' >
+     <div  id={nav === false ? "hide" : "show"}  onClick={()=> setvisible(true)}  className='left-left' >
      <i  class="fas fa-bars"></i>
 </div>
 { visible &&
@@ -158,7 +160,7 @@ objectFit="cover"
         if (state === "dark") {
           return (
             <img
-            
+            onClick={()=> setvisible(false)}
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619609053/zibldcg8lngvrlqgfxhu.png'
            alt="Picture of the author"
@@ -170,7 +172,7 @@ objectFit="cover"
         } else {
           return (
             <img
-        
+            onClick={()=> setvisible(false)}
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620219914/mfjtmhek2ipqcborohhw.png'
            alt="Picture of the author"

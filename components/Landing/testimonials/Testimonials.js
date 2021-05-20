@@ -52,7 +52,7 @@ function Testimonials() {
            
   {console.log(number.node.featuredImage)}
            
-            <span>ENDO PRODUCTIONS, SINGAPORE</span>
+            
         </div>
            
    
