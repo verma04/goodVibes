@@ -144,9 +144,16 @@ top:0;
 
 
 .flex-sm {
+ i {
+   color: white;
+ }
+
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
  
-  
   .left {
+  
       width:100%;
      z-index:999;
      top:0;
@@ -157,7 +164,7 @@ top:0;
         align-items:center;
         .data {
           position: relative;
-          width:3rem;
+          width:5rem;
           margin-right:2rem;
           margin-top:1rem;
          img {
@@ -238,7 +245,7 @@ top:0;
   margin-top:2rem;
   i {
     font-size:2rem;
-    color: ${({ theme }) => theme.text};
+    color: white;
   }
   }
 

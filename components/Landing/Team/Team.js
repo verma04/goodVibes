@@ -165,6 +165,13 @@ function Team() {
       span {
       color:white;
       }
+
+      @media (max-width: 600px) {
+        .set {
+           height:10rem;
+        }
+
+      }
       `}</style>
           
    </div>

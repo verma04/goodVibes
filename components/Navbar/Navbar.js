@@ -135,6 +135,7 @@ function Navbar({toggleTheme , theme}) {
 <div  className='flex-sm' >
 
 <div  id={nav === false ? "" : "hide"} onClick={()=> setvisible(true)} className='left' >
+ 
  <div className="data" >
    
 <img
@@ -181,7 +182,7 @@ objectFit="cover"
         }
       })()}
 </div>
-         <div    onClick={()=> send('home') } className="nav-item" >
+         <div    onClick={()=> send('/') } className="nav-item" >
              <a> Home</a>
              
             </div>

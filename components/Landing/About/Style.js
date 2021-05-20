@@ -250,7 +250,7 @@ justify-content:center;;
     text-align:center;
   
  
-    word-spacing:0.4rem;
+   
   }
 
      
