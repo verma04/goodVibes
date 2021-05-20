@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Landing from '@/components/About/About'
-
-export default function Home() {
+import withApollo from '@/hoc/withApollo';
+ function Home() {
   return (
     
     <div>
@@ -14,3 +14,4 @@ export default function Home() {
    
   )
 }
+export default withApollo(Home);
