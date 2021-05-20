@@ -170,7 +170,7 @@ justify-content:space-around;
 align-items:center;
 flex-wrap: wrap;
 .partner {
-    width:100%;
+    width:45%;
   margin-top:1rem;
     height: 13rem;
     position: relative;

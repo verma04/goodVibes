@@ -50,7 +50,7 @@ function Testimonials() {
             <img src={number.node.featuredImg} ></img>
             <h3> {number.node.title}</h3>
            
-  
+  {console.log(number.node.featuredImage)}
            
             <span>ENDO PRODUCTIONS, SINGAPORE</span>
         </div>

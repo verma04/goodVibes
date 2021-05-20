@@ -230,7 +230,7 @@ justify-content:center;
     
   .flex-1-sm {
     
-      width:90%;
+      width:95%;
       display:flex;
 justify-content:center;;
  align-items:center;
@@ -241,7 +241,7 @@ justify-content:center;;
     margin-bottom:5%;
       text-align:center;
       font-weight:600;
-      font-size:1.3rem;
+      font-size:1.2rem;
       font-family: Poppins-Light ;
   
 

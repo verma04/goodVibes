@@ -451,7 +451,7 @@ flex-direction:column;
   position:absolute;
   width:90%;
   height:22%;
-  display:flex;
+  display:none;
   justify-content:center;
   bottom:10%;
   z-index:999;
