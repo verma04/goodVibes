@@ -32,6 +32,20 @@ function Navbar({toggleTheme , theme}) {
         }
     }
 
+const home = () => {
+  router.push("/")
+  setvisible(false)
+}
+
+const team = () => {
+  router.push("/#team")
+  setvisible(false)
+}
+
+const sercices = () => {
+  router.push("/#service")
+  setvisible(false)
+}
 
     const scrollTo = ()  => {
       scroll.scrollTo(3800);
@@ -134,7 +148,7 @@ function Navbar({toggleTheme , theme}) {
 
 <div  className='flex-sm' >
 
-<div  id={nav === false ? "" : "hide"} onClick={()=> setvisible(true)} className='left' >
+<div  id={nav === false ? "" : "hide"} onClick={()=> home()} className='left' >
  
  <div className="data" >
    
@@ -156,43 +170,19 @@ objectFit="cover"
 { visible &&
      <div  data-aos="fade-top"  className='right' >
      <div className="data" >
-     {(() => {
-        if (state === "dark") {
-          return (
-            <img
-            onClick={()=> setvisible(false)}
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619609053/zibldcg8lngvrlqgfxhu.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           
-           />  
-          )
-        } else {
-          return (
-            <img
-            onClick={()=> setvisible(false)}
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620219914/mfjtmhek2ipqcborohhw.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           
-           />  
-          )
-        }
-      })()}
+
+     <i onClick={()=> setvisible(false)} className="fas fa-bars"></i>
+   
 </div>
-         <div    onClick={()=> send('/') } className="nav-item" >
+         <div    onClick={()=> home()  } className="nav-item" >
              <a> Home</a>
              
             </div>
-            <div      className="nav-item" >
+            <div    onClick={()=> team()  }    className="nav-item" >
              <a  > Team</a>
              </div>
-         <div   className="nav-item" >
-             <a href="#service" > Services</a>
+         <div   onClick={()=> sercices()  }   className="nav-item" >
+             <a  > Services</a>
             </div>
          <div   onClick={ ()=> send('about')  }  className="nav-item" >
              <a> About</a>

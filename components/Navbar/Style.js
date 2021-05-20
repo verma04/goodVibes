@@ -224,9 +224,10 @@ top:0;
       align-items:center;
       width:100%;
 
-      img {
-        width:20%;
+      i {
+        width:10%;
         margin:1rem;
+        font-size:2rem;
       }
     }
     .nav-item {

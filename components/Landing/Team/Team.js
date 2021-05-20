@@ -166,12 +166,14 @@ function Team() {
       color:white;
       }
 
-      @media (max-width: 600px) {
-        .set {
+    
+
+      @media screen and (max-width: 600px) {
+     .set .wrapper   img {
            height:10rem;
         }
+}
 
-      }
       `}</style>
           
    </div>

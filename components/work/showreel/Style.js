@@ -10,13 +10,13 @@ export const Section = styled.section`
 justify-content:center;
  align-items:center;
   flex-direction:column;
-
+  height:50rem;
   width:100%;
   margin-top:5rem;
-    margin-bottom:5rem;
+    
   .head {
       display:flex;
-      height:5rem;
+      height:7%;
       justify-content:space-between;
       h2 {
           
@@ -56,6 +56,9 @@ justify-content:space-between;
   
 
   }
+  .top-1 {
+    display: none;
+  }
   .list {
     width:100%;
       height:90%;
@@ -65,10 +68,10 @@ justify-content:space-between;
       justify-content:center;
       align-items:center;
       flex-wrap:wrap;
-      margin-top:2rem;
+      
       .data {
           width:33.3%;
-          height:20rem;
+          height:50%;
           position: relative;
           display:flex;
           justify-content:center;
@@ -232,6 +235,9 @@ justify-content:space-between;
   
 
   }
+  .top-1 {
+    display: none;
+  }
   .list {
     width:100%;
       height:90%;
@@ -385,25 +391,34 @@ justify-content:center;
 justify-content:center;
  align-items:center;
   flex-direction:column;
-  .top {
+  .top-1 {
     width:90%;
-      height:25rem;
+      
       display:flex;
 justify-content:space-between;
  align-items:left;
 flex-direction:column;
+position: relative;
+i {
+  position: absolute;
+    top: 0rem;
+    left: auto;
+    right: 0%;
+    font-size: 1.3rem;
+    color:#47B4DE;
+}
+
+
  #active {
    color:#47B4DE;
    font-weight:900;
+   display: flex;
+   
  }
  li {
-    height:13%;
-     list-style:none;
-      font-weight:700;
-  
-      display:flex;
-      justify-content:center;
-      flex-direction:column;
+  font-weight:900;
+   display: none;
+    height: 2em;
  }
 
  li:hover {
@@ -412,8 +427,19 @@ flex-direction:column;
    font-weight:900;
  
  }
+
+ 
   
 
+  }
+  .top-1:hover  {
+    li {
+  display:flex;
+    }
+}
+
+  .top{
+    display: none;
   }
   .list {
     width:100%;
@@ -451,7 +477,7 @@ flex-direction:column;
   position:absolute;
   width:90%;
   height:22%;
-  display:flex;
+  display:none;
   justify-content:center;
   bottom:10%;
   z-index:999;
