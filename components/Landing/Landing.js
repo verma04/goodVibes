@@ -12,22 +12,35 @@ import Team from './Team/Team';
 import Withus from './withus/with'
 import Testimonials from './testimonials/Testimonials'
 import Behind from './Behind/Behind'
-function Landing() {
+
+import { useGetHome } from '@/apollo/actions';
+function Landing({}) {
+
+
+  const { data , loading , error } = useGetHome();
+  const cafes = data && data.cafes || [];
+
+  console.log(data)
+
+  if(  loading ) {
+      return (
+          null
+      )
+  }
     return (
         <div>
           <HeroSection/>
-        <About/>
+        <About data={data} />
           <Production/> 
          
-          <Exp/>
-         
+          <Exp  data={data}/>
           <Showreel/>
           <Vedio/>
         <Team/>
-        <Behind/>
+        <Behind data={data}/>
         <Testimonials/>
           <Featured/>
-          <Partner/>
+          <Partner data={data} />
           <Withus/>
           <Footer/>
           

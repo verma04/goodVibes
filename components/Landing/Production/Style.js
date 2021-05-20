@@ -68,6 +68,9 @@ flex-wrap: wrap;
              text-align:center;
              text-transform:uppercase;
        }
+       p {
+         display:none;
+       }
         p {
           text-align:center;
         
@@ -248,13 +251,18 @@ flex-wrap: wrap;
              text-align:center;
              text-transform:uppercase;
        }
-      p{        li {
+       li {
           list-style:none;
           text-align:center;
           line-height:1.1;
           font-size:1.2rem;
         }
+        ul {
+      p{      
+         display:none;
+         
       }
+        }
     }
 }
     }
@@ -281,7 +289,7 @@ justify-content:center;
 align-items:center;
 flex-direction:column; 
 
-height:3rem;
+height:5rem;
 h3 {
   
   font-weight:1000;
@@ -300,17 +308,20 @@ align-items:center;
 flex-direction:column;
 .pro {
   
-  height:20rem;
+  height: 45rem;
   width:100%;
   
   display:flex;
   justify-content:space-around;
 align-items:center;
 flex-direction:column;
-
+i {
+  color:white;
+  font-size: 1.5rem;
+}
   .logo {
   width:100%;
-  height:40%;
+  height:20%;
   
   position: relative;
   }

@@ -71,7 +71,7 @@ flex-direction:column;
            text-transform:uppercase;
      }
       p {
-        
+        display:flex;
         margin-top:0.5rem;
         text-align:center;
       

@@ -4,7 +4,6 @@ import  { Section ,Slider } from './Style'
 import Image from 'next/image';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Team1 from './Team1'
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -22,35 +21,18 @@ const responsive = {
     slidesToSlide: 1 // optional, default to 1.
   }
 };
-function Team() {
+function Team({data}) {
 
-  const [  row , setData ] = useState('')
+  const [  row , setData ] = useState(data)
 
-  const { data , loading , error } = useGetTeam();
-  const cafes = data && data.cafes || [];
+
   
-  const data1 = data;
 
-  if(  loading  ) {
-      return (
-          null
-      )
-  }
- 
+
+
     return (
     <  div id="team" data-aos="fade-up"  >
-        <Section>
-            <div className="head" >
-                <h2>The Team Behind Good Vibes</h2>
-                <div className="mid" >
-    The strength of a company lies in its people. Meet the team responsible for the growth of Good Vibes.
-    </div>
-            </div>
-
-            
-           
-        </Section>
-
+     
 
 
         <Carousel
@@ -61,7 +43,7 @@ function Team() {
   responsive={responsive}
   >
 
-  {data.teams.edges.reverse().slice(0, 6).map(number =>
+  {row.teams.edges.reverse().slice(0, 6).map(number =>
     <a     target="_blank" href={number.node.teamMemberProfileUrl} className="set">
   
   <i className="fab fa-linkedin"></i>
@@ -96,7 +78,7 @@ function Team() {
 
 
 
-<Team1  data={data}/>
+
 
 <style jsx>{`
          .set {

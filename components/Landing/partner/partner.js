@@ -1,7 +1,7 @@
 import React , {useEffect , useState} from 'react'
 import { Section } from './Style'
 import Image from 'next/image';
-function partner() {
+function partner({data}) {
         const [state, setstate] = useState("")
         useEffect(function() {
                 
@@ -217,183 +217,25 @@ function partner() {
             </div>
             
             <div data-aos="fade-down" className="data" >
-                <div className="partner" >
-                <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619502519/ub7cicgqzfbh0rtcznbe.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                </div>
+            {data.page.clientsgalley.map(number => 
 
-                <div className="partner" >
-                <Image
-            className="myImage"
-           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1619503998/zegtqmj2gh1nqwcukqpe.png"
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
+    
+   
+<div className="partner" >
+<Image
+className="myImage"
+src={number}
+alt="Picture of the author"
+layout="fill"
+objectFit="cover"
+/> 
+</div>
 
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619513707/bcgkldpqny9yjl3tiaal.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
-                  
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619515764/k5hbpm7bphrriazhfwbt.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619513708/uxjdnelkfeyyw6eulowi.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
+)}
                    
-                    
-                    
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619514010/dgp9dvtwsdff0haxtjlj.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
-
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522285/qz66ahnllijpomjn9ill.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522285/reyjrm5uvoueyrpcjjsq.png"
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522286/qn7sclyrudok9kovaa4x.png"
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
-
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522286/pf5l6rzxdxmw0u8c7xzm.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-                    </div>
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619522672/fm11cxk8uehfa5y5gk0n.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           />   
-                    </div>
-                    
-                   
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619523030/h3uyibgffyzhwllf5dk3.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-           </div>
-                 
-                    <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619523571/hke5jyptgyomdrlxphqx.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-            </div>
-        
+              
             
-            <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524087/eaihh5pdetuek2b6jjrj.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-            </div>
-        
-            
-            <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524087/ry9d0rvotadctonfnqdj.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-            </div>
-        
-            
-
-                
-            <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524388/btpmvd0plv4uhmyg53rc.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-            </div>
-        
-            
-                
-            <div className="partner" >
-                    <Image
-            className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1619524388/niio0fpezaniuvyayfea.png'
-           alt="Picture of the author"
-           layout="fill"
-           objectFit="cover"
-           /> 
-            </div>
-        
-            
+           
             
             </div>
 

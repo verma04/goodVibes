@@ -70,6 +70,14 @@ justify-content:space-between;
           flex-direction:column;
         align-items:center;
           height:60%;
+          .set {
+            width:100%;
+          display:flex;
+          justify-content:space-around;
+          flex-direction:column;
+        align-items:center;
+          height:100%;
+          }
    .top {
      font-size:1.8rem;
   font-weight:800;

@@ -4,7 +4,8 @@ import Image from 'next/image';
 
 import CountUp from "react-countup";
 import VisibilitySensor from 'react-visibility-sensor';
-function exp() {
+function exp({data}) {
+    console.log(data)
     return (
         <Section>
             <div  className="grid" >
@@ -20,19 +21,14 @@ function exp() {
 
         
              </div>
-             <div data-aos="fade-left" className="right" >
+             <d data-aos="fade-left" className="right" >
     
-             <div className="top" >
-    This is the professional video production place where your story starts
-    </div>
-    <div className="mid" >
-    <p>If you're ready to create a masterpiece, let's talk!</p>
-    </div>
+      <div className='set' dangerouslySetInnerHTML={{ __html: data.page.homeclientsdiscription}} />
     <div className="bottom" >
        <ul>
            <li id="bold" >
             
-           <CountUp end={60} redraw={true}>
+           <CountUp end={data.page.homeclientsclients} redraw={true}>
         {({ countUpRef, start }) => (
             <VisibilitySensor onChange={start} delayedCall>
                 <span ref={countUpRef} />
@@ -44,7 +40,7 @@ function exp() {
        </ul>
        <ul>
            <li id="bold">
-           <CountUp end={2050} redraw={true}>
+           <CountUp end={data.page.homeclientsfilms} redraw={true}>
         {({ countUpRef, start }) => (
             <VisibilitySensor onChange={start} delayedCall>
                 <span ref={countUpRef} />
@@ -59,7 +55,7 @@ function exp() {
 
        <ul>
            <li id="bold">
-           <CountUp end={2007} redraw={true}>
+           <CountUp end={data.page.homeclientsdays} redraw={true}>
         {({ countUpRef, start }) => (
             <VisibilitySensor onChange={start} delayedCall>
                 <span ref={countUpRef} />
@@ -72,7 +68,7 @@ function exp() {
 
     </div>
 
-             </div>
+             </d>
              
              
              

@@ -1,22 +1,12 @@
 
 import { Section } from './Style'
-import Image from 'next/image';
-import ReactPlayer from 'react-player';
+
 import { useEffect  , useState  } from 'react';
-import Casting from './Casting';
-import Event from './Event';
-import Corporate from './Corporate';
-import  Digital from './Digital';
-import Shows from './Shows'
-import Music from './Music'
-import AOS from 'aos';
+
 import "aos/dist/aos.css";
-import Documentaries from './Documentaries'
-import Animation from './Animation';
-import Pop from './Popup'
-import Behind from './Behind'
+import List from './List'
 import { useRouter } from 'next/router'
-const data = [
+const data1 = [
      
     {
       img:'https://res.cloudinary.com/dzcmadjl1/image/upload/v1618573364/AirJaldi/safmqqbnjhgzuos3tpbl.jpg',
@@ -115,16 +105,30 @@ title:`Customers in India enjoy interacting with Alexa`
 
 ]
 
+import { useGetCategory } from '@/apollo/actions';
+
 function showreel() {
   const router = useRouter()
 
-    const [active, setactive] = useState("Brands");
-    const [  visible , setvisible] = useState(false);
-    const [  ani , setani] = useState("fade-up");
-    const toggleMenu = id => {
-      setvisible(id)
-  }
-  
+  const [active, setactive] = useState("Digital Films");
+  const [  visible , setvisible] = useState(false);
+  const [  ani , setani] = useState("fade-up");
+  const toggleMenu = id => {
+    setvisible(id)
+}
+
+
+  const { data , loading , error } = useGetCategory();
+const cafes = data && data.cafes || [];
+
+
+
+if(  loading ) {
+    return (
+        null
+    )
+}
+ 
 
 
     return (
@@ -138,130 +142,20 @@ function showreel() {
          <div className="ved" >
   
   <div className="top" >
-  
-      <li onClick={() =>  setactive("Brands") } id={active === "Brands" ? "active" : ""} >Brands</li>
-      <li onClick={() => setactive("Corporate" ) } id={active === "Corporate" ? "active" : ""} >Corporate Videos</li>
-      <li  onClick={() => setactive("Event") } id={active === "Event" ? "active" : ""}>Event Videos</li>
-      <li onClick={() => setactive("Shows") } id={active === "Shows" ? "active" : ""}>TV/Web Shows</li>
-      
-      <li  onClick={() => setactive("Documentaries") } id={active === "Documentaries" ? "active" : ""}>Line Produced Films</li>
-    
-      <li  onClick={() => setactive("Behind") } id={active === "Behind" ? "active" : ""}>Behind The Scenes</li>
-      
-      <li onClick={() => setactive('Animation') } id={active === "Animation" ? "active" : ""}>Animation</li>
-    
-      <li onClick={() => setactive('Casting') } id={active === "Casting" ? "active" : ""}>Casting</li>
    
-      <li onClick={() => setactive('Music') } id={active === "Music" ? "active" : ""}>Music</li>
+  
+  {data.portfolioTypes.edges.sort((a, b) => a.node.termTaxonomyId - b.node.termTaxonomyId).map(number => 
+      <li onClick={() =>  setactive(number.node.name) } id={active === number.node.name ? "active" : ""}  >{number.node.name}</li>
+   )
+
+   }
+    
+     
   </div>
 
- 
-  {(() => {
-        if (active === "Corporate") {
-          return (
-            <Corporate/>
-          )
-        } else if (active === "Documentaries") {
-          return  (
-            <Documentaries/>
-   
-          )
-        }
-        else if (active === "Event") {
-            return  (
-              <Event/>
-     
-            )
-          }
-          else if (active === "Shows") {
-            return  (
-              <Shows/>
-     
-            )
-          }
-          else if (active === "Behind") {
-            return  (
-              <Behind/>
-     
-            )
-          }
-          else if (active === "Casting") {
-            return  (
-              <Casting/>
-     
-            )
-          }
-          else if (active === "Animation") {
-            return  (
-              <Animation/>
-     
-            )
-          }
-          else if (active === "Music") {
-            return  (
-              <Music/>
-     
-            )
-          }
-          else {
-              return (
-                <div  className="list" >
-                {data.map((number) => 
-                    <div  key={number._id} className="data" >
-                   <div className="cover" >
-                 <Image
-                        className="myImage"
-                        src={`https://img.youtube.com/vi/${number.link}/hqdefault.jpg`}
-            
-                       alt="Picture of the author"
-                       layout="fill"
-                       objectFit="cover"
-                       /> 
-              <div className="title" >
-                       <h4>{number.title}</h4>
-                       </div>
-                       </div>  
-                <div className="img" >
 
-                  
-                    <img onClick={() => toggleMenu(number._id) }  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616750466/auegoewnepob301zsbj8.svg" ></img>
-                     </div>
-            
-                     {visible === number._id &&
-                  
-                  <div id="myModal" class="modal">
-            
-            
-            <div class="modal-content">
-            <ReactPlayer
-                       volume={0} 
-                       className='react-player'
-                   
-                       volume={100}
-              url={`https://www.youtube.com/watch?v=${number.link}`}
-              playing={true}
-              loop={true} 
-              width='100%'
-              height='100%'
-            />
-                
-            <i onClick={()  => setvisible(false)} class="fas fa-times"></i>
-                 
-                 </div> 
-            
-                 </div>
-            
-               }
-              </div>
-                )}
-               
-             
-              </div>
-            
-              )
-          }
-      })()}
-
+            <List  id={active}/>
+     
 
 <button   onClick={() => router.push("/work") }  style={{marginTop:"2rem"}} data-aos={ani}  >Show More</button>
      

@@ -97,7 +97,7 @@ function HeroSection() {
                </div>         
               
 
-               <About/> 
+          
  
         </div>
    

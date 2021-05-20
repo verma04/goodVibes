@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useGetGallery } from '@/apollo/actions';
 import Carousel from 'react-multi-carousel';
 import withApollo from '@/hoc/withApollo';
+import { useGetTests } from '@/apollo/actions';
 import 'react-multi-carousel/lib/styles.css';
 const responsive = {
   desktop: {
@@ -23,50 +24,44 @@ const responsive = {
   }
 };
  
-const data  = [
+// const data  = [
 
-"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607310/goodVibes/chjyiuqo1vpbrqz3zzfe.jpg",
-'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/eutah6sewz11gxcmsepw.jpg',
-'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/wvnbb5k2i0jlit8kwurf.jpg',
-"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607310/goodVibes/gvcxaw4uzgkziru3p52k.jpg",
-"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/olnxf9muioajijk4ilsy.jpg",
-"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/ujvz565i8wevjiqrc2dg.jpg",
-"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/nkqoglv4vuyqwmwq4xpf.jpg",
-"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/tbgmttx9rnunydkxxvtd.jpg",
-"https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/szxgpnu8owaa7kq5flli.jpg",
+// "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607310/goodVibes/chjyiuqo1vpbrqz3zzfe.jpg",
+// 'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/eutah6sewz11gxcmsepw.jpg',
+// 'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/wvnbb5k2i0jlit8kwurf.jpg',
+// "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607310/goodVibes/gvcxaw4uzgkziru3p52k.jpg",
+// "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/olnxf9muioajijk4ilsy.jpg",
+// "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/ujvz565i8wevjiqrc2dg.jpg",
+// "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607309/goodVibes/nkqoglv4vuyqwmwq4xpf.jpg",
+// "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/tbgmttx9rnunydkxxvtd.jpg",
+// "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/szxgpnu8owaa7kq5flli.jpg",
 
-]
-const data1  = [
+// ]
+// const data1  = [
 
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607307/goodVibes/qyn228celxirb3k3rjmu.jpg",
-  'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/b8dvqvukwshs2fm4nczn.jpg',
-  'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/cy3h2d86mxxxy3xfgwmn.jpg',
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/dnzsjdqnhyhmr70pmhff.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/vhrye0dqpshr1h4xjqk1.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/gwhu3jij6psuqnm9emfu.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/dn3a9azlynl5z1vtully.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607305/goodVibes/l4qv4oo7rqzimgozgnti.jpg",
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607305/goodVibes/bsvxqdjnhqjkb1ad0tb5.jpg",
-]
-
-
-function Team() {
-
-  
-  const { datas , loading , error } = useGetGallery();
-  const cafes = datas && data.cafes || [];
+//   "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607307/goodVibes/qyn228celxirb3k3rjmu.jpg",
+//   'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607308/goodVibes/b8dvqvukwshs2fm4nczn.jpg',
+//   'https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/cy3h2d86mxxxy3xfgwmn.jpg',
+//   "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/dnzsjdqnhyhmr70pmhff.jpg",
+//   "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/vhrye0dqpshr1h4xjqk1.jpg",
+//   "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/gwhu3jij6psuqnm9emfu.jpg",
+//   "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607306/goodVibes/dn3a9azlynl5z1vtully.jpg",
+//   "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607305/goodVibes/l4qv4oo7rqzimgozgnti.jpg",
+//   "https://res.cloudinary.com/dzcmadjl1/image/upload/v1619607305/goodVibes/bsvxqdjnhqjkb1ad0tb5.jpg",
+// ]
 
 
-  console.log(datas)
+
+function Team({data}) {
+
+ 
  
     return (
     <div id="team" data-aos="fade-up"  >
         <Section>
-            <div className="head" >
-                <h2>Behind the Scenes</h2>
-                <div className="mid" >
-   
-    </div>
+            <div dangerouslySetInnerHTML={{__html: data.page.homegalleyheading}} className="head" >
+
+      
             </div>
 
             
@@ -75,14 +70,14 @@ function Team() {
 
 
 
-        <Carousel
+         <Carousel
   ssr
   partialVisbile
 
   itemClass="image-item"
   responsive={responsive}
             >
-{data.sort( () => .5 - Math.random()).map(number => 
+{data.page.homegalleyone.sort( () => .5 - Math.random()).map(number => 
   <div    className="set">
   <div style={{height:"20rem"}} className='wrapper'>
 
@@ -115,7 +110,7 @@ function Team() {
   responsive={responsive}
             >
 
-{data1.sort( () => .5 - Math.random()).map(number => 
+{data.page.homegalleytwo.sort( () => .5 - Math.random()).map(number => 
   <div     className="set">
   <div style={{height:"20rem"}} className='wrapper'>
 
@@ -139,7 +134,7 @@ function Team() {
  
  
  
-</Carousel>
+</Carousel> 
 
 <style jsx>{`
 .wrapper { 

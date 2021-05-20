@@ -2,7 +2,7 @@ import React from 'react';
 import { Section} from './Style'
 import Image from 'next/image';
 function Testimonials() {
-    return (
+return (
         <Section>
         <div className="head" >
             <p>See What Our Clients Have to Say</p>
