@@ -37,7 +37,7 @@ if(  loading ) {
   
 
   <div  className="list" >
-    {data.portfolios.edges.filter(element =>  element.node.portfolioTypes.edges[0].node.name === id).map((number) => 
+    {data.portfolios.edges.filter(element =>  element.node.portfolioTypes.edges[0].node.name === id).slice(0, 6).map((number) => 
     
    
     <div  key={number.node.portfolioId} className="data" >
@@ -45,13 +45,13 @@ if(  loading ) {
       
      <Image
             className="myImage"
-            src={number.node.featuredImage.node.sourceUrl}
+            src={`https://img.youtube.com/vi/${number.node.portfolioVideoUrl.slice(17)}/hqdefault.jpg`}
 
-           alt="Picture of the author"
+           alt="Picture of the  ThumbNail"
            layout="fill"
            objectFit="cover"
            /> 
-           {console.log() }
+      
   <div className="title" >
            <h4>{number.node.title}</h4>
            </div>

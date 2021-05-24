@@ -110,7 +110,7 @@ import { useGetCategory } from '@/apollo/actions';
 function showreel() {
   const router = useRouter()
 
-  const [active, setactive] = useState("Digital Films");
+  const [active, setactive] = useState("Brands");
   const [  visible , setvisible] = useState(false);
   const [  ani , setani] = useState("fade-up");
   const toggleMenu = id => {
