@@ -69,7 +69,7 @@ const sercices = () => {
             
            <Image
             className="myImage"
-           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620219914/mfjtmhek2ipqcborohhw.png'
+           src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1621837986/lrvzs1jfygw6klhh8ts1.png'
            alt="Picture of the author"
            layout="fill"
            objectFit="contain"
@@ -155,7 +155,7 @@ const sercices = () => {
 <img
 onClick={()=> home()}
  className="myImage"
-src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620219914/mfjtmhek2ipqcborohhw.png'
+src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1621837986/lrvzs1jfygw6klhh8ts1.png'
 alt="Picture of the author"
 layout="fill"
 objectFit="cover"

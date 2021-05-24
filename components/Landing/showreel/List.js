@@ -37,7 +37,7 @@ if(  loading ) {
   
 
   <div  className="list" >
-    {data.portfolios.edges.filter(element =>  element.node.portfolioTypes.edges[0].node.name === id).slice(0, 6).map((number) => 
+    {data.portfolios.edges.filter(element =>  element.node.portfolioTypes.edges[0].node.name === id).reverse().slice(0, 6).map((number) => 
     
    
     <div  key={number.node.portfolioId} className="data" >
