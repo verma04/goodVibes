@@ -13,7 +13,7 @@ justify-content:center;
 
   width:100%;
   margin-top:5rem;
-    
+  margin-bottom:3rem;
   .head {
       display:flex;
       height:5rem;
