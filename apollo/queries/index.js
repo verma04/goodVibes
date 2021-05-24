@@ -163,7 +163,7 @@ query MyQuery {
 
 export const VED = gql`
 query MyQuery {
-  portfolios {
+  portfolios (first: 1000) {
     edges {
       node {
         portfolioId
