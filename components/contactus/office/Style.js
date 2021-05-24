@@ -160,7 +160,6 @@ justify-content:center;
     .list {
       width:95;
       height:10rem;
-
 display:flex;
 justify-content:center;
 flex-direction:column;
@@ -174,6 +173,7 @@ ul {
     line-height:1.4;
     align-items:center;
     margin-top:0.5rem;
+   
     img {
       width:1rem;
       height:1rem;

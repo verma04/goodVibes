@@ -18,7 +18,7 @@ justify-content:center;
       display:flex;
        justify-content:center;
        width:100%;
-       height: 100vh;
+       height: 90vh;
        
        .player-wrapper {
   position: relative;

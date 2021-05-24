@@ -237,7 +237,7 @@ justify-content:center;
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   
   display:flex;
 justify-content:center;
@@ -291,7 +291,7 @@ align-items:center;
     
     .top {
       width:100%;
-      height:30%;
+      height:10%;
       display:flex;
     justify-content:center;
     align-items:left;

@@ -133,7 +133,7 @@ top:0;
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
  
 
  
@@ -164,7 +164,7 @@ top:0;
         align-items:center;
         .data {
           position: relative;
-          width:5rem;
+          width:3.3rem;
           margin-right:2rem;
         
          img {
