@@ -62,16 +62,13 @@ query MyQuery {
           node {
             sourceUrl
             title
-            __typename
           }
-          __typename
         }
         menuOrder
-        __typename
+        companyName
+        designation
       }
-      __typename
     }
-    __typename
   }
 }`
 

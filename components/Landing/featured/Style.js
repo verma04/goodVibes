@@ -34,7 +34,7 @@ justify-content:center;
            align-items:center;
            flex-wrap: wrap;
          .img{
-           width:33.3%;
+           width:25%;
            height:80%;
             position:relative;
             transition: transform .8s;
@@ -108,7 +108,7 @@ justify-content:center;
            align-items:center;
            flex-wrap: wrap;
          .img{
-           width:33.3%;
+           width:20%;
            height:80%;
             position:relative;
             transition: transform .8s;
@@ -147,7 +147,7 @@ justify-content:center;
     }
 
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   overflow-x: hidden;
   display:flex;
 justify-content:space-around;

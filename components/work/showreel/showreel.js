@@ -161,6 +161,7 @@ if(  loading ) {
   <div className="top-1" >
    
   <i className="fas fa-sort-down"></i>
+  
   {data.portfolioTypes.edges.sort((a, b) => a.node.termTaxonomyId - b.node.termTaxonomyId).map(number => 
    
       

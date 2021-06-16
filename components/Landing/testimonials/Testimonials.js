@@ -19,6 +19,7 @@ function Testimonials() {
         )
     }
 
+    console.log(data)
    
     return (
 
@@ -49,8 +50,8 @@ function Testimonials() {
         <div className="set" >
             <img src={number.node.featuredImg} ></img>
             <h3> {number.node.title}</h3>
-           
-  {console.log(number.node.featuredImage)}
+            <h3> {number.node.companyName}</h3>
+  <img src={number.node.featuredImage.node.sourceUrl} />
            
             
         </div>

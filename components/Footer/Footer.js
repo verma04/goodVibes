@@ -54,7 +54,7 @@ function Footer() {
        <li> dennis@thegoodvibes.co.in
 </li>
 
-       <li>+91 988-719-0102</li>
+       <li>+91-9899007782</li>
    </ul>
       
        </div>
