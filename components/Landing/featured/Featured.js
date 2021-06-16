@@ -48,7 +48,7 @@ function Featured() {
                <h3>Amazon Alexa ’s anniversary campaign brings stories from users across India</h3>
            </div>
            </div>
-           <div onClick={()=>  window.open("Teen with learning disability makes modelling debut in Amazon's latest ad campaig", "_blank") } className="img">
+           <div onClick={()=>  window.open(" https://newzhook.com/story/disability-advertisment-campaign-amazon-alexa-disabled/", "_blank") } className="img">
            <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623828333/goodVibes/oytqlp4ocdnrx0rbsy4h.png'
