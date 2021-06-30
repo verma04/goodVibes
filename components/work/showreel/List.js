@@ -62,10 +62,10 @@ if(  loading ) {
 
          {visible === number.node.portfolioId &&
       
-      <div id="myModal" class="modal">
+      <div id="myModal" className="modal">
 
 
-<div class="modal-content">
+<div className="modal-content">
 <ReactPlayer
            volume={0} 
            className='react-player'
@@ -78,7 +78,7 @@ if(  loading ) {
   height='100%'
 />
     
-<i onClick={()  => setvisible(false)} class="fas fa-times"></i>
+<i onClick={()  => setvisible(false)} className="fas fa-times"></i>
      
      </div> 
 

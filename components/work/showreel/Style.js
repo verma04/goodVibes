@@ -204,7 +204,7 @@ justify-content:center;
  
 
     .ved {
-        height:80%;
+      
     
         width:95%;
         display:flex;
