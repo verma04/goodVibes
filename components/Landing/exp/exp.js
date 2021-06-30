@@ -5,7 +5,7 @@ import Image from 'next/image';
 import CountUp from "react-countup";
 import VisibilitySensor from 'react-visibility-sensor';
 function exp({data}) {
-    console.log(data)
+   
     return (
         <Section>
             <div  className="grid" >
