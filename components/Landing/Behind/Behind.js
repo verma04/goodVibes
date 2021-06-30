@@ -104,7 +104,7 @@ function Team({data}) {
 
 <Carousel
   ssr
-  partialVisbile
+ 
 
   itemClass="image-item"
   responsive={responsive}

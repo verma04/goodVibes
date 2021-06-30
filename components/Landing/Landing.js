@@ -20,7 +20,7 @@ function Landing({}) {
   const { data , loading , error } = useGetHome();
   const cafes = data && data.cafes || [];
 
-  console.log(data)
+  
 
   if(  loading ) {
       return (
