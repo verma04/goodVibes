@@ -136,7 +136,7 @@ justify-content:center;
 }
 
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
  
     
  .flex-1 {

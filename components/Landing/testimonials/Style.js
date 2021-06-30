@@ -230,7 +230,7 @@ width:90%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     overflow-x: hidden;
     display:flex;
 justify-content:space-around;

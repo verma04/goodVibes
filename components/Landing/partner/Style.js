@@ -125,7 +125,7 @@ flex-wrap: wrap;
     }
   
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     display:flex;
 justify-content:space-around;
  align-items:center;

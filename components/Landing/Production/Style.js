@@ -104,7 +104,7 @@ flex-wrap: wrap;
 justify-content:space-around;
  align-items:center;
   flex-direction:column;
-  height:37rem;
+  height: 64rem;
   width:100%;
   margin-top:7%;
   
@@ -142,8 +142,8 @@ flex-wrap: wrap;
   flex-direction:column;
  
     .logo {
-    width:100%;
-    height:70%;
+    width:70%;
+    height:50%;
     
     position: relative;
     }
@@ -272,7 +272,7 @@ flex-wrap: wrap;
   
 
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   display:flex;
 justify-content:space-around;
  align-items:center;

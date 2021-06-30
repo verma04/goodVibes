@@ -206,7 +206,7 @@ justify-content:center;
     .ved {
         height:80%;
     
-        width:90%;
+        width:95%;
         display:flex;
 justify-content:center;
  align-items:center;
@@ -363,7 +363,7 @@ height:70%;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   display:flex;
 justify-content:center;
  align-items:center;
