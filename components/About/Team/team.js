@@ -89,7 +89,7 @@ function showreel() {
                         className="myImage"
                         src={`https://res.cloudinary.com/dzcmadjl1/image/upload/v1617356888/m3miomaffoepe77q88dl.png`}
             
-                       alt="Picture of the author"
+                       alt="Storytellers Picture"
                        layout="fill"
                        objectFit="cover"
                        /> 

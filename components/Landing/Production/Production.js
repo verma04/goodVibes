@@ -26,7 +26,7 @@ function Production() {
               setstate(window.localStorage.theme)
         },[]);
   
-    console.log(error)
+
     if(  loading ) {
         return (
             null
@@ -96,7 +96,7 @@ function Production() {
 <Image
        className="myImage"
        src={number.node.featuredImage.node.sourceUrl}
-      alt="Picture of the author"
+      alt="Services Icon"
       layout="fill"
       objectFit="contain"
       /> 

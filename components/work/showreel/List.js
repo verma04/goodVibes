@@ -57,7 +57,7 @@ if(  loading ) {
            </div>
            </div>  
     <div className="img" >
-        <img onClick={() => toggleMenu(number.node.portfolioId) }  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616750466/auegoewnepob301zsbj8.svg" ></img>
+        <img alt="Play Button" onClick={() => toggleMenu(number.node.portfolioId) }  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616750466/auegoewnepob301zsbj8.svg" ></img>
          </div>
 
          {visible === number.node.portfolioId &&

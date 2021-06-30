@@ -4,7 +4,8 @@ import styled from 'styled-components'
 import { useEffect  , useState  } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router'
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Link from 'next/link'
+import {  Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 function Navbar({toggleTheme , theme}) {
   
     const isLight = theme === 'light';
@@ -70,7 +71,7 @@ const sercices = () => {
            <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1621837986/lrvzs1jfygw6klhh8ts1.png'
-           alt="Picture of the author"
+           alt="Good Vibes Entertainment Logo"
            layout="fill"
            objectFit="contain"
           
@@ -80,63 +81,48 @@ const sercices = () => {
 
                 <div className='right' >
 
-                    <div onClick={()=> router.push('/') } className="nav-item" >
-                        <a  > Home</a>
+                    <div  className="nav-item" >
+                        <Link href="/"> Home</Link>
                         
                        </div>
 
-                       <div   onClick={()=> router.push('/about') } id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
-                        <a> About</a>
+                       <div    id={router.pathname == "/about" ? "active" : ""} className="nav-item" >
+                        <Link href="/about"> About</Link>
                         </div>
                         <div  className="nav-item" >
                         {router.pathname == "/" ? 
                         <a  onClick={scrollToService} > Services</a>: 
                         
-                        <a  onClick={() => router.push('/#service') } > Services</a>
+                        <Link    href="/#service" > Services</Link>
                         }
                            
                        
                        </div>
                            
-                    <div  id={router.pathname == "/work" ? "active" : ""} onClick={()=> router.push('/work') } className="nav-item" >
+                    <div  id={router.pathname == "/work" ? "active" : ""} className="nav-item" >
                         
-                        <a>Work</a>
+                        <Link  href="/work">Work</Link>
                     </div>
                        <div     className="nav-item" >
 
                        {router.pathname == "/" ? 
                               <a  onClick={scrollTo} > Team</a>: 
                         
-                        <a  onClick={() => router.push('/#team') } >Team</a>
+                        <Link  href="/#team"  >Team</Link>
                         }
    
                         </div>
                   
                     
                   
-                    <div   id={router.pathname == "/contactus" ? "active" : ""} onClick={()=> router.push('/contactus') }  className="nav-item" >
-                        <a>Contact Us</a>
+                    <div   id={router.pathname == "/contactus" ? "active" : ""}  className="nav-item" >
+                        <Link  href="/contactus">Contact Us</Link>
                         </div>
                         <div   onClick={toggleTheme} className="nav-item" >
-                 
-                        {/* {(() => {
-        if (theme === "light") {
-          return (
-            <div  className='mode' onClick={toggleTheme} >  
- <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1610339534/HimTrek/wplfzyhy3yegsiqikd0f.png" ></img>
-    </div>
-          )
-        } else {
-          return (
-            <div  className='mode' onClick={toggleTheme} >  
-            <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1610339565/HimTrek/drl2swwluor3g4gkjoib.png" ></img>
-               </div>
-          )
-        }
-      })()} */}
+  
 
 <ToggleContainer lightTheme={isLight} onClick={toggleTheme}>
-      <img src="https://image.flaticon.com/icons/svg/1164/1164954.svg" width="224" height="224" alt="Sun free icon" title="Sun free icon"/>
+      <img  src="https://image.flaticon.com/icons/svg/1164/1164954.svg" width="224" height="224" alt="Sun free icon" title="Sun free icon"/>
       <img src="https://image.flaticon.com/icons/svg/2033/2033921.svg" width="224" height="224" alt="Moon free icon" title="Moon free icon"/>
     </ToggleContainer>
                         </div>
@@ -156,7 +142,7 @@ const sercices = () => {
 onClick={()=> home()}
  className="myImage"
 src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1621837986/lrvzs1jfygw6klhh8ts1.png'
-alt="Picture of the author"
+alt="Good Vibes Entertainment Logo"
 layout="fill"
 objectFit="cover"
 

@@ -14,7 +14,7 @@ function exp({data}) {
              <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620026503/xdvwf7swg7yw9ff7pofv.jpg'
-           alt="Picture of the author"
+           alt="Image Cover"
            layout="fill"
            objectFit="cover"
            />   

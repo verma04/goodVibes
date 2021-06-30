@@ -20,7 +20,7 @@ function showreel({id}) {
   const { data , loading , error } = useGetVedios();
 const cafes = data && data.cafes || [];
 
-console.log(data , id)
+
 
 if(  loading ) {
     return (

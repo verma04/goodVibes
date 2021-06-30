@@ -52,7 +52,7 @@ function Featured() {
            <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623828333/goodVibes/oytqlp4ocdnrx0rbsy4h.png'
-           alt="Picture of the author"
+           alt="Article Cover"
            layout="fill"
            objectFit="cover"
            /> 

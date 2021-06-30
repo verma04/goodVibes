@@ -37,20 +37,20 @@ function Team({data}) {
 
         <Carousel
   ssr
-  partialVisbile
+ 
  id="team"
   itemClass="image-item"
   responsive={responsive}
   >
 
   {row.teams.edges.reverse().slice(0, 6).map(number =>
-    <a     target="_blank" href={number.node.teamMemberProfileUrl} className="set">
+    <a   rel="noopener"   target="_blank" href={number.node.teamMemberProfileUrl} className="set">
   
   <i className="fab fa-linkedin"></i>
     <i className="fab fa-linkedin"></i>
     <div className='wrapper'>
   
-      <img style={{width:"100%", height:"100%"}} src={number.node.featuredImage.node.sourceUrl} ></img>
+      <img style={{width:"100%", height:"100%"}} src={number.node.featuredImage.node.sourceUrl} alt={number.node.title} ></img>
            
               </div>
               <div   className='name' >

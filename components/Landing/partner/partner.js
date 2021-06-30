@@ -225,7 +225,7 @@ function partner({data}) {
 <Image
 className="myImage"
 src={number}
-alt="Picture of the author"
+alt="Partner Logo"
 layout="fill"
 objectFit="cover"
 /> 

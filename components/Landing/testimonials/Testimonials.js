@@ -19,12 +19,12 @@ function Testimonials() {
         )
     }
 
-    console.log(data)
+  
    
     return (
 
         
-     
+      
         <Section>
         <div className="head" >
             <p>See What Our Clients Have to Say</p>
@@ -33,7 +33,7 @@ function Testimonials() {
 
         <div    className="center" >
         <div className="left" > 
-                  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617272022/t3tzcotqnoohrl5ypuf1.png" ></img>
+                  <img  alt="arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617272022/t3tzcotqnoohrl5ypuf1.png" ></img>
                   </div>
               <Carousel stye={{width:"100%"}}   showThumbs={false} showStatus={false} useKeyboardArrows  autoPlay interval="2000">
                   
@@ -48,10 +48,10 @@ function Testimonials() {
         </div>
   
         <div className="set" >
-            <img src={number.node.featuredImg} ></img>
+           
             <h3> {number.node.title}</h3>
             <h3> {number.node.companyName}</h3>
-  <img src={number.node.featuredImage.node.sourceUrl} />
+  <img  alt={`${number.node.companyName}` + "logo"} src={number.node.featuredImage.node.sourceUrl} />
            
             
         </div>
@@ -67,7 +67,7 @@ function Testimonials() {
             </Carousel>
            
             <div className="right" > 
-                   <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617272022/iyildhx4gr0kzcz8znou.png" ></img>
+                   <img alt="arrow"  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617272022/iyildhx4gr0kzcz8znou.png" ></img>
       </div>
             </div>
         

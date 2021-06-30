@@ -16,7 +16,7 @@ function Vedio() {
       <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617366530/pbnv29bfvx9a0sdvvook.jpg'
-           alt="Picture of the author"
+           alt="The Good Vibes Showreel Cover "
            layout="fill"
            objectFit="cover"
            />   
@@ -39,7 +39,7 @@ From single-camera studio setup to multi-camera, multi-crew on-location video pr
                 
            </div>
 
-           <img  onClick=  { () => toggleMenu()}  src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1617804084/goodVibes/ekfhbq5jiqczo6sawuzg.png'} /> 
+           <img  alt="Play Button" onClick=  { () => toggleMenu()}  src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1617804084/goodVibes/ekfhbq5jiqczo6sawuzg.png'} /> 
       
       
       

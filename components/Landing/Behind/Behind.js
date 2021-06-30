@@ -72,7 +72,7 @@ function Team({data}) {
 
          <Carousel
   ssr
-  partialVisbile
+
 
   itemClass="image-item"
   responsive={responsive}
@@ -115,7 +115,10 @@ function Team({data}) {
   <div style={{height:"20rem"}} className='wrapper'>
 
     <Image style={{width:"100%", height:"100%"}} layout="fill"
-           objectFit="cover" src={number} ></Image>
+           objectFit="cover" src={number} 
+           alt="Behind the Scenes"
+           
+           ></Image>
          
             </div>
         

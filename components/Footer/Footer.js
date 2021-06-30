@@ -14,7 +14,7 @@ function Footer() {
        <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1620219914/mfjtmhek2ipqcborohhw.png'
-           alt="Picture of the author"
+           alt="Good Vibes Entertainment Footer Logo"
            layout="fill"
            objectFit="contain"
            />   

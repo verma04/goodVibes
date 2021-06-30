@@ -51,13 +51,13 @@ function HeroSection() {
               </div>
                </div>          */}
                <div className="social" >
-               <a   target="_blank" href="https://www.facebook.com/goodvibesindia" className="icon" >
+               <a  rel="noopener" target="_blank" href="https://www.facebook.com/goodvibesindia" className="icon" >
                Facebook
               </a>
-              <a target="_blank" href="https://www.instagram.com/goodvibesindia/" className="icon" >
+              <a  rel="noopener" target="_blank" href="https://www.instagram.com/goodvibesindia/" className="icon" >
                Instargram
               </a>
-              <a  target="_blank" href="https://twitter.com/GoodVibesIndia" className="icon" >
+              <a  rel="noopener" target="_blank" href="https://twitter.com/GoodVibesIndia" className="icon" >
                Twitter
               </a>
                </div>  

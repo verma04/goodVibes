@@ -12,7 +12,7 @@ function Form() {
           <div className="list" >
 
               <ul>
-                  <li>  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617360176/cwpsxfrm8orr8n79pakl.png" /><h4>Good Vibes Delhi </h4></li>
+                  <li>  <img alt="India Flag" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617360176/cwpsxfrm8orr8n79pakl.png" /><h4>Good Vibes Delhi </h4></li>
 
    
 
@@ -31,7 +31,7 @@ function Form() {
          
 
 <ul>
-    <li>  <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617360176/cwpsxfrm8orr8n79pakl.png" /><h4> Good Vibes Mumbai</h4></li>
+    <li>  <img alt="Indian Flag" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617360176/cwpsxfrm8orr8n79pakl.png" /><h4> Good Vibes Mumbai</h4></li>
     <li><i class="fas fa-phone-alt"></i><span>+91-9899007782</span></li>
     <li><i class="fas fa-envelope"></i><span>dennis@thegoodvibes.co.in </span></li>
 

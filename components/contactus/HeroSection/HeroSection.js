@@ -19,7 +19,7 @@ function HeroSection() {
    <Image
             className="myImage"
            src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617269295/goodVibes/cqlaszusmfonczwqegpb.png'
-           alt="Picture of the author"
+           alt="Contact Cover"
            layout="fill"
            objectFit="cover"
            />   
@@ -38,17 +38,17 @@ function HeroSection() {
               Contact
               </div>
                </div>         
-               <a className="social" >
-              <a   target="_blank" href="https://www.facebook.com/goodvibesindia" className="icon" >
+               <div className="social" >
+               <a  rel="noopener" target="_blank" href="https://www.facebook.com/goodvibesindia" className="icon" >
                Facebook
               </a>
-              <a target="_blank" href="https://www.instagram.com/goodvibesindia/" className="icon" >
+              <a  rel="noopener" target="_blank" href="https://www.instagram.com/goodvibesindia/" className="icon" >
                Instargram
               </a>
-              <a  target="_blank" href="https://twitter.com/GoodVibesIndia" className="icon" >
-               YouTube
+              <a  rel="noopener" target="_blank" href="https://twitter.com/GoodVibesIndia" className="icon" >
+               Twitter
               </a>
-               </a>  
+               </div>  
 
  
         </div>
