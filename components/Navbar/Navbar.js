@@ -158,7 +158,7 @@ objectFit="cover"
      <div  data-aos="fade-top"  className='right' >
      <div className="data" >
 
-     <i onClick={()=> setvisible(false)} className="fas fa-bars"></i>
+     <i onClick={()=> setvisible(false)} className="fas fa-times"></i>
    
 </div>
          <div    onClick={()=> home()  } className="nav-item" >
