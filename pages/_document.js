@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-        <Html>
+        <Html lang="en">
             <Head>
             <link rel="shortcut icon" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1611744812/Concierge/bmykknhiqk44krgobz6n.png" />
             <meta name="title" content="Good Vibes Entertainment" ></meta>
