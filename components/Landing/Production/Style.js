@@ -280,7 +280,7 @@ justify-content:space-around;
  
   width:100%;
   margin-top:7%;
- overflow-x: hidden;
+
   z-index:1000;
   .head {
     

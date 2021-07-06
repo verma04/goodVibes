@@ -195,7 +195,7 @@ function partner({data}) {
   </div>
 
   <div data-aos="zoom-out" className="button" >
-      <button  >Viddew More</button>
+      <button  >View More</button>
   </div>
 </Section>
   )
