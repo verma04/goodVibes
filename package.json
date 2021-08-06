@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon --watch server server/index.js -p 4000 ",
     "build": "next build ",
-    "start": "cross-env NODE_ENV=production node server/index.js"
+    "start": "next start"
   },
   "dependencies": {
     "@apollo/client": "^3.3.16",

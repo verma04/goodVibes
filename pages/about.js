@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Landing from '@/components/About/About'
 import withApollo from '@/hoc/withApollo';
- function Home() {
+import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
+ function Home({data}) {
   return (
     
     <div>
@@ -24,9 +25,51 @@ import withApollo from '@/hoc/withApollo';
      
     
       </Head>
-      <Landing/>
+      <Landing data={data}/>
     </div>
    
   )
+}
+
+
+export const getStaticProps = async (context) => {
+  const client = new ApolloClient({
+    uri: "http://b98994e90c.nxcli.net/graphql",
+    cache: new InMemoryCache(),
+  });
+
+  const { data } = await client.query({
+    query: gql`
+    query MyQuery {
+      page(id: "cG9zdDo3") {
+        title
+        content
+        featuredImage {
+          node {
+            sourceUrl
+          }
+        }
+        homeclientsdiscription
+        homeclientsclients
+        homeclientsdays
+        hometeamheading
+        testimonialsheading
+        homeclientsfilms
+        homegalleyheading
+        homegalleyone
+        homegalleytwo
+        clientsheading
+        clientsgalley
+      }
+    }
+    `,
+  });
+  
+  return {
+    props: {
+      data: data.page,
+    },
+    revalidate: 1,
+  };
 }
 export default withApollo(Home);

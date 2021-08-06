@@ -14,19 +14,11 @@ import Testimonials from './testimonials/Testimonials'
 import Behind from './Behind/Behind'
 
 import { useGetHome } from '@/apollo/actions';
-function Landing({}) {
-
-
-  const { data , loading , error } = useGetHome();
-  const cafes = data && data.cafes || [];
+function Landing({data}) {
 
   
+  
 
-  if(  loading ) {
-      return (
-          null
-      )
-  }
     return (
         <div>
           <HeroSection/>
@@ -35,14 +27,14 @@ function Landing({}) {
          
           <Exp  data={data}/>
           <Showreel/>
-          <Vedio/>
-        <Team/>
-        <Behind data={data}/>
-        <Testimonials/>
-          <Featured/>
-          <Partner data={data} />
-          <Withus/>
-          <Footer/>
+           <Vedio/>
+         <Team/>
+         <Behind data={data}/>
+         <Testimonials/>
+           <Featured/>
+           <Partner data={data} />
+           <Withus/>
+           <Footer/>
           
         </div>
     )

@@ -59,7 +59,7 @@ function Team({data}) {
     return (
     <div id="team" data-aos="fade-up"  >
         <Section>
-            <div dangerouslySetInnerHTML={{__html: data.page.homegalleyheading}} className="head" >
+            <div dangerouslySetInnerHTML={{__html: data.homegalleyheading}} className="head" >
 
       
             </div>
@@ -77,7 +77,7 @@ function Team({data}) {
   itemClass="image-item"
   responsive={responsive}
             >
-{data.page.homegalleyone.sort( () => .5 - Math.random()).map(number => 
+{data.homegalleyone.map(number => 
   <div    className="set">
   <div style={{height:"20rem"}} className='wrapper'>
 
@@ -110,7 +110,7 @@ function Team({data}) {
   responsive={responsive}
             >
 
-{data.page.homegalleytwo.sort( () => .5 - Math.random()).map(number => 
+{data.homegalleytwo.map(number => 
   <div     className="set">
   <div style={{height:"20rem"}} className='wrapper'>
 

@@ -23,12 +23,12 @@ function exp({data}) {
              </div>
              <d data-aos="fade-left" className="right" >
     
-      <div className='set' dangerouslySetInnerHTML={{ __html: data.page.homeclientsdiscription}} />
+      <div className='set' dangerouslySetInnerHTML={{ __html: data.homeclientsdiscription}} />
     <div className="bottom" >
        <ul>
            <li id="bold" >
             
-           <CountUp end={data.page.homeclientsclients} redraw={true}>
+           <CountUp end={data.homeclientsclients} redraw={true}>
         {({ countUpRef, start }) => (
             <VisibilitySensor onChange={start} delayedCall>
                 <span ref={countUpRef} />
@@ -40,7 +40,7 @@ function exp({data}) {
        </ul>
        <ul>
            <li id="bold">
-           <CountUp end={data.page.homeclientsfilms} redraw={true}>
+           <CountUp end={data.homeclientsfilms} redraw={true}>
         {({ countUpRef, start }) => (
             <VisibilitySensor onChange={start} delayedCall>
                 <span ref={countUpRef} />
@@ -55,7 +55,7 @@ function exp({data}) {
 
        <ul>
            <li id="bold">
-           <CountUp end={data.page.homeclientsdays} redraw={true}>
+           <CountUp end={data.homeclientsdays} redraw={true}>
         {({ countUpRef, start }) => (
             <VisibilitySensor onChange={start} delayedCall>
                 <span ref={countUpRef} />

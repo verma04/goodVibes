@@ -2,6 +2,7 @@ import React , {useEffect , useState} from 'react'
 import { Section } from './Style'
 import Image from 'next/image';
 function partner({data}) {
+        
         const [state, setstate] = useState("")
         useEffect(function() {
                 
@@ -217,7 +218,7 @@ function partner({data}) {
             </div>
             
             <div data-aos="fade-down" className="data" >
-            {data.page.clientsgalley.map(number => 
+            {data.clientsgalley.map(number => 
 
     
    

@@ -7,17 +7,8 @@ import Producton from '../Landing/Production/Production'
 import Partner from '../Landing/partner/partner'
 import { useGetHome } from '@/apollo/actions';
 
-function work() {
-    const { data , loading , error } = useGetHome();
-    const cafes = data && data.cafes || [];
-  
-    console.log(data)
-  
-    if(  loading ) {
-        return (
-            null
-        )
-    }
+function work({data}) {
+   
     return (
         <div>
             <HeroSection/>
