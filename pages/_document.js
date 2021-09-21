@@ -35,7 +35,7 @@ export default class MyDocument extends Document {
     return (
         <Html lang="en">
             <Head>
-            <link rel="shortcut icon" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1611744812/Concierge/bmykknhiqk44krgobz6n.png" />
+            <link rel="shortcut icon" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1616129279/goodVibes/vbesqeqpcbryfpenmfkj.png" />
             <meta name="title" content="Good Vibes Entertainment" ></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Good Vibes Entertainment is a production house based in New Delhi, offering creative development, video production, photography, and post-production services worldwide."/> 
