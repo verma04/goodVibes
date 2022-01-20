@@ -122,8 +122,8 @@ const sercices = () => {
   
 
 <ToggleContainer lightTheme={isLight} onClick={toggleTheme}>
-      <img  src="https://image.flaticon.com/icons/svg/1164/1164954.svg" width="224" height="224" alt="Sun free icon" title="Sun free icon"/>
-      <img src="https://image.flaticon.com/icons/svg/2033/2033921.svg" width="224" height="224" alt="Moon free icon" title="Moon free icon"/>
+      <img  src="https://globe-trotte.fra1.digitaloceanspaces.com/20220120-jf6nr-bulk" width="224" height="224" alt="Sun free icon" title="Sun free icon"/>
+      <img src="https://globe-trotte.fra1.digitaloceanspaces.com/20220120-4n1mz-bulk?" width="224" height="224" alt="Moon free icon" title="Moon free icon"/>
     </ToggleContainer>
                         </div>
                     <i   className="fas fa-search"></i>
