@@ -7,7 +7,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 export default withApollo(
   ({ initialState  }) => {
     return new ApolloClient({
-      uri: "https://b98994e90c.nxcli.net/graphql",
+      uri: "https://goodvibes.mars-cdn.com/graphql",
       cache: new InMemoryCache().restore(initialState || {})
     });
   },

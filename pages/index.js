@@ -39,7 +39,7 @@ import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 
 export const getStaticProps = async (context) => {
   const client = new ApolloClient({
-    uri: "https://b98994e90c.nxcli.net/graphql",
+    uri: "https://goodvibes.mars-cdn.com/graphql",
     cache: new InMemoryCache(),
   });
 
